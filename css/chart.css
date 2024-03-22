@@ -1,0 +1,144 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  font-family: "Poppins" , sans-serif;
+}
+#chart-1{
+    display:none;
+    width:100%;
+    max-width:600px;
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#chart-2{
+    display:none;
+    height: auto;
+    width:100%;
+    max-width:600px;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#chart-3{
+  display:none;
+  width:100%;
+  max-width:600px;
+  margin-top: 50px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+#chart-4{
+  display:none;
+  width:100%;
+  max-width:600px;
+  margin-top: 50px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+#chart-5{
+  height: 350px !important;
+  display:none;
+  width:100%;
+  max-width:700px;
+  margin-top: -10px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (prefers-color-scheme: light) {
+.heading{
+    font-size: 28px;
+    margin: auto;
+    padding-top: 20px;
+    font-weight: 600;
+    color: #7330EC;
+    text-align: left;
+}
+.grid-container {
+    display: grid;
+    margin: 30px;
+    gap: 50px;
+    width: 900px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+
+.grid-item {
+  height: 430px;
+  width: 530px;
+  margin: 8px;
+  padding: 25px;
+  background-color: #ffffff;
+  color: #7330EC;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  margin-right: 10px;
+  margin-left: 25px;
+}
+.grid-item h2 {
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.grid-item p {
+  margin: 8px;
+  font-size: 15px;
+  color: #12002b;
+  margin-bottom: auto;
+}
+.grid-item span {
+  font-weight: bold;
+}
+}
+@media (prefers-color-scheme: dark) {
+.heading{
+    font-size: 28px;
+    font-weight: 600;
+    color: #ae91ff;
+    text-align: left;
+}
+.grid-container {
+    display: grid;
+    margin: 30px;
+    gap: 50px;
+    width: 900px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+
+.grid-item {
+  height: 430px;
+  width: 530px;
+  margin: 8px;
+  padding: 25px;
+  background-color: #000000;
+  color: #ae91ff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  margin-right: 10px;
+  margin-left: 25px;
+}
+.grid-item h2 {
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.grid-item p {
+  margin: 8px;
+  font-size: 15px;
+  color: #ae91ff;
+  margin-bottom: auto;
+}
+.grid-item span {
+  font-weight: bold;
+}
+    }

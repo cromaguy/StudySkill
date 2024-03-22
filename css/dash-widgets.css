@@ -1,0 +1,289 @@
+@media (prefers-color-scheme: light) {
+.grid-container-small-widgets{
+    display: grid;
+    margin: auto;
+    margin-left: 25px;
+    margin-right: auto;
+    gap: 10px;
+    width: 100%;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+  }
+  .grid-container-large-widgets{
+    display: grid;
+    margin: auto;
+    margin-left: 25px;
+    margin-right: auto;
+    gap: 10px;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-container-chart{
+    display: grid;
+    margin: 30px;
+    gap: 50px;
+    width: 100%;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+  .grid-container-list {
+    display: grid;
+    margin: auto;
+    gap: 20px;
+    width: auto;
+    grid-template-columns: auto;
+    padding: 10px;
+  }
+  .small-widget {
+    max-height: 160px;
+    height: auto;
+    min-width:250px;
+    width: auto;
+    max-width: 270px;
+    margin: 2px;
+    padding: 25px;
+    color: #7330EC;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    margin-right: auto;
+    margin-left: auto;
+    background: url("../img/table.png") center repeat;
+    background-size:cover;
+    -webkit-animation: backgroundScroll 60s linear infinite;
+    animation: backgroundScroll 60s linear infinite;
+    background-color: #ffffff;
+  }
+  .small-widget :hover{
+    color: #211b2b;
+  }
+  .small-widget h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .small-widget p {
+    margin: 8px;
+    font-size: 15px;
+    color: #2f2c38;
+    margin-bottom: auto;
+  }
+  .small-widget span {
+    font-weight: bold;
+  }
+  .large-widget {
+    max-height: 280px;
+    height: auto;
+    min-width:310px;
+    width: auto;
+    max-width: 320px;
+    margin: 2px;
+    padding: 25px;
+    color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    margin-right: auto;
+    margin-left: auto;
+    background: url("../img/box.png") center repeat;
+    background-size:cover;
+    -webkit-animation: backgroundScroll 60s linear infinite;
+    animation: backgroundScroll 60s linear infinite;
+    background-color: #ffffff;
+  }
+  .large-widget :hover{
+    color: #b98dff;
+  }
+  .large-widget h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .large-widget p {
+    margin: 8px;
+    font-size: 15px;
+    color: #eae3ff;
+    margin-bottom: auto;
+  }
+  .large-widget span {
+    font-weight: bold;
+  }
+  .chart-box {
+    height: 400px;
+    width: 520px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    background-color: #ffffff;
+    color: #7330EC;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    margin-right: 10px;
+    margin-left: 25px;
+  }
+  .chart-box h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .chart-box p {
+    margin: 8px;
+    font-size: 15px;
+    color: #12002b;
+    margin-bottom: auto;
+  }
+  .chart-box span {
+    font-weight: bold;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+.grid-container-small-widgets{
+    display: grid;
+    margin: auto;
+    margin-left: 25px;
+    margin-right: auto;
+    gap: 10px;
+    width: 100%;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+  }
+  .grid-container-large-widgets{
+    display: grid;
+    margin: auto;
+    margin-left: 25px;
+    margin-right: auto;
+    gap: 10px;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-container-chart{
+    display: grid;
+    margin: 30px;
+    gap: 50px;
+    width: 100%;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+  .grid-container-list {
+    display: grid;
+    margin: auto;
+    gap: 20px;
+    width: auto;
+    grid-template-columns: auto;
+    padding: 10px;
+  }
+  .small-widget {
+    max-height: 160px;
+    height: auto;
+    min-width:250px;
+    width: auto;
+    max-width: 270px;
+    margin: 2px;
+    padding: 25px;
+    color: #ae91ff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    margin-right: auto;
+    margin-left: auto;
+    background: url("../img/pattern-dark.png") center repeat;
+    background-size:cover;
+    -webkit-animation: backgroundScroll 60s linear infinite;
+    animation: backgroundScroll 60s linear infinite;
+    background-color: #000000;
+  }
+  .small-widget :hover{
+    color: #e3d2ff;
+  }
+  .small-widget h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .small-widget p {
+    margin: 8px;
+    font-size: 15px;
+    color: #ffffff;
+    margin-bottom: auto;
+  }
+  .small-widget span {
+    font-weight: bold;
+  }
+  .large-widget {
+    max-height: 280px;
+    height: auto;
+    min-width:310px;
+    width: auto;
+    max-width: 320px;
+    margin: 2px;
+    padding: 25px;
+    transition: all 0.3s ease;
+    margin-right: auto;
+    margin-left: auto;
+    background: url("../img/box-dark.png") center repeat;
+    background-size:cover;
+    -webkit-animation: backgroundScroll 60s linear infinite;
+    animation: backgroundScroll 60s linear infinite;
+    background-color: #ae91ff;
+    color: #23004b;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  .large-widget :hover{
+    color: #b98dff;
+  }
+  .large-widget h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .large-widget p {
+    margin: 8px;
+    font-size: 15px;
+    color: #12002b;
+    margin-bottom: auto;
+  }
+  .large-widget span {
+    font-weight: bold;
+  }
+  .chart-box {
+    height: 400px;
+    width: 520px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    background-color: #000000;
+    color: #ae91ff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    margin-right: 10px;
+    margin-left: 25px;
+  }
+  .chart-box h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .chart-box p {
+    margin: 8px;
+    font-size: 15px;
+    color: #12002b;
+    margin-bottom: auto;
+  }
+  .chart-box span {
+    font-weight: bold;
+  }
+}
