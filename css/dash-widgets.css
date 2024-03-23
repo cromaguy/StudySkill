@@ -37,7 +37,7 @@
 }
 @media (prefers-color-scheme: light) {
   .small-widget {
-    max-height: 130px;
+    max-height: 140px;
     height: auto;
     min-width:220px;
     width: auto;
@@ -152,7 +152,7 @@
 
 @media (prefers-color-scheme: dark) {
   .small-widget {
-    max-height: 130px;
+    max-height: 140px;
     height: auto;
     min-width:220px;
     width: auto;
