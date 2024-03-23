@@ -118,6 +118,10 @@
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
+    background: url("../img/table.png") center repeat;
+    background-size:cover;
+    -webkit-animation: backgroundScroll 60s linear infinite;
+    animation: backgroundScroll 60s linear infinite;
     background-color: #ffffff;
     color: #7330EC;
     border-radius: 20px;
@@ -239,7 +243,7 @@
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   }
   .large-widget :hover{
-    color: #b98dff;
+    color: #6833b1;
   }
   .large-widget h2 {
     text-align: center;
@@ -263,7 +267,10 @@
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
-    background-color: #000000;
+    background: url("../img/pattern-dark.png") center repeat;
+    background-size:cover;
+    -webkit-animation: backgroundScroll 60s linear infinite;
+    animation: backgroundScroll 60s linear infinite;
     color: #ae91ff;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
