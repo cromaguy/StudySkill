@@ -13,7 +13,7 @@
 .table-container{
 	background-color: white;
   background: url("../img/table.png") center repeat;
-  background-size:cover;
+  background-size:contain;
   -webkit-animation: backgroundScroll 60s linear infinite;
   animation: backgroundScroll 60s linear infinite;
   border: 4px solid rgb(0, 0, 0);
@@ -539,7 +539,7 @@ div.table-responsive > div.dt-container > div.row > div[class^=col-]:last-child 
 	.table-container{
 		background-color: #ae91ff;
     background: url("../img/Box-dark.png") center repeat;
-    background-size:cover;
+    background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
 		color: #23004b;

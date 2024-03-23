@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 @media (prefers-color-scheme: light) {
 .grid-container-small-widgets{
     display: grid;
@@ -50,28 +51,32 @@
     margin-right: auto;
     margin-left: auto;
     background: url("../img/table.png") center repeat;
-    background-size:cover;
+    background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     background-color: #ffffff;
   }
-  .small-widget :hover{
-    color: #211b2b;
-  }
   .small-widget h2 {
-    text-align: center;
-    margin: 0;
-    font-size: 20px;
+    text-align: left;
+    margin: 4px;
+    font-size: 18px;
     margin-bottom: 25px;
   }
   .small-widget p {
-    margin: 8px;
-    font-size: 15px;
+    margin: 4px;
+    text-align: left;
+    font-size: 28px;
     color: #2f2c38;
     margin-bottom: auto;
   }
   .small-widget span {
+    margin: 0px;
     font-weight: bold;
+    text-align: left;
+  }
+
+  #widget-icon{
+    font-size: 50px;
   }
   .large-widget {
     max-height: 280px;
@@ -88,7 +93,7 @@
     margin-right: auto;
     margin-left: auto;
     background: url("../img/box.png") center repeat;
-    background-size:cover;
+    background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     background-color: #ffffff;
@@ -118,6 +123,10 @@
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
+    background: url("../img/table.png") center repeat;
+    background-size:contain;
+    -webkit-animation: backgroundScroll 60s linear infinite;
+    animation: backgroundScroll 60s linear infinite;
     background-color: #ffffff;
     color: #7330EC;
     border-radius: 20px;
@@ -126,20 +135,18 @@
     margin-right: 10px;
     margin-left: 25px;
   }
-  .chart-box h2 {
-    text-align: center;
-    margin: 0;
-    font-size: 20px;
-    margin-bottom: 25px;
-  }
-  .chart-box p {
-    margin: 8px;
-    font-size: 15px;
-    color: #12002b;
-    margin-bottom: auto;
-  }
   .chart-box span {
     font-weight: bold;
+  }
+
+  .chart-box .icon{
+    font-size: 28px;
+    margin: auto;
+    margin-bottom: auto;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #7330EC;
+    text-align: left;
   }
 }
 
@@ -195,28 +202,31 @@
     margin-right: auto;
     margin-left: auto;
     background: url("../img/pattern-dark.png") center repeat;
-    background-size:cover;
+    background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     background-color: #000000;
   }
-  .small-widget :hover{
-    color: #e3d2ff;
-  }
   .small-widget h2 {
-    text-align: center;
-    margin: 0;
-    font-size: 20px;
+    text-align: left;
+    margin: 4px;
+    font-size: 18px;
     margin-bottom: 25px;
   }
   .small-widget p {
-    margin: 8px;
-    font-size: 15px;
+    margin: 4px;
+    text-align: left;
+    font-size: 28px;
     color: #ffffff;
     margin-bottom: auto;
   }
   .small-widget span {
+    margin: 0px;
     font-weight: bold;
+    text-align: left;
+  }
+  #widget-icon{
+    font-size: 50px;
   }
   .large-widget {
     max-height: 280px;
@@ -230,7 +240,7 @@
     margin-right: auto;
     margin-left: auto;
     background: url("../img/box-dark.png") center repeat;
-    background-size:cover;
+    background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     background-color: #ae91ff;
@@ -239,7 +249,7 @@
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   }
   .large-widget :hover{
-    color: #b98dff;
+    color: #6833b1;
   }
   .large-widget h2 {
     text-align: center;
@@ -263,7 +273,10 @@
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
-    background-color: #000000;
+    background: url("../img/pattern-dark.png") center repeat;
+    background-size:contain;
+    -webkit-animation: backgroundScroll 60s linear infinite;
+    animation: backgroundScroll 60s linear infinite;
     color: #ae91ff;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
@@ -271,19 +284,13 @@
     margin-right: 10px;
     margin-left: 25px;
   }
-  .chart-box h2 {
-    text-align: center;
-    margin: 0;
-    font-size: 20px;
-    margin-bottom: 25px;
-  }
-  .chart-box p {
-    margin: 8px;
-    font-size: 15px;
-    color: #12002b;
+  .chart-box .icon{
+    font-size: 28px;
+    margin: auto;
     margin-bottom: auto;
-  }
-  .chart-box span {
-    font-weight: bold;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #ae91ff;
+    text-align: left;
   }
 }
