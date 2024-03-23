@@ -26,14 +26,12 @@ new Chart("chart-1", {
 }
 
 function secondchart(){
-  var xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
-  var yValues = [55, 49, 44, 24, 15];
+  var xValues = ["Students", "Teachers", "Admins"];
+  var yValues = [65, 30, 5];
   var barColors = [
     "#b91d47",
     "#00aba9",
     "#2b5797",
-    "#e8c3b9",
-    "#1e7145"
   ];
   
   new Chart("chart-2", {

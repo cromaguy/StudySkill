@@ -42,6 +42,9 @@
     background: rgb(242, 235, 255);
     color: #000000;
     transition: all 0.5s ease;
+    overflow: hidden;
+    height: 100%;
+    width: 100vh;
   }
   .sidebar{
     display: none;
@@ -268,6 +271,7 @@
     width: calc(100% - 78px);
     transition: all 0.5s ease;
     z-index: 2;
+    overflow: hidden;
   }
   .sidebar.open ~ .home-section{
     left: 250px;
@@ -276,6 +280,7 @@
   
   .dash-section{
     display: none;
+    overflow: hidden;
   }
   .dash-section .header{
     margin-bottom: 8px;
@@ -463,8 +468,15 @@
     transform: scale(0.9);
     font-weight: 600;
     /* font-size: 18px; */
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: inset 0px 0px 2px #fefefed1;
+    -webkit-backdrop-filter: saturate(200%) blur(30px);
+    backdrop-filter: saturate(200%) blur(30px);
+    background-color: #ffffff !important;
+    z-index: 12;
     color: #7330EC;
-    background-color: #ffffff;
     cursor: pointer;
   }
   }
@@ -482,6 +494,9 @@
   background: #11101D;
   color: #ffffff;
   transition: all 0.5s ease;
+  overflow: hidden;
+  height: 100%;
+  width: 100vh;
 }
 .sidebar{
   display: none;
@@ -706,6 +721,7 @@
   width: calc(100% - 78px);
   transition: all 0.5s ease;
   z-index: 2;
+  overflow: hidden;
 }
 .sidebar.open ~ .home-section{
   left: 250px;
@@ -714,6 +730,7 @@
 
 .dash-section{
   display: none;
+  overflow: hidden;
 }
 .dash-section .header{
   color: #f3f2ff;
