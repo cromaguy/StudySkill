@@ -111,7 +111,7 @@
     display: flex;
     background: #7330EC;
     background: url("../img/box.png") center repeat;
-    background-size:cover;
+    background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     color: #f7efff;
@@ -288,7 +288,7 @@
     display: flex;
     background-color: #ae91ff;
     background: url("../img/Box-dark.png") center repeat;
-    background-size:cover;
+    background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     color: #23004b;
