@@ -60,19 +60,26 @@
     color: #211b2b;
   }
   .small-widget h2 {
-    text-align: center;
-    margin: 0;
-    font-size: 20px;
+    text-align: left;
+    margin: 4px;
+    font-size: 18px;
     margin-bottom: 25px;
   }
   .small-widget p {
-    margin: 8px;
-    font-size: 15px;
+    margin: 4px;
+    text-align: left;
+    font-size: 28px;
     color: #2f2c38;
     margin-bottom: auto;
   }
   .small-widget span {
+    margin: 0px;
     font-weight: bold;
+    text-align: left;
+  }
+
+  #widget-icon{
+    font-size: 50px;
   }
   .large-widget {
     max-height: 280px;

@@ -125,26 +125,34 @@
       <div class="container">    
         <div class="grid-container-small-widgets">
           <div class="small-widget">
-            <h2><span id="user-type">Students</span></h2>
-            <p>Users: <span id="total-users">500</span></p>
-            <!-- <a class="widgetbtn" href="Students.html"><button>Manage</button></a> -->
-          </div>
-          
-          <div class="small-widget">
-            <h2><span id="user-type">Teachers</span></h2>
-            <p>Users: <span id="total-users">36</span></p>
+            <div class="bx bxs-graduation" id="widget-icon">
+              <p>Users: <span id="total-users">500</span></p>
+              <h2><span id="user-type">Students</span></h2>
+            </div>
             <!-- <a class="widgetbtn" href="Teachers.html"><button>Manage</button></a> -->
           </div>
           
           <div class="small-widget">
-            <h2><span id="user-type">Admins</span></h2>
-            <p>Users: <span id="total-users">1</span></p>
-            <!-- <a class="widgetbtn" href="Admins.html"><button>Manage</button></a> -->
+            <div class="bx bx-chalkboard" id="widget-icon">
+              <p>Users: <span id="total-users">36</span></p>
+              <h2><span id="user-type">Teachers</span></h2>
+            </div>
+            <!-- <a class="widgetbtn" href="Teachers.html"><button>Manage</button></a> -->
+          </div>
+          
+          <div class="small-widget">
+            <div class="bx bx-user-pin" id="widget-icon">
+              <p>Users: <span id="total-users">01</span></p>
+              <h2><span id="user-type">Admins</span></h2>
+            </div>
+            <!-- <a class="widgetbtn" href="Teachers.html"><button>Manage</button></a> -->
           </div>
           <div class="small-widget">
-            <h2><span id="user-type">Active Sessions</span></h2>
-            <p>Status: <span id="total-logins">1</span></p>
-            <!-- <a class="widgetbtn" href="Admins.html"><button>Manage</button></a> -->
+            <div class="bx bxs-school" id="widget-icon">
+              <p>Count: <span id="total-users">0</span></p>
+              <h2><span id="user-type">Active Sessions</span></h2>
+            </div>
+            <!-- <a class="widgetbtn" href="Teachers.html"><button>Manage</button></a> -->
           </div>
           </div>
       </div>
@@ -153,14 +161,14 @@
           <div class="chart-box">
             <div class="icon">
               <i class="bx bx-clipboard"></i>
-              <h>Login Count</h> 
+              <h>Today's Attendance</h> 
             </div> 
             <canvas id="chart-1"></canvas>
           </div>
           <div class="chart-box">
             <div class="icon">
               <i class="bx bx-user"></i>
-              <h>User Accounts</h> 
+              <h>User Logins</h> 
             </div> 
             <canvas id="chart-2"></canvas>
           </div>
