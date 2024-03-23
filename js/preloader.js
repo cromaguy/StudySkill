@@ -12,8 +12,6 @@ $(document).ready(function(){
         document.getElementById("sidebar").style.display = "block";
         document.getElementById("home-section").style.display = "block";
         document.getElementById("dash-section").style.display = "block";
-        document.getElementById("chart-1").style.display = "block";
-        document.getElementById("chart-2").style.display = "block";
       },400);
 
     setTimeout(() => {
