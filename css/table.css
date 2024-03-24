@@ -537,7 +537,6 @@ div.table-responsive > div.dt-container > div.row > div[class^=col-]:last-child 
 }
 @media (prefers-color-scheme: dark) {
 	.table-container{
-		background-color: #ae91ff !important;
     background: url("../img/Box-dark.png") center repeat;
     background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
@@ -551,6 +550,7 @@ div.table-responsive > div.dt-container > div.row > div[class^=col-]:last-child 
 		transition: all 0.3s ease;
 		border-radius: 25px;
 		max-width: 90%;
+    background-color: #ae91ff ;
 	}
   .table-btn{
     height: 30px;
