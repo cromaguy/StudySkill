@@ -550,7 +550,7 @@ div.table-responsive > div.dt-container > div.row > div[class^=col-]:last-child 
 		transition: all 0.3s ease;
 		border-radius: 25px;
 		max-width: 90%;
-    background: #ae91ff ;
+    /* background: #ae91ff ; */
 	}
   .table-btn{
     height: 30px;
