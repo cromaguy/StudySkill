@@ -402,7 +402,7 @@
     transition: all 0.3s ease;
     cursor: pointer;
   }
-  .navibtn button {
+  .navibtn input {
     display: inline-block;
     outline: none;
     color: #ffffff;
