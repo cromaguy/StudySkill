@@ -38,10 +38,17 @@
     scrollbar-width: auto;
     scroll-behavior: auto;
   }
+  ::selection{
+    background: #7330EC;
+    color: #f7efff;
+  }
   .body{
     background: rgb(242, 235, 255);
     color: #000000;
     transition: all 0.5s ease;
+    overflow: hidden;
+    height: 100%;
+    width: 100vh;
   }
   .sidebar{
     display: none;
@@ -268,6 +275,7 @@
     width: calc(100% - 78px);
     transition: all 0.5s ease;
     z-index: 2;
+    overflow: hidden;
   }
   .sidebar.open ~ .home-section{
     left: 250px;
@@ -276,6 +284,7 @@
   
   .dash-section{
     display: none;
+    overflow: hidden;
   }
   .dash-section .header{
     margin-bottom: 8px;
@@ -288,13 +297,15 @@
     transition: all 0.3s ease;
   }
   .home-section .text{
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     color: #000000;
     font-size: 25px;
     font-weight: 500;
     margin: 28px;
+    margin-bottom: 0px;
     transition: all 0.3s ease;
-    width: 85%;
+    width: 96%;
   }
   @media (max-width: 420px) {
     .sidebar li .tooltip{
@@ -310,14 +321,12 @@
     cursor: default;
   }
   .home-section .top-section{
-    font-size: 34px;
+    font-size: 30px;
     text-align: center;
-    height: 110px;
-    margin-bottom: 10px;
-    width: 110%;
-    margin-top: 28px;
-    margin-left: 28px;
-    margin-right: 28px;
+    height: 100px;
+    width: 96%;
+    margin: 28px;
+    margin-bottom: 17px;
     padding: 28px;
     background-color: #7330EC;
     background: url("../img/header.jpg") center no-repeat;
@@ -329,7 +338,7 @@
   }
   .widget {
     height: auto;
-    min-width: 270px;
+    min-width: 250px;
     width: auto;
     margin: 8px;
     padding: 25px;
@@ -345,18 +354,15 @@
     animation: backgroundScroll 60s linear infinite;
     background-color: #7330EC;
   }
-  .widget :hover{
-    color: #c8a5ff;
-  }
   .widget h2 {
     text-align: center;
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 25px;
   }
   .widget p {
     margin: 8px;
-    font-size: 15px;
+    font-size: 13px;
     color: #ddcfff;
     margin-bottom: auto;
   }
@@ -366,7 +372,7 @@
   .quick-links-sidebar,.quick-links-sidebar-2 {
     color: #7330EC;
     margin-top: 14px;
-    font-size: 15px;
+    font-size: 14px;
     transition: all 0.3s ease;
     padding-right: auto;
     padding-left: auto;
@@ -395,6 +401,26 @@
     text-underline-offset: 5px;
     transition: all 0.3s ease;
     cursor: pointer;
+  }
+  .navibtn input {
+    display: inline-block;
+    outline: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 12px;
+    padding: 6px 15px;
+    border: none;
+    margin: 0 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-image: linear-gradient( 135deg, #7330EC  10%, #7330EC 100%);
+  }
+  .navibtn :hover {
+    transform: scale(1.2);
+    border-radius: 12px;
+    background: #ffffff;
+    color: #000000;
   }
   .clickbtn button{
     height: auto;
@@ -462,9 +488,8 @@
   .widgetbtn button:hover {
     transform: scale(0.9);
     font-weight: 600;
-    /* font-size: 18px; */
+    background-color: #ffffff !important;
     color: #7330EC;
-    background-color: #ffffff;
     cursor: pointer;
   }
   }
@@ -478,10 +503,17 @@
   scrollbar-width: auto;
   scroll-behavior: auto;
 }
+::selection{
+  background: #ae91ff;
+  color: #23004b;
+}
 .body{
   background: #11101D;
   color: #ffffff;
   transition: all 0.5s ease;
+  overflow: hidden;
+  height: 100%;
+  width: 100vh;
 }
 .sidebar{
   display: none;
@@ -706,6 +738,7 @@
   width: calc(100% - 78px);
   transition: all 0.5s ease;
   z-index: 2;
+  overflow: hidden;
 }
 .sidebar.open ~ .home-section{
   left: 250px;
@@ -714,6 +747,7 @@
 
 .dash-section{
   display: none;
+  overflow: hidden;
 }
 .dash-section .header{
   color: #f3f2ff;
@@ -726,13 +760,15 @@
   transition: all 0.3s ease;
 }
 .home-section .text{
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
   color: #f3f2ff;
   font-size: 25px;
   font-weight: 500;
   margin: 28px;
+  margin-bottom: 0px;
   transition: all 0.3s ease;
-  width: 85%;
+  width: 96%;
 }
 @media (max-width: 420px) {
   .sidebar li .tooltip{
@@ -748,14 +784,12 @@
   cursor: default;
 }
 .home-section .top-section{
-  font-size: 34px;
+  font-size: 30px;
   text-align: center;
-  height: 110px;
-  margin-bottom: 10px;
-  width: 110%;
-  margin-top: 28px;
-  margin-left: 28px;
-  margin-right: 28px;
+  height: 100px;
+  margin-bottom: 15px;
+  width: 96%;
+  margin: 28px;
   padding: 28px;
   background-color: #ae91ff;
   background: url("../img/header-dark.png") center no-repeat;
@@ -767,7 +801,7 @@
 }
 .widget {
   height: auto;
-  min-width: 270px;
+  min-width: 250px;
   width: auto;
   margin: 8px;
   padding: 25px;
@@ -786,12 +820,12 @@
 .widget h2 {
   text-align: center;
   margin: 0;
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 25px;
 }
 .widget p {
   margin: 8px;
-  font-size: 15px;
+  font-size: 13px;
   color: #12002b;
   margin-bottom: auto;
 }
@@ -801,7 +835,7 @@
 .quick-links-sidebar,.quick-links-sidebar-2 {
   color: white;
   margin-top: 14px;
-  font-size: 15px;
+  font-size: 14px;
   transition: all 0.3s ease;
   padding-right: auto;
   padding-left: auto;
@@ -814,6 +848,7 @@
 }
 .quick-links li,.quick-links2 li {
   margin-bottom: 9px;
+  margin-left: auto;
   margin-top: auto;
   transition: all 0.3s ease;
 }
@@ -828,6 +863,26 @@
   text-underline-offset: 5px;
   transition: all 0.3s ease;
   cursor: pointer;
+}
+.navibtn input {
+  display: inline-block;
+  outline: none;
+  color: #23004b;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 12px;
+  padding: 6px 15px;
+  border: none;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-image: linear-gradient( 135deg,#ae91ff  10%, #ae91ff 100%);
+}
+.navibtn :hover {
+  transform: scale(1.2);
+  border-radius: 12px;
+  background: #000000;
+  color: #ffffff;
 }
 .clickbtn button{
   height: auto;
@@ -895,7 +950,6 @@
 .widgetbtn button:hover {
   transform: scale(0.9);
   font-weight: 600;
-  /* font-size: 18px; */
   color: #ffffff;
   background-color: #23004b;
   cursor: pointer;

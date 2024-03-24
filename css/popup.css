@@ -93,13 +93,14 @@
   }
   
   .account-avatar img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 12px;
   }
   
   .account-info h2 {
     margin: 0;
+    font-size: 23px;
 
   }
   
@@ -119,11 +120,14 @@
     border-color: #00000000;
     border-radius: 20px;
     width: auto;
+    height: auto;
+    font-size: 14px;
   }
   
   .account-section {
     margin-bottom: 20px;
     margin: 40px;
+    font-size: 14px;
   }
   
   .account-section h3 {
@@ -266,17 +270,17 @@
   .account-avatar {
     flex: 0 0 auto;
     margin-right: 20px;
-    align-items: center;
   }
   
   .account-avatar img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 12px;
   }
   
   .account-info h2 {
     margin: 0;
+    font-size: 23px;
 
   }
   
@@ -296,6 +300,7 @@
     border-radius: 20px;
     width: auto;
     border-color: #00000000;
+    font-size: 14px;
   }
   
   .account-section {

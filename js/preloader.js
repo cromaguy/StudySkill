@@ -12,7 +12,7 @@ $(document).ready(function(){
         document.getElementById("sidebar").style.display = "block";
         document.getElementById("home-section").style.display = "block";
         document.getElementById("dash-section").style.display = "block";
-      },400);
+      },900);
 
     setTimeout(() => {
         firstchart();
@@ -20,4 +20,4 @@ $(document).ready(function(){
         thirdchart();
         fourthchart();
         fifthchart();
-      },600);
+      },1200);
