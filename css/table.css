@@ -11,7 +11,6 @@
 
 @media (prefers-color-scheme: light) {
 .table-container{
-	background-color: white;
   background: url("../img/table.png") center repeat;
   background-size:contain;
   -webkit-animation: backgroundScroll 60s linear infinite;
@@ -24,6 +23,7 @@
     transition: all 0.3s ease;
     border-radius: 25px;
 	max-width: 90%;
+  background-color: white;
 }
 .table-btn{
   height: 30px;
