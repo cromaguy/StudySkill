@@ -216,7 +216,7 @@
     background-repeat: repeat;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
-    /* background: #7330EC; */
+    background-color: #7330EC;
     transition: all 0.5s ease;
     overflow: hidden;
   }
@@ -681,7 +681,7 @@
   background-repeat: repeat;
   -webkit-animation: backgroundScroll 60s linear infinite;
   animation: backgroundScroll 60s linear infinite;
-  /* background-color: #ae91ff; */
+  background-color: #ae91ff;
   transition: all 0.5s ease;
   overflow: hidden;
 }
@@ -809,13 +809,13 @@
   background-size:contain;
   -webkit-animation: backgroundScroll 60s linear infinite;
   animation: backgroundScroll 60s linear infinite;
-  background-color: #ae91ff;
   color: #23004b;
   border-radius: 20px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
   margin-right: auto;
   margin-left: auto;
+  background-color: #ae91ff;
 }
 .widget h2 {
   text-align: center;
