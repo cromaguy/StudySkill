@@ -542,7 +542,7 @@ div.table-responsive > div.dt-container > div.row > div[class^=col-]:last-child 
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
 		color: #23004b;
-    border: 4px solid #23004b;
+    border: 4px solid #ffffff;
 		padding: 30px;
 		margin: auto;
 		margin-left: 88px;
