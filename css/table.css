@@ -537,7 +537,7 @@ div.table-responsive > div.dt-container > div.row > div[class^=col-]:last-child 
 }
 @media (prefers-color-scheme: dark) {
 	.table-container{
-    background-image: url("../img/Box-dark.png") center repeat;
+    background: url("../img/Box-dark.png") center repeat;
     background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
