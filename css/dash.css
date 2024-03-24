@@ -210,7 +210,7 @@
     left: 0;
     bottom: -8px;
     padding: 10px 14px;
-    background-image: url("../img/Box.png");
+    background: url("../img/Box.png");
     background-size:cover;
     background-position: center;
     background-repeat: repeat;
