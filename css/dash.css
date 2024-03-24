@@ -297,13 +297,15 @@
     transition: all 0.3s ease;
   }
   .home-section .text{
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     color: #000000;
     font-size: 25px;
     font-weight: 500;
     margin: 28px;
+    margin-bottom: 0px;
     transition: all 0.3s ease;
-    width: 85%;
+    width: 96%;
   }
   @media (max-width: 420px) {
     .sidebar li .tooltip{
@@ -322,11 +324,9 @@
     font-size: 30px;
     text-align: center;
     height: 100px;
-    margin-bottom: 10px;
-    width: 110%;
-    margin-top: 28px;
-    margin-left: 28px;
-    margin-right: 28px;
+    width: 96%;
+    margin: 28px;
+    margin-bottom: 17px;
     padding: 28px;
     background-color: #7330EC;
     background: url("../img/header.jpg") center no-repeat;
@@ -401,6 +401,26 @@
     text-underline-offset: 5px;
     transition: all 0.3s ease;
     cursor: pointer;
+  }
+  .navibtn input {
+    display: inline-block;
+    outline: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 12px;
+    padding: 6px 15px;
+    border: none;
+    margin: 0 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-image: linear-gradient( 135deg, #7330EC  10%, #7330EC 100%);
+  }
+  .navibtn :hover {
+    transform: scale(1.2);
+    border-radius: 12px;
+    background: #ffffff;
+    color: #000000;
   }
   .clickbtn button{
     height: auto;
@@ -740,13 +760,15 @@
   transition: all 0.3s ease;
 }
 .home-section .text{
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
   color: #f3f2ff;
   font-size: 25px;
   font-weight: 500;
   margin: 28px;
+  margin-bottom: 0px;
   transition: all 0.3s ease;
-  width: 85%;
+  width: 96%;
 }
 @media (max-width: 420px) {
   .sidebar li .tooltip{
@@ -765,11 +787,9 @@
   font-size: 30px;
   text-align: center;
   height: 100px;
-  margin-bottom: 10px;
-  width: 110%;
-  margin-top: 28px;
-  margin-left: 28px;
-  margin-right: 28px;
+  margin-bottom: 15px;
+  width: 96%;
+  margin: 28px;
   padding: 28px;
   background-color: #ae91ff;
   background: url("../img/header-dark.png") center no-repeat;
@@ -843,6 +863,26 @@
   text-underline-offset: 5px;
   transition: all 0.3s ease;
   cursor: pointer;
+}
+.navibtn input {
+  display: inline-block;
+  outline: none;
+  color: #23004b;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 12px;
+  padding: 6px 15px;
+  border: none;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-image: linear-gradient( 135deg,#ae91ff  10%, #ae91ff 100%);
+}
+.navibtn :hover {
+  transform: scale(1.2);
+  border-radius: 12px;
+  background: #000000;
+  color: #ffffff;
 }
 .clickbtn button{
   height: auto;

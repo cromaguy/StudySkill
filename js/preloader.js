@@ -12,7 +12,7 @@ $(document).ready(function(){
         document.getElementById("sidebar").style.display = "block";
         document.getElementById("home-section").style.display = "block";
         document.getElementById("dash-section").style.display = "block";
-      },1000);
+      },900);
 
     setTimeout(() => {
         firstchart();
