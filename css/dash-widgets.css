@@ -421,11 +421,11 @@
     margin-left: auto;
     margin-right: auto;
     padding: auto;
-    background: url("../img/table.png") center repeat;
+    /* background: url("../img/table.png") center repeat;
     background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
-    animation: backgroundScroll 60s linear infinite;
-    background-color: #ffffff;
+    animation: backgroundScroll 60s linear infinite; */
+    background: #ffffff;
     color: #ff9900;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);

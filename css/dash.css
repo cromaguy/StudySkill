@@ -1029,7 +1029,7 @@
     width: 100%;
   }
   .sidebar .logo-details{
-    height: 60px;
+    height: 78px;
     display: flex;
     align-items: center;
     position: relative;
@@ -1037,11 +1037,12 @@
   .sidebar .logo-details .icon{
     opacity: 0;
     transition: all 0.5s ease;
+    justify-content: center;
   }
   .sidebar .logo-details .logo_name{
     color: #000000;
-    height: 10px;
-    font-size: 20px;
+    height: 18px;
+    font-size: 25px;
     font-weight: 600;
     opacity: 0;
     transition: all 0.5s ease;
@@ -1055,9 +1056,8 @@
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    font-size: 22px;
     transition: all 0.4s ease;
-    font-size: 23px;
+    font-size: 25px;
     text-align: center;
     cursor: pointer;
     transition: all 0.5s ease;
@@ -1118,7 +1118,7 @@
   .sidebar input{
     font-size: 15px;
     color: #000000;
-    font-weight: 400;
+    font-weight: 500;
     outline: none;
     height: 50px;
     width: 100%;
@@ -1126,7 +1126,7 @@
     border: none;
     border-radius: 12px;
     transition: all 0.5s ease;
-    background: #f7efff;
+    background: #fff8ef;
   }
   .sidebar.open input{
     padding: 0 20px 0 50px;
@@ -1148,7 +1148,7 @@
   .sidebar li a .links_name{
     color: #000000;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     white-space: nowrap;
     opacity: 0;
     pointer-events: none;
@@ -1273,6 +1273,7 @@
     font-weight: 500;
     margin: 28px;
     margin-bottom: 0px;
+    margin-top: 40px;
     transition: all 0.3s ease;
     width: 90%;
   }
