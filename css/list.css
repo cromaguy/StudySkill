@@ -125,3 +125,69 @@
     cursor: pointer;
   }
 }
+
+@media  (max-width: 500px){
+ .list {
+    height: 100px;
+    display: inline-block;
+    width: 280px;
+    margin: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    padding: 25px;
+    color: #FFF;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    margin-right: auto;
+    background: url("../img/box.png") center repeat;
+    background-size: contain;
+    -webkit-animation: backgroundScroll 60s linear infinite;
+    animation: backgroundScroll 60s linear infinite;
+    background-color: #7330EC;
+  }
+  .list :hover{
+    color: #c8a5ff;
+  }
+  .list h2 {
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+  }
+  .list h3 {
+    display: none !important;
+    margin: 8px;
+    display: inline-block;
+    font-size: 10px;
+    color: #ddcfff;
+  }
+  .list span {
+    font-weight: bold;
+  }
+  .listbtn button{
+    float: right;
+    display: fixed;
+    width: auto;
+    height: 50px;
+    padding: auto;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 25px;
+    border: 4px solid #ffffff;
+    background-color: #ffffff00;
+    cursor: pointer;
+  }
+  .listbtn button:hover {
+    border: none;
+    transform: scale(0.9);
+    font-weight: 600;
+    /* font-size: 18px; */
+    color: #7330EC;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+}

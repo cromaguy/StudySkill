@@ -110,7 +110,6 @@
   
   .account-details {
     display: flex;
-    background: #7330EC;
     background: url("../img/box.png") center repeat;
     background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
@@ -122,6 +121,7 @@
     width: auto;
     height: auto;
     font-size: 14px;
+    background-color: #7330EC;
   }
   
   .account-section {
@@ -290,7 +290,6 @@
   
   .account-details {
     display: flex;
-    background-color: #ae91ff;
     background: url("../img/Box-dark.png") center repeat;
     background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
@@ -301,6 +300,7 @@
     width: auto;
     border-color: #00000000;
     font-size: 14px;
+    background-color: #ae91ff;
   }
   
   .account-section {

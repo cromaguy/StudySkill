@@ -85,3 +85,48 @@
     margin-right: 5px;
   }
 }
+
+@media  (max-width: 500px){
+.changelog-container {
+    max-width: auto;
+    width:auto;
+    margin: 20px auto;
+    padding: auto;
+    background: url("../img/box.png") center repeat;
+    background-size:contain;
+    -webkit-animation: backgroundScroll 60s linear infinite;
+    animation: backgroundScroll 60s linear infinite;
+    color: #f7efff;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #7330EC;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .release-note {
+    margin-top: 20px;
+  }
+  
+  .release-note h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  
+  .release-note ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  .release-note ul li {
+    margin-bottom: 5px;
+  }
+  
+  .release-note ul li:before {
+    content: "\2022"; /* Bullet point */
+    margin-right: 5px;
+  }
+}
