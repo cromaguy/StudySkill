@@ -1179,7 +1179,7 @@
     bottom: -8px;
     padding: 10px 14x;
     background: url("../img/pattern-mobile.png");
-    background-size:cover;
+    background-size:contain;
     background-position: center;
     background-repeat: repeat;
     -webkit-animation: backgroundScroll 60s linear infinite;
