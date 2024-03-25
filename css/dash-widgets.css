@@ -341,7 +341,7 @@
     max-width: 270px;
     margin: 2px;
     padding: auto;
-    color: #7330EC;
+    color: #ff9900;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
@@ -363,7 +363,7 @@
     margin: 4px;
     text-align: left;
     font-size: 15px;
-    color: #2f2c38;
+    color: #38312c;
     margin-bottom: auto;
   }
   .small-widget span {
@@ -389,14 +389,14 @@
     transition: all 0.3s ease;
     margin-right: auto;
     margin-left: auto;
-    background: url("../img/box.png") center repeat;
-    background-size:contain;
+    background: url("../img/pattern-mobile.png") center repeat;
+    background-size:cover;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     background-color: #ffffff;
   }
   .large-widget :hover{
-    color: #b98dff;
+    color: #ffc48d;
   }
   .large-widget h2 {
     text-align: center;
@@ -407,7 +407,7 @@
   .large-widget p {
     margin: 8px;
     font-size: 13px;
-    color: #eae3ff;
+    color: #fff0e3;
     margin-bottom: auto;
   }
   .large-widget span {
@@ -425,7 +425,7 @@
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     background-color: #ffffff;
-    color: #7330EC;
+    color: #ff9900;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
@@ -438,9 +438,9 @@
     font-size: 18px;
     margin: auto;
     margin-bottom: -20px;
-    margin-top: 10px;
+    margin-top: 0px;
     font-weight: 600;
-    color: #7330EC;
+    color: #ff9900;
     text-align: left;
   }
 }

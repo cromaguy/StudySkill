@@ -1002,7 +1002,7 @@
     scroll-behavior: auto;
   }
   ::selection{
-    background: #7330EC;
+    background: #ff9900;
     color: #f7efff;
   }
   .body{
@@ -1093,7 +1093,7 @@
     top: -20px;
     left: calc(100% + 15px);
     z-index: 3;
-    background: #7330EC;
+    background: #ff9900;
     color: #f7efff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     padding: 6px 12px;
@@ -1178,13 +1178,13 @@
     left: 0;
     bottom: -8px;
     padding: 10px 14x;
-    background: url("../img/Box.png");
+    background: url("../img/pattern-mobile.png");
     background-size:cover;
     background-position: center;
     background-repeat: repeat;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
-    background-color: #7330EC;
+    background-color: #ff9900;
     transition: all 0.5s ease;
     overflow: hidden;
   }
@@ -1237,7 +1237,7 @@
     border-bottom-left-radius: 25px;
     display: none;
     position: relative;
-    background: rgb(255, 238, 238);
+    background: rgb(255, 246, 238);
     min-height: 100vh;
     top: 0;
     /* left: 78px; */
@@ -1298,7 +1298,7 @@
     margin: 28px;
     margin-bottom: 17px;
     padding: 28px;
-    background-color: #7330EC;
+    background-color: #ff9900;
     /* background: url("../img/header.jpg") center no-repeat;
     background-size:cover; */
     color: #ffffff;
@@ -1318,11 +1318,11 @@
     transition: all 0.3s ease;
     margin-right: auto;
     margin-left: auto;
-    background: url("../img/box.png") center repeat;
+    background: url("../img/pattern-mobile.png") center repeat;
     background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
-    background-color: #7330EC;
+    background-color: #ff9900;
   }
   .widget h2 {
     text-align: center;
@@ -1333,7 +1333,7 @@
   .widget p {
     margin: 8px;
     font-size: 13px;
-    color: #ddcfff;
+    color: #ffeacf;
     margin-bottom: auto;
   }
   .widget span {
@@ -1341,7 +1341,7 @@
   }
   .quick-links-sidebar,.quick-links-sidebar-2 {
     display: none;
-    color: #7330EC;
+    color: #ff9900;
     margin-top: 14px;
     font-size: 12px;
     transition: all 0.3s ease;
@@ -1367,25 +1367,24 @@
     transition: color 0.3s ease;
   }
   .quick-links a:hover,.quick-links2 a:hover {
-    color: rgb(98, 0, 255);
+    color: #ff9900;
     text-decoration: underline 2px;
     text-underline-offset: 5px;
     transition: all 0.3s ease;
     cursor: pointer;
   }
   .navibtn input {
-    display: inline-block;
     outline: none;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     border-radius: 12px;
-    padding: 6px 15px;
+    padding: 8px 15px;
     border: none;
-    margin: 0 8px;
+    margin: 0px 10px;
     cursor: pointer;
     transition: all 0.3s ease;
-    background-image: linear-gradient( 135deg, #7330EC  10%, #7330EC 100%);
+    background-image: linear-gradient( 135deg, #ff9900  10%, #ff9900 100%);
   }
   .navibtn :hover {
     transform: scale(1.2);
@@ -1460,7 +1459,7 @@
     transform: scale(0.9);
     font-weight: 600;
     background-color: #ffffff !important;
-    color: #7330EC;
+    color: #ff9900;
     cursor: pointer;
   }
 }
