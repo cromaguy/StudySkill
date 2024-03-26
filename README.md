@@ -1,17 +1,17 @@
-# Introduction to StudySkill: College Management System #
+# 🗨️ Introduction to StudySkill: College Management System #
 
 
 
-# Website: https://cromaguy.github.io/StudySkill/Admin/Admin-Dash.html #
-**College Web Tech Project Submiited my be to GOMATI DISTRICT POLYTECHNIC!**
+# 🌐 Website: https://cromaguy.github.io/StudySkill/Admin/Admin-Dash.html # 
+**College Web Tech Project Submiited my me with ❤️ to GOMATI DISTRICT POLYTECHNIC!**
 
 
-# Development Status: #
+# 🧑‍💻 Development Status: #
 **Currently Frontend is being developed and tested using Test branch. Users are free to test using the above link and report issues.**
 
 
 
-**The College Management System (CMS) is a comprehensive software solution designed to streamline and enhance the administrative and academic functions within a college or educational institution. In the rapidly evolving landscape of education, effective management systems are crucial to ensure the smooth functioning of various departments, improve communication, and enhance overall efficiency.**
+**The College Management System (CMS) is a comprehensive web based solution designed to streamline and enhance the administrative and academic functions within a college or educational institution. In the rapidly evolving landscape of education, effective management systems are crucial to ensure the smooth functioning of various departments, improve communication, and enhance overall efficiency.**
 
 
 
