@@ -997,16 +997,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins" , sans-serif;
-    scrollbar-color: rgb(0, 0, 0) rgb(244, 238, 255);
+    scrollbar-color: rgb(0, 0, 0) rgb(255, 246, 238);
     scrollbar-width: auto;
     scroll-behavior: auto;
   }
   ::selection{
     background: #ff9900;
-    color: #f7efff;
+    color: #fff9ef;
   }
   .body{
-    background: rgb(242, 235, 255);
+    background: rgb(255, 246, 238);
     color: #000000;
     transition: all 0.5s ease;
     overflow: hidden;
