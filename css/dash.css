@@ -1027,16 +1027,20 @@
   }
   .sidebar.open{
     width: 100%;
+    border-top-right-radius: 25px;
+    border-top-right-radius: 25px;
   }
   .sidebar .logo-details{
     height: 78px;
     display: flex;
     align-items: center;
     position: relative;
+    justify-content: center;
   }
   .sidebar .logo-details .icon{
     opacity: 0;
     transition: all 0.5s ease;
+    margin-left: -20px;
     justify-content: center;
   }
   .sidebar .logo-details .logo_name{
@@ -1196,6 +1200,7 @@
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
+    justify-content: center;
   }
   .sidebar li img{
     height: 45px;

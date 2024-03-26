@@ -1062,10 +1062,10 @@ div.table-responsive > div.dt-container > div.row > div[class^=col-]:last-child 
 	}
   @media  (min-width: 300px){
     .table-container{
-  /* background: url("../img/table.png") center repeat;
+  background: url("../img/table.png") center repeat;
   background-size:contain;
   -webkit-animation: backgroundScroll 60s linear infinite;
-  animation: backgroundScroll 60s linear infinite; */
+  animation: backgroundScroll 60s linear infinite;
   border: 4px solid rgb(0, 0, 0);
   transform: x left 0%;
 	padding: auto;
@@ -1075,11 +1075,10 @@ div.table-responsive > div.dt-container > div.row > div[class^=col-]:last-child 
   transition: all 0.3s ease;
   border-radius: 25px;
 	max-width: 90%;
-  background: white !important;
-  font-size: 9px;
+  background-color: white;
 }
 .table-btn{
-  height: 35px;
+  height: 30px;
   width: 55px;
   padding: 2px;
   color: #000000;
