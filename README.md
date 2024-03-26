@@ -1,13 +1,22 @@
 # Introduction to StudySkill: College Management System #
 
-# Website: https://cromaguy.github.io/StudySkill/Admin/Admin-Dash.html #
 
+
+# Website: https://cromaguy.github.io/StudySkill/Admin/Admin-Dash.html #
+**College Web Tech Project Submiited my be to GOMATI DISTRICT POLYTECHNIC!**
+
+
+# Development Status: #
+**Currently Frontend is being developed and tested using Test branch. Users are free to test using the above link and report issues.**
 **The College Management System (CMS) is a comprehensive software solution designed to streamline and enhance the administrative and academic functions within a college or educational institution. In the rapidly evolving landscape of education, effective management systems are crucial to ensure the smooth functioning of various departments, improve communication, and enhance overall efficiency.**
 
-**1. Background:**
+
+
+# 1. Background: #
 With the increasing complexity of college operations, the need for an integrated and automated system becomes imperative. Traditional methods of manual record-keeping and communication are not only time-consuming but also prone to errors. The College Management System aims to replace these outdated practices with a sophisticated and user-friendly platform that can manage diverse tasks efficiently.
 
-**2. Objectives:**
+
+# 2. Objectives: #
 The primary objectives of implementing a College Management System include:
 
    a. **Automation of Processes:** Streamlining administrative processes such as student enrollment, attendance tracking, examination management, and result processing to reduce manual workload and minimize errors.
@@ -20,7 +29,8 @@ The primary objectives of implementing a College Management System include:
 
    e. **Data Security and Privacy:** Implementing robust security measures to protect sensitive data and ensuring compliance with data protection regulations to maintain the confidentiality of student and staff information.
 
-**3. Key Features:**
+
+# 3. Key Features: #
 The College Management System encompasses a range of features to address the diverse needs of the institution, including:
 
    a. **Student Information System:** Managing student profiles, enrollment, and academic history.
@@ -31,11 +41,12 @@ The College Management System encompasses a range of features to address the div
 
    d. **Examination and Result Processing:** Conducting and managing examinations, grading, and generating result reports.
 
-   e. **Financial Management:** Handling fee collection, budgeting, and financial reporting.
+   e. **Network Detection:** Checks for active internet and warns if you loose connection while working.
 
-   f. **Communication Tools:** Providing messaging and notification systems for effective communication.
+   f. **Interactive Mobileview:** Optimising UI to interact with mobile phones in order to make it hands free!
 
-**4. Benefits:**
+
+# 4. Benefits: #
 Implementing a College Management System brings about several advantages, including:
 
    a. **Time Efficiency:** Reducing administrative workload and saving time through automation.
@@ -48,4 +59,5 @@ Implementing a College Management System brings about several advantages, includ
 
    e. **Scalability:** Adapting to the growing needs of the institution as it expands.
 
-In conclusion, the College Management System is a pivotal tool in the modernization of educational institutions, promoting efficiency, transparency, and improved overall performance. Its successful implementation can contribute significantly to the success and reputation of the college in the ever-evolving educational landscape.
+
+**In conclusion, the College Management System is a pivotal tool in the modernization of educational institutions, promoting efficiency, transparency, and improved overall performance. Its successful implementation can contribute significantly to the success and reputation of the college in the ever-evolving educational landscape.**
