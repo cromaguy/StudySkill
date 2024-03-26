@@ -217,7 +217,7 @@
     background-repeat: repeat;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
-    background-color: #7330EC;
+    background: #7330EC;
     transition: all 0.5s ease;
     overflow: hidden;
   }
