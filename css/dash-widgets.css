@@ -45,13 +45,13 @@
     max-width: 270px;
     margin: 2px;
     padding: 25px;
-    color: #7330EC;
+    color: #006eff;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
     margin-right: auto;
     margin-left: auto;
-    background: url("../img/table.png") center repeat;
+    background: url("../img/pattern-light.png") center repeat;
     background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
@@ -93,14 +93,14 @@
     transition: all 0.3s ease;
     margin-right: auto;
     margin-left: auto;
-    background: url("../img/box.png") center repeat;
+    background: url("../img/widget-light.png") center repeat;
     background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     background-color: #ffffff;
   }
   .large-widget :hover{
-    color: #b98dff;
+    color: #8dabff;
   }
   .large-widget h2 {
     text-align: center;
@@ -111,7 +111,7 @@
   .large-widget p {
     margin: 8px;
     font-size: 13px;
-    color: #eae3ff;
+    color: #e3f1ff;
     margin-bottom: auto;
   }
   .large-widget span {
@@ -124,12 +124,12 @@
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
-    background: url("../img/table.png") center repeat;
+    background: url("../img/pattern-light.png") center repeat;
     background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     background-color: #ffffff;
-    color: #7330EC;
+    color: #006eff;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
@@ -146,7 +146,7 @@
     margin-bottom: auto;
     margin-top: 10px;
     font-weight: 600;
-    color: #7330EC;
+    color: #006eff;
     text-align: left;
   }
 }

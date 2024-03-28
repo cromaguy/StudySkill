@@ -52,7 +52,7 @@
     margin: auto;
     padding-top: 20px;
     font-weight: 600;
-    color: #7330EC;
+    color: #006eff;
     text-align: left;
 }
 .grid-container {
@@ -70,7 +70,7 @@
   margin: 8px;
   padding: 25px;
   background-color: #ffffff;
-  color: #7330EC;
+  color: #006eff;
   border-radius: 20px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   transition: all 0.3s ease;

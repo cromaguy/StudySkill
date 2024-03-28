@@ -21,7 +21,7 @@
   .spinner{
     width: 100px;
     height: 100px;
-    border: 10px solid #7330EC;
+    border: 10px solid #006eff;
     border-top-color: transparent;
     border-radius: 100%;
     animation: spinner 0.5s linear infinite;

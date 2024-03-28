@@ -13,7 +13,7 @@
 .form-container header {
   font-size: 28px;
   font-weight: 600;
-  color: #7330EC;
+  color: #006eff;
   text-align: left;
 }
 .form-container .form {
@@ -42,7 +42,7 @@
   border-right-width: 0px;
   border-radius: 10px;
   transition: all 0.3s ease;
-  background: rgb(237, 227, 255);
+  background: rgb(235, 246, 255);
 }
 .input-box input:focus {
   outline: none;
@@ -50,7 +50,7 @@
   font-size: 17px;
   font-weight: 400;
   color: #000000;
-  border: 1.5px solid #7330EC;
+  border: 1.5px solid #006eff;
   border-top-width: 0px;
   border-bottom-width: 3px;
   border-left-width: 0px;
@@ -82,7 +82,7 @@
   column-gap: 5px;
 }
 .gender input {
-  accent-color: #7330EC;
+  accent-color: #006eff;
 }
 .form :where(.gender input, .gender label) {
   cursor: pointer;
@@ -100,7 +100,7 @@
   border: none;
   color: #5a5a5a;
   font-size: 15px;
-  background: rgb(237, 227, 255);
+  background: rgb(235, 246, 255);
   backdrop-filter: blur(8px);
 }
 .form button {

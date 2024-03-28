@@ -23,7 +23,7 @@
     min-width: 700px;
     width: auto;
     max-width: fit-content;
-    background: rgb(244, 238, 255);
+    background: #ffffff;
     border-radius: 25px;
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
@@ -81,7 +81,7 @@
 }
 .account-header {
   padding: 15px;
-    color: #7330EC;
+    color: #006eff;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -114,14 +114,14 @@
     background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
-    color: #f7efff;
+    color: #eff0ff;
     padding: 10px;
     border-color: #00000000;
     border-radius: 20px;
     width: auto;
     height: auto;
     font-size: 14px;
-    background-color: #7330EC;
+    background-color: #006eff;
   }
   
   .account-section {

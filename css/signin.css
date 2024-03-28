@@ -46,13 +46,13 @@ body {
 .container header {
   font-size: 28px;
   font-weight: 600;
-  color: #7330EC;
+  color: #006eff;
 }
 
 .container h {
   font-size: 18px;
   font-weight: 600;
-  color: #7330EC;
+  color: #006eff;
 }
 
 .container h2{
@@ -69,7 +69,7 @@ body {
   height: 3px;
   width: 28px;
   border-radius: 12px;
-  background: #4070f4;
+  background: #006eff;
 }
 .container form {
   margin-top: 30px;
@@ -105,7 +105,7 @@ form .input-field {
   font-size: 17px;
   font-weight: 400;
   color: #04083a;
-  border: 1.5px solid #7330EC;
+  border: 1.5px solid #006eff;
   border-top-width: 0px;
   border-bottom-width: 3px;
   border-left-width: 0px;
@@ -123,7 +123,7 @@ form .input-field {
   top: 50%;
   transform: translateY(-50%);
   font-size: 18px;
-  color: #7330EC;
+  color: #006eff;
   cursor: pointer;
   padding: 3px;
 }
@@ -179,7 +179,7 @@ form .text h3{
   text-align: center;
  }
  form .text h3 a{
-   color: #7330EC;
+   color: #006eff;
    font-size: 15px;
    text-decoration: none;
  }
