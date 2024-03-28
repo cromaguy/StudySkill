@@ -86,12 +86,17 @@
     /* background: #f7efff; */
   }
   .spinner{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     border: 10px solid #ff9900;
     border-top-color: transparent;
     border-radius: 100%;
     animation: spinner 0.5s linear infinite;
+  }
+  .loading_cap h1{
+    font-size: 20px;
+    margin-left: 20px;
+    color: #ff9900;
   }
   @keyframes spinner{
     from{}
