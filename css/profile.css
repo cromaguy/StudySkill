@@ -143,7 +143,7 @@
   
   .account-details {
     display: flex;
-    background: url("../img/Box-dark.png") center repeat;
+    background: url("../img/widget-dark.png") center repeat;
     background-size:contain;
     color: #000b4b;
     -webkit-animation: backgroundScroll 60s linear infinite;
