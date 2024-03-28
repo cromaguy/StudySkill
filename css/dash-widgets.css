@@ -196,7 +196,7 @@
     max-width: 270px;
     margin: 2px;
     padding: 25px;
-    color: #ae91ff;
+    color: #8FBFFF;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
@@ -244,13 +244,13 @@
     background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
-    background-color: #ae91ff;
+    background-color: #8FBFFF;
     color: #23004b;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   }
   .large-widget :hover{
-    color: #6833b1;
+    color: #3365b1;
   }
   .large-widget h2 {
     text-align: center;
@@ -278,7 +278,7 @@
     background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
-    color: #ae91ff;
+    color: #8FBFFF;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
@@ -291,7 +291,7 @@
     margin-bottom: auto;
     margin-top: 10px;
     font-weight: 600;
-    color: #ae91ff;
+    color: #8FBFFF;
     text-align: left;
   }
 }

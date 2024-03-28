@@ -97,7 +97,7 @@
 .heading{
     font-size: 28px;
     font-weight: 600;
-    color: #ae91ff;
+    color: #8FBFFF;
     text-align: left;
 }
 .grid-container {
@@ -115,7 +115,7 @@
   margin: 8px;
   padding: 25px;
   background-color: #000000;
-  color: #ae91ff;
+  color: #8FBFFF;
   border-radius: 20px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   transition: all 0.3s ease;

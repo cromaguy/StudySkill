@@ -152,7 +152,7 @@
   margin-top: 20px;
 }
 .input-box label {
-  color: #ae91ff;
+  color: #8FBFFF;
 }
 .form :where(.input-box input, .select-box) {
   position: relative;
@@ -170,7 +170,7 @@
   border-right-width: 0px;
   border-radius: 10px;
   transition: all 0.3s ease;
-  background: rgb(32, 26, 43);
+  background: #1f2e3f;
 }
 .input-box input:focus {
   outline: none;
@@ -178,7 +178,7 @@
   font-size: 17px;
   font-weight: 400;
   color: #ffffff;
-  border: 1.5px solid #ae91ff;
+  border: 1.5px solid #8FBFFF;
   border-top-width: 0px;
   border-bottom-width: 3px;
   border-left-width: 0px;
@@ -195,7 +195,7 @@
   margin-top: 20px;
 }
 .gender-box h3 {
-  color: #ae91ff;
+  color: #8FBFFF;
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 8px;
@@ -210,7 +210,7 @@
   column-gap: 5px;
 }
 .gender input {
-  accent-color: #ae91ff;
+  accent-color: #8FBFFF;
 }
 .form :where(.gender input, .gender label) {
   cursor: pointer;
@@ -228,7 +228,7 @@
   border: none;
   color: #ffffff;
   font-size: 15px;
-  background: rgb(32, 26, 43);
+  background: #1f2e3f;
   backdrop-filter: blur(8px);
 }
 .form button {

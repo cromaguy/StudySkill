@@ -145,14 +145,14 @@
     display: flex;
     background: url("../img/Box-dark.png") center repeat;
     background-size:contain;
-    color: #23004b;
+    color: #000b4b;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     padding: 20px;
     border-radius: 20px;
     width: auto;
     border-color: #00000000;
-    background-color: #ae91ff;
+    background-color: #8FBFFF;
   }
   
   .account-section {

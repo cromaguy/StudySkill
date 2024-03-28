@@ -11,7 +11,7 @@
 
 @media (prefers-color-scheme: light) {
 .table-container{
-  background: url("../img/table.png") center repeat;
+  background: url("../img/pattern-light.png") center repeat;
   background-size:contain;
   -webkit-animation: backgroundScroll 60s linear infinite;
   animation: backgroundScroll 60s linear infinite;
@@ -1062,7 +1062,7 @@ div.table-responsive > div.dt-container > div.row > div[class^=col-]:last-child 
 	}
   @media  (min-width: 300px){
     .table-container{
-  background: url("../img/table.png") center repeat;
+  background: url("../img/pattern-light.png") center repeat;
   background-size:contain;
   -webkit-animation: backgroundScroll 60s linear infinite;
   animation: backgroundScroll 60s linear infinite;

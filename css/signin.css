@@ -217,20 +217,20 @@ body {
 .container header {
   font-size: 28px;
   font-weight: 600;
-  color: #ae91ff;
+  color: #8FBFFF;
 }
 
 .container h {
   font-size: 18px;
   font-weight: 600;
-  color: #ae91ff;
+  color: #8FBFFF;
 }
 
 .container h2{
   position: relative;
   font-size: 22px;
   font-weight: 600;
-  color: #0b0024;
+  color: #000724;
 }
 .container h2::before{
   content: '';
@@ -240,7 +240,7 @@ body {
   height: 3px;
   width: 28px;
   border-radius: 12px;
-  background: #4070f4;
+  background: #8FBFFF;
 }
 .container form {
   margin-top: 30px;
@@ -276,7 +276,7 @@ form .input-field {
   font-size: 17px;
   font-weight: 400;
   color: #ffffff;
-  border: 1.5px solid #ae91ff;
+  border: 1.5px solid #8FBFFF;
   border-top-width: 0px;
   border-bottom-width: 3px;
   border-left-width: 0px;
@@ -294,7 +294,7 @@ form .input-field {
   top: 50%;
   transform: translateY(-50%);
   font-size: 18px;
-  color: #ae91ff;
+  color: #8FBFFF;
   cursor: pointer;
   padding: 3px;
 }
@@ -350,7 +350,7 @@ form .text h3{
   text-align: center;
  }
  form .text h3 a{
-   color: #ae91ff;
+   color: #8FBFFF;
    font-size: 15px;
    text-decoration: none;
  }

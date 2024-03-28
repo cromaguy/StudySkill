@@ -79,11 +79,11 @@
     background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
-    background-color: #ae91ff;
+    background-color: #8FBFFF;
     color: #23004b;
   }
   .list :hover{
-    color: #c8a5ff;
+    color: #a5bdff;
   }
   .list h2 {
     text-align: left;
@@ -105,7 +105,7 @@
     display: fixed;
     width: auto;
     padding: 15px;
-    color: #23004b;
+    color: #00114b;
     font-size: 17px;
     font-weight: 500;
     cursor: pointer;
@@ -121,7 +121,7 @@
     font-weight: 600;
     /* font-size: 18px; */
     color: #ffffff;
-    background-color: #23004b;
+    background-color: #000e4b;
     cursor: pointer;
   }
 }

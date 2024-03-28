@@ -517,16 +517,16 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins" , sans-serif;
-  scrollbar-color: rgb(255, 255, 255) #11101D;
+  scrollbar-color: rgb(255, 255, 255) #10161d;
   scrollbar-width: auto;
   scroll-behavior: auto;
 }
 ::selection{
-  background: #ae91ff;
+  background: #8FBFFF;
   color: #23004b;
 }
 .body{
-  background: #11101D;
+  background: #10161d;
   color: #ffffff;
   transition: all 0.5s ease;
   overflow: hidden;
@@ -540,7 +540,7 @@
   top: 0;
   height: 100%;
   width: 78px;
-  background: #11101D;
+  background: #10161d;
   padding: 6px 14px;
   z-index: 99;
   transition: all 0.5s ease;
@@ -608,8 +608,8 @@
   top: -20px;
   left: calc(100% + 15px);
   z-index: 3;
-  background: #ae91ff;
-  color: #23004b;
+  background: #8FBFFF;
+  color: #00184b;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   padding: 6px 12px;
   border-radius: 4px;
@@ -699,7 +699,7 @@
   background-repeat: repeat;
   -webkit-animation: backgroundScroll 60s linear infinite;
   animation: backgroundScroll 60s linear infinite;
-  background-color: #ae91ff;
+  background-color: #8FBFFF;
   transition: all 0.5s ease;
   overflow: hidden;
 }
@@ -722,7 +722,7 @@
 .sidebar li.profile .job{
   font-size: 15px;
   font-weight: 400;
-  color: #23004b;
+  color: #000000;
   white-space: nowrap;
 }
 .sidebar li.profile .job{
@@ -749,7 +749,7 @@
 .home-section{
   display: none;
   position: relative;
-  background: #11101D;
+  background: #10161d;
   min-height: 100vh;
   top: 0;
   left: 78px;
@@ -809,7 +809,7 @@
   width: 96%;
   margin: 28px;
   padding: 28px;
-  background-color: #ae91ff;
+  background-color: #8FBFFF;
   background: url("../img/header-dark.png") center no-repeat;
   background-size:cover;
   color: #23004b;
@@ -833,7 +833,7 @@
   transition: all 0.3s ease;
   margin-right: auto;
   margin-left: auto;
-  background-color: #ae91ff;
+  background-color: #8FBFFF;
 }
 .widget h2 {
   text-align: center;
@@ -871,7 +871,7 @@
   transition: all 0.3s ease;
 }
 .quick-links a,.quick-links2 a {
-  color: #ae91ff;
+  color: #8FBFFF;
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -894,7 +894,7 @@
   margin: 0 8px;
   cursor: pointer;
   transition: all 0.3s ease;
-  background-image: linear-gradient( 135deg,#ae91ff  10%, #ae91ff 100%);
+  background-image: linear-gradient( 135deg,#8FBFFF  10%, #8FBFFF 100%);
 }
 .navibtn :hover {
   transform: scale(1.2);
@@ -955,13 +955,13 @@
   width: auto;
   padding: 15px;
   margin-top: 30px;
-  color: #23004b;
+  color: #000e4b;
   font-size: 17px;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
   border-radius: 25px;
-  border: 4px solid #23004b;
+  border: 4px solid #00114b;
   background-color: #ffffff00;
   cursor: pointer;
 }
@@ -969,7 +969,7 @@
   transform: scale(0.9);
   font-weight: 600;
   color: #ffffff;
-  background-color: #23004b;
+  background-color: #00204b;
   cursor: pointer;
 }
 }
