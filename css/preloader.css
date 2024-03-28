@@ -26,6 +26,11 @@
     border-radius: 100%;
     animation: spinner 0.5s linear infinite;
   }
+  .loading_cap h1{
+    font-size: 50px;
+    margin-left: 20px;
+    color: #006eff;
+  }
   @keyframes spinner{
     from{}
       to{
@@ -53,6 +58,11 @@
   border-top-color: transparent;
   border-radius: 100%;
   animation: spinner 0.5s linear infinite;
+}
+.loading_cap h1{
+  font-size: 50px;
+  margin-left: 20px;
+  color: #8FBFFF;
 }
 @keyframes spinner{
   from{}
