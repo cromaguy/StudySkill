@@ -8,7 +8,7 @@
     margin-left: auto;
     margin-right: auto;
     gap: auto;
-    width: 100%;
+    width: 96%;
     grid-template-columns: auto auto auto auto;
     padding: auto;
   }
@@ -19,7 +19,7 @@
     margin-left: auto;
     margin-right: auto;
     gap: auto;
-    width: 100%;
+    width: 96%;
     grid-template-columns: auto auto auto;
     padding: auto;
   }
@@ -28,7 +28,7 @@
     display: grid;
     margin: auto;
     gap: auto;
-    width: 100%;
+    width: 96%;
     grid-template-columns: auto auto;
     padding: auto;
   }
@@ -163,7 +163,7 @@
     margin-left: auto;
     margin-right: auto;
     gap: auto;
-    width: 100%;
+    width: 96%;
     grid-template-columns: auto auto auto auto;
     padding: auto;
   }
@@ -174,7 +174,7 @@
     margin-left: auto;
     margin-right: auto;
     gap: auto;
-    width: 100%;
+    width: 96%;
     grid-template-columns: auto auto auto;
     padding: auto;
   }
@@ -183,7 +183,7 @@
     display: grid;
     margin: auto;
     gap: auto;
-    width: 100%;
+    width: 96%;
     grid-template-columns: auto auto;
     padding: auto;
   }
