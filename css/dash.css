@@ -30,6 +30,16 @@
   grid-template-columns: auto;
   padding: 10px;
 }
+.grid-container-operbtn{
+  display: grid;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  gap: auto;
+  width: 50%;
+  grid-template-columns: auto auto auto;
+  padding: auto;
+}
   *{
     margin: 0;
     padding: 0;
@@ -452,9 +462,9 @@
     width: auto;
     padding: 15px;
     margin-top: auto;
-    margin: 9px;
+    margin: auto;
     color: #000000;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -512,6 +522,16 @@
   grid-template-columns: auto;
   padding: 10px;
 }
+.grid-container-operbtn{
+  display: grid;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  gap: auto;
+  width: 50%;
+  grid-template-columns: auto auto auto;
+  padding: auto;
+}
 *{
   margin: 0;
   padding: 0;
@@ -523,7 +543,7 @@
 }
 ::selection{
   background: #8FBFFF;
-  color: #23004b;
+  color: #001b4b;
 }
 .body{
   background: #10161d;
@@ -641,7 +661,7 @@
   border: none;
   border-radius: 12px;
   transition: all 0.5s ease;
-  background: #1d1b31;
+  background: #1b2331;
 }
 .sidebar.open input{
   padding: 0 20px 0 50px;
@@ -655,7 +675,7 @@
   align-items: center;
   text-decoration: none;
   transition: all 0.4s ease;
-  background: #11101D;
+  background: #10161d;
 }
 .sidebar li a:hover{
   background: #FFF;
@@ -927,13 +947,14 @@
   cursor: pointer;
 }
 .operationbtn button{
+  display: inline-block;
   height: auto;
   width: auto;
   padding: 15px;
-  margin: 9px;
+  margin: auto;
   margin-top: auto;
   color: #ffffff;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -991,6 +1012,16 @@
   width: auto;
   grid-template-columns: auto;
   padding: 10px;
+}
+.grid-container-operbtn{
+  display: grid;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 10px;
+  width: 100%;
+  grid-template-columns: auto auto auto;
+  padding: auto;
 }
   *{
     margin: 0;

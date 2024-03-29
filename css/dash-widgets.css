@@ -4,28 +4,28 @@
   .grid-container-small-widgets{
     display: grid;
     margin: auto;
-    margin-left: 25px;
+    margin-left: auto;
     margin-right: auto;
     gap: 10px;
     width: 100%;
     grid-template-columns: auto auto auto auto;
-    padding: 10px;
+    padding: auto;
   }
   .grid-container-large-widgets{
     display: grid;
     margin: auto;
-    margin-left: 25px;
+    margin-left: auto;
     margin-right: auto;
     gap: 10px;
     width: 100%;
     grid-template-columns: auto auto auto;
-    padding: 10px;
+    padding: auto;
   }
   .grid-container-chart{
     display: grid;
-    margin: 80px;
+    margin: auto;
     gap: auto;
-    width: 100%;
+    width: auto;
     grid-template-columns: 50% 50% 10%;
     padding: 10px;
   }
@@ -155,7 +155,7 @@
   .grid-container-small-widgets{
     display: grid;
     margin: auto;
-    margin-left: 25px;
+    margin-left: auto;
     margin-right: auto;
     gap: 10px;
     width: 100%;
@@ -165,18 +165,18 @@
   .grid-container-large-widgets{
     display: grid;
     margin: auto;
-    margin-left: 25px;
+    margin-left: auto;
     margin-right: auto;
     gap: 10px;
     width: 100%;
     grid-template-columns: auto auto auto;
-    padding: 10px;
+    padding: auto;
   }
   .grid-container-chart{
     display: grid;
-    margin: 80px;
+    margin: auto;
     gap: auto;
-    width: 100%;
+    width: auto;
     grid-template-columns: 50% 50% 10%;
     padding: 10px;
   }
@@ -194,7 +194,8 @@
     min-width:220px;
     width: auto;
     max-width: 270px;
-    margin: 2px;
+    margin: auto;
+    margin-top: 20px;
     padding: 25px;
     color: #8FBFFF;
     border-radius: 20px;
@@ -235,7 +236,9 @@
     min-width:250px;
     width: auto;
     max-width: 320px;
-    margin: 2px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 25px;
     transition: all 0.3s ease;
     margin-right: auto;
@@ -271,6 +274,8 @@
     height: 360px;
     width: 460px;
     margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     padding: 25px;

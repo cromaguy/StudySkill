@@ -18,11 +18,11 @@
   border: 4px solid rgb(0, 0, 0);
 	padding: 30px;
 	margin: auto;
-    margin-left: 88px;
+    margin-left: auto;
     margin-right: auto;
     transition: all 0.3s ease;
     border-radius: 25px;
-	max-width: 90%;
+	max-width: 95%;
   background-color: white;
 }
 .table-btn{
@@ -545,11 +545,11 @@ div.table-responsive > div.dt-container > div.row > div[class^=col-]:last-child 
     border: 4px solid #ffffff;
 		padding: 30px;
 		margin: auto;
-		margin-left: 88px;
+		margin-left: auto;
 		margin-right: auto;
 		transition: all 0.3s ease;
 		border-radius: 25px;
-		max-width: 90%;
+		max-width: 95%;
     background-color: #8FBFFF;
 	}
   .table-btn{
