@@ -337,7 +337,7 @@
     height: 100px;
     width: 96%;
     margin: 28px;
-    margin-bottom: 17px;
+    margin-bottom: 10px;
     padding: 28px;
     background: url("../img/header-light.png") center no-repeat;
     background-size:cover;
@@ -825,7 +825,7 @@
   font-size: 30px;
   text-align: center;
   height: 100px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   width: 96%;
   margin: 28px;
   padding: 28px;
