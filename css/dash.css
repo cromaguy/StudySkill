@@ -339,13 +339,13 @@
     margin: 28px;
     margin-bottom: 17px;
     padding: 28px;
-    background-color: #006eff;
     background: url("../img/header-light.png") center no-repeat;
     background-size:cover;
     color: #ffffff;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
+    background-color: #006eff;
   }
   .widget {
     height: auto;
@@ -829,13 +829,13 @@
   width: 96%;
   margin: 28px;
   padding: 28px;
-  background-color: #8FBFFF;
   background: url("../img/header-dark.png") center no-repeat;
   background-size:cover;
-  color: #23004b;
+  color: #000f4b;
   border-radius: 20px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
+  background-color: #8FBFFF;
 }
 .widget {
   height: auto;
