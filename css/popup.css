@@ -1,5 +1,5 @@
 @media (prefers-color-scheme: light) {
-#ac-wrapper {
+  #ac-wrapper {
     position: fixed;
     top: 0;
     left: 0;
@@ -18,7 +18,7 @@
     background: rgba(0, 0, 0, .6);
     z-index: 1001;
   }
-  
+
   #popup {
     min-width: 700px;
     width: auto;
@@ -42,7 +42,8 @@
     margin-bottom: 55px;
     padding: 25px;
   }
-  .popup-header{
+
+  .popup-header {
     font-size: 18px;
     font-weight: 600;
     color: #000000;
@@ -53,65 +54,69 @@
     width: 20px;
     float: right;
   }
-  
+
   .popup-logo {
     width: 180px;
     margin-top: 25px;
   }
-  #ac-wrapper:not([style]) ~* {
+
+  #ac-wrapper:not([style])~* {
     -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
     -o-filter: blur(2px);
     -ms-filter: blur(2px);
     filter: blur(2px);
-    }
-  #ac-wrapper-2:not([style]) ~* {
+  }
+
+  #ac-wrapper-2:not([style])~* {
     -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
     -o-filter: blur(2px);
     -ms-filter: blur(2px);
     filter: blur(2px);
-    }
+  }
+
   #wrapper.blur {
-          -webkit-filter: blur(10px);
-             -moz-filter: blur(10px);
-               -o-filter: blur(10px);
-              -ms-filter: blur(10px);
-                  filter: blur(10px);
-}
-.account-header {
-  padding: 15px;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+  }
+
+  .account-header {
+    padding: 15px;
     color: #006eff;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
   }
-  
+
   .account-avatar {
     flex: 0 0 auto;
     margin-right: 20px;
   }
-  
+
   .account-avatar img {
     width: 90px;
     height: 90px;
     border-radius: 12px;
   }
-  
+
   .account-info h2 {
     margin: 0;
     font-size: 23px;
 
   }
-  
+
   .account-info p {
     margin: 5px 0;
   }
-  
+
   .account-details {
     display: flex;
     background: url("../img/box.png") center repeat;
-    background-size:contain;
+    background-size: contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     color: #eff0ff;
@@ -123,32 +128,32 @@
     font-size: 14px;
     background-color: #006eff;
   }
-  
+
   .account-section {
     margin-bottom: 20px;
     margin: 40px;
     font-size: 14px;
   }
-  
+
   .account-section h3 {
     margin-top: 0;
   }
-  
+
   .account-section ul {
     list-style-type: none;
     padding: 0;
   }
-  
+
   .account-section ul li {
     margin-bottom: auto;
   }
-  
+
   .account-section ul li strong {
     font-weight: bold;
     margin-right: auto;
   }
 
-    .btn button{
+  .btn button {
     height: auto;
     width: auto;
     padding: 15px;
@@ -164,6 +169,7 @@
     background-color: #ffffff00;
     cursor: pointer;
   }
+
   .btn button:hover {
     transform: scale(0.9);
     font-weight: 600;
@@ -175,7 +181,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-#ac-wrapper {
+  #ac-wrapper {
     position: fixed;
     top: 0;
     left: 0;
@@ -184,7 +190,7 @@
     background: rgba(0, 0, 0, .6);
     z-index: 1001;
   }
-  
+
   #ac-wrapper-2 {
     position: fixed;
     top: 0;
@@ -218,7 +224,8 @@
     margin-bottom: 55px;
     padding: 28px;
   }
-  .popup-header{
+
+  .popup-header {
     font-size: 18px;
     font-weight: 600;
     color: #8FBFFF;
@@ -229,8 +236,8 @@
     width: 20px;
     float: right;
   }
-  
-  .popup-close:hover{
+
+  .popup-close:hover {
     background-image: url("../img/close-2.png") !important;
   }
 
@@ -238,60 +245,64 @@
     width: 180px;
     margin-top: 25px;
   }
-  #ac-wrapper:not([style]) ~* {
+
+  #ac-wrapper:not([style])~* {
     -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
     -o-filter: blur(2px);
     -ms-filter: blur(2px);
     filter: blur(2px);
-    }
-  #ac-wrapper-2:not([style]) ~* {
+  }
+
+  #ac-wrapper-2:not([style])~* {
     -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
     -o-filter: blur(2px);
     -ms-filter: blur(2px);
     filter: blur(2px);
-    }
+  }
+
   #wrapper.blur {
-          -webkit-filter: blur(10px);
-             -moz-filter: blur(10px);
-               -o-filter: blur(10px);
-              -ms-filter: blur(10px);
-                  filter: blur(10px);
-}
-.account-header {
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+  }
+
+  .account-header {
     padding: 15px;
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     margin-bottom: 20px;
   }
-  
+
   .account-avatar {
     flex: 0 0 auto;
     margin-right: 20px;
   }
-  
+
   .account-avatar img {
     width: 90px;
     height: 90px;
     border-radius: 12px;
   }
-  
+
   .account-info h2 {
     margin: 0;
     font-size: 23px;
 
   }
-  
+
   .account-info p {
     margin: 5px 0;
   }
-  
+
   .account-details {
     display: flex;
     background: url("../img/widget-dark.png") center repeat;
-    background-size:contain;
+    background-size: contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     color: #23004b;
@@ -302,31 +313,31 @@
     font-size: 14px;
     background-color: #8FBFFF;
   }
-  
+
   .account-section {
     margin-bottom: 20px;
     margin: 40px;
   }
-  
+
   .account-section h3 {
     margin-top: 0;
   }
-  
+
   .account-section ul {
     list-style-type: none;
     padding: 0;
   }
-  
+
   .account-section ul li {
     margin-bottom: auto;
   }
-  
+
   .account-section ul li strong {
     font-weight: bold;
     margin-right: auto;
   }
 
-  .btn button{
+  .btn button {
     height: auto;
     width: auto;
     padding: 15px;
@@ -342,6 +353,7 @@
     background-color: #ffffff00;
     cursor: pointer;
   }
+
   .btn button:hover {
     transform: scale(0.9);
     font-weight: 600;
@@ -352,7 +364,7 @@
   }
 }
 
-@media  (max-width: 500px){
+@media (max-width: 500px) {
   #ac-wrapper {
     position: fixed;
     top: 0;
@@ -372,7 +384,7 @@
     background: rgba(0, 0, 0, .6);
     z-index: 1001;
   }
-  
+
   #popup {
     min-width: 200px;
     width: auto;
@@ -396,7 +408,8 @@
     margin-bottom: 55px;
     padding: 25px;
   }
-  .popup-header{
+
+  .popup-header {
     font-size: 12px;
     font-weight: 600;
     color: #000000;
@@ -407,65 +420,69 @@
     width: 20px;
     float: right;
   }
-  
+
   .popup-logo {
     width: 180px;
     margin-top: 25px;
   }
-  #ac-wrapper:not([style]) ~* {
+
+  #ac-wrapper:not([style])~* {
     -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
     -o-filter: blur(2px);
     -ms-filter: blur(2px);
     filter: blur(2px);
-    }
-  #ac-wrapper-2:not([style]) ~* {
+  }
+
+  #ac-wrapper-2:not([style])~* {
     -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
     -o-filter: blur(2px);
     -ms-filter: blur(2px);
     filter: blur(2px);
-    }
+  }
+
   #wrapper.blur {
-          -webkit-filter: blur(10px);
-             -moz-filter: blur(10px);
-               -o-filter: blur(10px);
-              -ms-filter: blur(10px);
-                  filter: blur(10px);
-}
-.account-header {
-  padding: 15px;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+  }
+
+  .account-header {
+    padding: 15px;
     color: #ff9900;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
   }
-  
+
   .account-avatar {
     flex: 0 0 auto;
     margin-right: 20px;
   }
-  
+
   .account-avatar img {
     width: 90px;
     height: 90px;
     border-radius: 12px;
   }
-  
+
   .account-info h2 {
     margin: 0;
     font-size: 23px;
 
   }
-  
+
   .account-info p {
     margin: 5px 0;
   }
-  
+
   .account-details {
     display: flex;
     background: url("../img/pattern-mobile.png") center repeat;
-    background-size:contain;
+    background-size: contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     color: #fff9ef;
@@ -477,32 +494,32 @@
     font-size: 14px;
     background-color: #ff9900;
   }
-  
+
   .account-section {
     margin-bottom: 20px;
     margin: 40px;
     font-size: 14px;
   }
-  
+
   .account-section h3 {
     margin-top: 0;
   }
-  
+
   .account-section ul {
     list-style-type: none;
     padding: 0;
   }
-  
+
   .account-section ul li {
     margin-bottom: auto;
   }
-  
+
   .account-section ul li strong {
     font-weight: bold;
     margin-right: auto;
   }
 
-    .btn button{
+  .btn button {
     height: auto;
     width: auto;
     padding: 15px;
@@ -518,6 +535,7 @@
     background-color: #ffffff00;
     cursor: pointer;
   }
+
   .btn button:hover {
     transform: scale(0.9);
     font-weight: 600;

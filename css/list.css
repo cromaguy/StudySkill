@@ -1,5 +1,5 @@
 @media (prefers-color-scheme: light) {
- .list {
+  .list {
     height: 110px;
     display: inline-block;
     width: 800px;
@@ -9,7 +9,7 @@
     padding: 25px;
     color: #FFF;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     margin-right: auto;
     background: url("../img/box.png") center repeat;
@@ -18,25 +18,30 @@
     animation: backgroundScroll 60s linear infinite;
     background-color: #006eff;
   }
-  .list :hover{
+
+  .list :hover {
     color: #a5c1ff;
   }
+
   .list h2 {
     text-align: left;
     display: inline-block;
     margin: 0;
     font-size: 20px;
   }
+
   .list h3 {
     margin: 8px;
     display: inline-block;
     font-size: 15px;
     color: #cfe0ff;
   }
+
   .list span {
     font-weight: bold;
   }
-  .listbtn button{
+
+  .listbtn button {
     float: right;
     display: fixed;
     width: auto;
@@ -51,6 +56,7 @@
     background-color: #ffffff00;
     cursor: pointer;
   }
+
   .listbtn button:hover {
     border: none;
     transform: scale(0.9);
@@ -61,8 +67,9 @@
     cursor: pointer;
   }
 }
+
 @media (prefers-color-scheme: dark) {
- .list {
+  .list {
     height: 110px;
     display: inline-block;
     width: 800px;
@@ -72,35 +79,40 @@
     padding: 25px;
     color: #FFF;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     margin-right: auto;
     background: url("../img/widget-dark.png") center repeat;
-    background-size:contain;
+    background-size: contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     background-color: #8FBFFF;
     color: #23004b;
   }
-  .list :hover{
+
+  .list :hover {
     color: #a5bdff;
   }
+
   .list h2 {
     text-align: left;
     display: inline-block;
     margin: 0;
     font-size: 20px;
   }
+
   .list h3 {
     margin: 8px;
     display: inline-block;
     font-size: 15px;
     color: #12002b;
   }
+
   .list span {
     font-weight: bold;
   }
-  .listbtn button{
+
+  .listbtn button {
     float: right;
     display: fixed;
     width: auto;
@@ -115,6 +127,7 @@
     background-color: #ffffff00;
     cursor: pointer;
   }
+
   .listbtn button:hover {
     border: none;
     transform: scale(0.9);
@@ -126,8 +139,8 @@
   }
 }
 
-@media  (max-width: 500px){
- .list {
+@media (max-width: 500px) {
+  .list {
     height: auto;
     display: inline-block;
     width: 280px;
@@ -137,7 +150,7 @@
     padding: 25px;
     color: #FFF;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     margin-right: auto;
     background: url("../img/pattern-mobile.png") center repeat;
@@ -146,15 +159,18 @@
     animation: backgroundScroll 60s linear infinite;
     background-color: #ff9900;
   }
-  .list :hover{
+
+  .list :hover {
     color: #ffd8a5;
   }
+
   .list h2 {
     text-align: left;
     display: inline-block;
     margin: 0;
     font-size: 14px;
   }
+
   .list h3 {
     display: none !important;
     margin: 8px;
@@ -162,10 +178,12 @@
     font-size: 10px;
     color: #ffeecf;
   }
+
   .list span {
     font-weight: bold;
   }
-  .listbtn button{
+
+  .listbtn button {
     float: right;
     width: auto;
     height: auto;
@@ -180,6 +198,7 @@
     background-color: #ffffff00;
     cursor: pointer;
   }
+
   .listbtn button:hover {
     border: none;
     transform: scale(0.9);
