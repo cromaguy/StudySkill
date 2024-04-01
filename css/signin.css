@@ -34,7 +34,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("img/light.png");
+    background: url("../img/light.png");
     background-size: contain;
     background-repeat: repeat;
     background-position: center;
@@ -225,7 +225,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("img/dark.png");
+    background: url("../img/dark.png");
     background-size: contain;
     background-repeat: repeat-x;
     background-position: center;
