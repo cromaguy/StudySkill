@@ -1,4 +1,4 @@
-/* Google Fonts - Poppins */
+    /* Google Fonts - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
@@ -34,8 +34,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("../img/light.png");
-    background-size: cover;
+    background: url("img/light.png");
+    background-size: contain;
     background-repeat: repeat;
     background-position: center;
     -webkit-animation: backgroundScroll 80s linear infinite;
@@ -225,8 +225,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("../img/dark.png");
-    background-size: cover;
+    background: url("img/dark.png");
+    background-size: contain;
     background-repeat: repeat-x;
     background-position: center;
     -webkit-animation: backgroundScroll 60s linear infinite;
