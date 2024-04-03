@@ -394,13 +394,13 @@
   }
 
   .overviewbtn button {
-    justify-content: center;
-    margin-top: 10px;
+    float: left;
+    margin-top: 15px;
     width: auto;
     height: auto;
-    padding: auto;
+    padding: 10px;
     color: #000000;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
