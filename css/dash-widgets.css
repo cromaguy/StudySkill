@@ -480,7 +480,7 @@
   .chart-box {
     height: auto;
     max-width: 290px;
-    width: auto;
+    width: 290px;
     margin: auto;
     margin-left: auto;
     margin-right: auto;
