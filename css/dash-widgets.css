@@ -1,34 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 @media (prefers-color-scheme: light) {
-  .grid-container-small-widgets{
+  .grid-container-small-widgets {
+    justify-content: space-between;
     display: grid;
     margin: auto;
-    margin-left: 25px;
+    margin-left: auto;
     margin-right: auto;
-    gap: 10px;
-    width: 100%;
-    grid-template-columns: auto auto auto auto;
-    padding: 10px;
-  }
-  .grid-container-large-widgets{
-    display: grid;
-    margin: auto;
-    margin-left: 25px;
-    margin-right: auto;
-    gap: 10px;
-    width: 100%;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-  }
-  .grid-container-chart{
-    display: grid;
-    margin: 80px;
     gap: auto;
-    width: 100%;
-    grid-template-columns: 50% 50% 10%;
-    padding: 10px;
+    width: 96%;
+    grid-template-columns: auto auto auto auto;
+    padding: auto;
   }
+
+  .grid-container-large-widgets {
+    justify-content: space-between;
+    display: grid;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    gap: auto;
+    width: 96%;
+    grid-template-columns: auto auto auto;
+    padding: auto;
+  }
+
+  .grid-container-chart {
+    justify-content: space-between !important;
+    display: grid;
+    margin: auto;
+    gap: auto;
+    width: 96%;
+    grid-template-columns: auto auto;
+    padding: auto;
+  }
+
   .grid-container-list {
     display: grid;
     margin: auto;
@@ -37,32 +43,38 @@
     grid-template-columns: auto;
     padding: 10px;
   }
+
   .small-widget {
     max-height: 140px;
     height: auto;
-    min-width:220px;
+    min-width: 220px;
     width: auto;
     max-width: 270px;
-    margin: 2px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
     padding: 25px;
-    color: #7330EC;
+    color: #006eff;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+    margin-top: 30px;
     margin-right: auto;
     margin-left: auto;
-    background: url("../img/table.png") center repeat;
-    background-size:contain;
+    background: url("../img/pattern-light.png") center repeat;
+    background-size: contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     background-color: #ffffff;
   }
+
   .small-widget h2 {
     text-align: left;
     margin: 4px;
     font-size: 15px;
     margin-bottom: 25px;
   }
+
   .small-widget p {
     margin: 4px;
     text-align: left;
@@ -70,116 +82,132 @@
     color: #2f2c38;
     margin-bottom: auto;
   }
+
   .small-widget span {
     margin: 0px;
     font-weight: bold;
     text-align: left;
   }
 
-  #widget-icon{
+  #widget-icon {
     font-size: 38px;
   }
+
   .large-widget {
     max-height: 260px;
     height: auto;
-    min-width:250px;
+    min-width: 250px;
     width: auto;
     max-width: 320px;
-    margin: 2px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
     padding: 25px;
     color: #ffffff;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     margin-right: auto;
     margin-left: auto;
-    background: url("../img/box.png") center repeat;
-    background-size:contain;
+    background: url("../img/widget-light.png") center repeat;
+    background-size: contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     background-color: #ffffff;
   }
-  .large-widget :hover{
-    color: #b98dff;
+
+  .large-widget :hover {
+    color: #8dabff;
   }
+
   .large-widget h2 {
     text-align: center;
     margin: 0;
     font-size: 18px;
     margin-bottom: 25px;
   }
+
   .large-widget p {
     margin: 8px;
     font-size: 13px;
-    color: #eae3ff;
+    color: #e3f1ff;
     margin-bottom: auto;
   }
+
   .large-widget span {
     font-weight: bold;
   }
+
   .chart-box {
     height: 360px;
     width: 460px;
     margin: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
     padding: 25px;
-    background: url("../img/table.png") center repeat;
-    background-size:contain;
+    background: url("../img/pattern-light.png") center repeat;
+    background-size: contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     background-color: #ffffff;
-    color: #7330EC;
+    color: #006eff;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-    margin-right: 10px;
-    margin-left: 25px;
   }
+
   .chart-box span {
     font-weight: bold;
   }
 
-  .chart-box .icon{
+  .chart-box .icon {
     font-size: 25px;
     margin: auto;
     margin-bottom: auto;
     margin-top: 10px;
     font-weight: 600;
-    color: #7330EC;
+    color: #006eff;
     text-align: left;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .grid-container-small-widgets{
+  .grid-container-small-widgets {
+    justify-content: space-between;
     display: grid;
     margin: auto;
-    margin-left: 25px;
+    margin-left: auto;
     margin-right: auto;
-    gap: 10px;
-    width: 100%;
-    grid-template-columns: auto auto auto auto;
-    padding: 10px;
-  }
-  .grid-container-large-widgets{
-    display: grid;
-    margin: auto;
-    margin-left: 25px;
-    margin-right: auto;
-    gap: 10px;
-    width: 100%;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-  }
-  .grid-container-chart{
-    display: grid;
-    margin: 80px;
     gap: auto;
-    width: 100%;
-    grid-template-columns: 50% 50% 10%;
-    padding: 10px;
+    width: 96%;
+    grid-template-columns: auto auto auto auto;
+    padding: auto;
   }
+
+  .grid-container-large-widgets {
+    justify-content: space-between;
+    display: grid;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    gap: auto;
+    width: 96%;
+    grid-template-columns: auto auto auto;
+    padding: auto;
+  }
+
+  .grid-container-chart {
+    justify-content: space-between;
+    display: grid;
+    margin: auto;
+    gap: auto;
+    width: 96%;
+    grid-template-columns: auto auto;
+    padding: auto;
+  }
+
   .grid-container-list {
     display: grid;
     margin: auto;
@@ -188,32 +216,37 @@
     grid-template-columns: auto;
     padding: 10px;
   }
+
   .small-widget {
     max-height: 140px;
     height: auto;
-    min-width:220px;
+    min-width: 220px;
     width: auto;
     max-width: 270px;
-    margin: 2px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
     padding: 25px;
-    color: #ae91ff;
+    color: #8FBFFF;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     margin-right: auto;
     margin-left: auto;
     background: url("../img/pattern-dark.png") center repeat;
-    background-size:contain;
+    background-size: contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     background-color: #000000;
   }
+
   .small-widget h2 {
     text-align: left;
     margin: 4px;
     font-size: 15px;
     margin-bottom: 25px;
   }
+
   .small-widget p {
     margin: 4px;
     text-align: left;
@@ -221,110 +254,130 @@
     color: #ffffff;
     margin-bottom: auto;
   }
+
   .small-widget span {
     margin: 0px;
     font-weight: bold;
     text-align: left;
   }
-  #widget-icon{
+
+  #widget-icon {
     font-size: 38px;
   }
+
   .large-widget {
     max-height: 260px;
     height: auto;
-    min-width:250px;
+    min-width: 250px;
     width: auto;
     max-width: 320px;
-    margin: 2px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
     padding: 25px;
     transition: all 0.3s ease;
     margin-right: auto;
     margin-left: auto;
     background: url("../img/box-dark.png") center repeat;
-    background-size:contain;
+    background-size: contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
-    background-color: #ae91ff;
+    background-color: #8FBFFF;
     color: #23004b;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   }
-  .large-widget :hover{
-    color: #6833b1;
+
+  .large-widget :hover {
+    color: #3365b1;
   }
+
   .large-widget h2 {
     text-align: center;
     margin: 0;
     font-size: 18px;
     margin-bottom: 25px;
   }
+
   .large-widget p {
     margin: 8px;
     font-size: 13px;
     color: #12002b;
     margin-bottom: auto;
   }
+
   .large-widget span {
     font-weight: bold;
   }
+
   .chart-box {
     height: 360px;
     width: 460px;
     margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
     background: url("../img/pattern-dark.png") center repeat;
-    background-size:contain;
+    background-size: contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
-    color: #ae91ff;
+    color: #8FBFFF;
+    background-color: #000000;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-    margin-right: 10px;
-    margin-left: 25px;
   }
-  .chart-box .icon{
+
+  .chart-box .icon {
     font-size: 25px;
     margin: auto;
     margin-bottom: auto;
     margin-top: 10px;
     font-weight: 600;
-    color: #ae91ff;
+    color: #8FBFFF;
     text-align: left;
   }
 }
 
-@media  (max-width: 500px){
-  .grid-container-small-widgets{
+@media (max-width: 500px) {
+  .grid-container-small-widgets {
     display: grid;
     margin: auto;
     margin-left: auto;
     margin-right: auto;
-    gap: 10px;
+    gap: auto;
     width: 100%;
     grid-template-columns: auto auto;
     padding: 10px;
+    margin-bottom: 25px;
   }
-  .grid-container-large-widgets{
+
+  .grid-container-large-widgets {
     display: grid;
     margin: auto;
-    margin-left: 25px;
+    margin-left: auto;
     margin-right: auto;
-    gap: 10px;
+    margin-top: 25px;
+    gap: 30px;
     width: 100%;
     grid-template-columns: auto;
     padding: 10px;
+    margin-bottom: 25px;
   }
-  .grid-container-chart{
+
+  .grid-container-chart {
     display: grid;
     margin: auto;
-    gap: 50px;
+    gap: 30px;
     width: 100%;
     grid-template-columns: 50%;
     padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
+
   .grid-container-list {
     display: grid;
     margin: auto;
@@ -332,19 +385,22 @@
     width: auto;
     grid-template-columns: auto;
     padding: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
   }
+
   .small-widget {
-    max-height: 115px;
+    max-height: 100px;
     height: auto;
-    min-width:140px;
+    min-width: 125px;
     width: auto;
     max-width: 270px;
     margin: 2px;
     margin-top: 20px;
-    padding: auto;
+    padding: 18px;
     color: #ff9900;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     margin-right: auto;
     margin-left: auto;
@@ -354,69 +410,77 @@
     animation: backgroundScroll 60s linear infinite; */
     background: #ffffff;
   }
+
   .small-widget h2 {
     text-align: left;
     margin: 4px;
     font-size: 10px;
     margin-bottom: 25px;
   }
+
   .small-widget p {
     margin: 4px;
     text-align: left;
-    font-size: 15px;
+    font-size: 12px;
     color: #38312c;
     margin-bottom: auto;
   }
+
   .small-widget span {
     margin: 0px;
     font-weight: bold;
     text-align: left;
   }
 
-  #widget-icon{
-    font-size: 31px;
+  #widget-icon {
+    font-size: 30px;
   }
+
   .large-widget {
-    max-height: 260px;
+    max-height: 290px;
     height: auto;
-    min-width:250px;
+    min-width: 250px;
     width: auto;
     max-width: 320px;
-    margin: 2px;
+    margin: auto;
     padding: 25px;
     color: #ffffff;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-    margin-right: auto;
-    margin-left: -20px;
     background: url("../img/pattern-mobile.png") center repeat;
-    background-size:cover;
+    background-size: cover;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     background-color: #ffffff;
   }
-  .large-widget :hover{
+
+  .large-widget :hover {
     color: #ffc48d;
   }
+
   .large-widget h2 {
     text-align: center;
     margin: 0;
     font-size: 18px;
     margin-bottom: 25px;
   }
+
   .large-widget p {
     margin: 8px;
     font-size: 13px;
     color: #fff0e3;
     margin-bottom: auto;
   }
+
   .large-widget span {
     font-weight: bold;
   }
+
   .chart-box {
-    height: 220px;
-    width: 280px;
+    height: auto;
+    max-width: 290px;
+    width: 290px;
     margin: auto;
     margin-left: auto;
     margin-right: auto;
@@ -428,14 +492,15 @@
     background: #ffffff;
     color: #ff9900;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
   }
+
   .chart-box span {
     font-weight: bold;
   }
 
-  .chart-box .icon{
+  .chart-box .icon {
     font-size: 18px;
     margin: auto;
     margin-bottom: -5px;

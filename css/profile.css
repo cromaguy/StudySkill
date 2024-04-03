@@ -10,38 +10,38 @@
     border-radius: 25px;
     transition: all 0.5s ease;
   }
-  
+
   .account-header {
     color: #000000;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
   }
-  
+
   .account-avatar {
     flex: 0 0 auto;
     margin-right: 20px;
   }
-  
+
   .account-avatar img {
     width: 100px;
     height: 100px;
     border-radius: 12px;
   }
-  
+
   .account-info h2 {
     margin: 0;
 
   }
-  
+
   .account-info p {
     margin: 5px 0;
   }
-  
+
   .account-details {
     display: flex;
     background: url("../img/box.png") center repeat;
-    background-size:contain;
+    background-size: contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     color: #f7efff;
@@ -49,33 +49,33 @@
     border-color: #00000000;
     border-radius: 20px;
     width: auto;
-    background-color: #7330EC;
+    background-color: #006eff;
   }
-  
+
   .account-section {
     margin-bottom: 20px;
     margin: 40px;
   }
-  
+
   .account-section h3 {
     margin-top: 0;
   }
-  
+
   .account-section ul {
     list-style-type: none;
     padding: 0;
   }
-  
+
   .account-section ul li {
     margin-bottom: auto;
   }
-  
+
   .account-section ul li strong {
     font-weight: bold;
     margin-right: auto;
   }
 
-    .btn button{
+  .btn button {
     height: auto;
     width: auto;
     padding: 15px;
@@ -91,6 +91,7 @@
     background-color: #ffffff00;
     cursor: pointer;
   }
+
   .btn button:hover {
     transform: scale(0.9);
     font-weight: 600;
@@ -113,72 +114,72 @@
     border-radius: 25px;
     transition: all 0.5s ease;
   }
-  
+
   .account-header {
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     margin-bottom: 20px;
   }
-  
+
   .account-avatar {
     flex: 0 0 auto;
     margin-right: 20px;
   }
-  
+
   .account-avatar img {
     width: 100px;
     height: 100px;
     border-radius: 12px;
   }
-  
+
   .account-info h2 {
     margin: 0;
 
   }
-  
+
   .account-info p {
     margin: 5px 0;
   }
-  
+
   .account-details {
     display: flex;
-    background: url("../img/Box-dark.png") center repeat;
-    background-size:contain;
-    color: #23004b;
+    background: url("../img/widget-dark.png") center repeat;
+    background-size: contain;
+    color: #000b4b;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     padding: 20px;
     border-radius: 20px;
     width: auto;
     border-color: #00000000;
-    background-color: #ae91ff;
+    background-color: #8FBFFF;
   }
-  
+
   .account-section {
     margin-bottom: 20px;
     margin: 40px;
   }
-  
+
   .account-section h3 {
     margin-top: 0;
   }
-  
+
   .account-section ul {
     list-style-type: none;
     padding: 0;
   }
-  
+
   .account-section ul li {
     margin-bottom: auto;
   }
-  
+
   .account-section ul li strong {
     font-weight: bold;
     margin-right: auto;
   }
 
-  .btn button{
+  .btn button {
     height: auto;
     width: auto;
     padding: 15px;
@@ -194,6 +195,7 @@
     background-color: #ffffff00;
     cursor: pointer;
   }
+
   .btn button:hover {
     transform: scale(0.9);
     font-weight: 600;
@@ -204,7 +206,7 @@
   }
 }
 
-@media  (max-width: 500px){
+@media (max-width: 500px) {
   .account-container {
     width: 270px;
     margin-top: 10px;
@@ -215,7 +217,7 @@
     border-radius: 25px;
     transition: all 0.5s ease;
   }
-  
+
   .account-header {
     color: #000000;
     display: flex;
@@ -223,34 +225,34 @@
     justify-content: center;
     margin-bottom: 20px;
   }
-  
+
   .account-avatar {
     flex: 0 0 auto;
     margin-right: 20px;
   }
-  
+
   .account-avatar img {
     width: 70px;
     height: 70px;
     border-radius: 12px;
   }
-  
+
   .account-info h2 {
     margin: 0;
     font-size: 16px;
     font-weight: 800;
 
   }
-  
+
   .account-info p {
     margin: 5px 0;
     font-size: 10px;
     font-weight: 600;
   }
-  
+
   .account-details {
     background: url("../img/pattern-mobile.png") center repeat;
-    background-size:contain;
+    background-size: contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     color: #fffdef;
@@ -262,35 +264,36 @@
     font-size: 10px;
     height: 300px;
   }
-  
+
   .account-details h4 {
     font-size: 20px;
     font-weight: 600;
   }
+
   .account-section {
     margin-bottom: 0px;
     margin: 30px;
   }
-  
+
   .account-section h3 {
     margin-top: 0;
   }
-  
+
   .account-section ul {
     list-style-type: none;
     padding: 0;
   }
-  
+
   .account-section ul li {
     margin-bottom: auto;
   }
-  
+
   .account-section ul li strong {
     font-weight: bold;
     margin-right: auto;
   }
 
-    .btn button{
+  .btn button {
     justify-content: center;
     height: auto;
     width: auto;
@@ -307,6 +310,7 @@
     background-color: #ffffff00;
     cursor: pointer;
   }
+
   .btn button:hover {
     transform: scale(0.9);
     font-weight: 600;
