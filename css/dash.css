@@ -167,7 +167,9 @@
     color: #eff5ff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     padding: 6px 12px;
-    border-radius: 4px;
+    border-radius: 0px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
     font-size: 15px;
     font-weight: 400;
     opacity: 0;
@@ -401,11 +403,20 @@
     background-color: #006eff;
   }
 
+  .dash-label {
+    font-size: 16px;
+    margin: auto;
+    color: #00112b;
+    text-align: center;
+  }
+
   .widget {
     height: auto;
     min-width: 250px;
     width: auto;
-    margin: 8px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
     padding: 25px;
     color: #FFF;
     border-radius: 20px;
@@ -725,7 +736,9 @@
     color: #00184b;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     padding: 6px 12px;
-    border-radius: 4px;
+    border-radius: 0px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
     font-size: 15px;
     font-weight: 400;
     opacity: 0;
@@ -957,11 +970,20 @@
     background-color: #8FBFFF;
   }
 
+  .dash-label {
+    font-size: 16px;
+    margin: auto;
+    color: #f4f7ff;
+    text-align: center;
+  }
+
   .widget {
     height: auto;
     min-width: 250px;
     width: auto;
-    margin: 8px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
     padding: 25px;
     background: url("../img/widget-dark.png") center repeat;
     background-size: contain;
