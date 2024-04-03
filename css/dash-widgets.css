@@ -347,30 +347,35 @@
     margin: auto;
     margin-left: auto;
     margin-right: auto;
-    gap: 10px;
+    gap: auto;
     width: 100%;
     grid-template-columns: auto auto;
     padding: 10px;
+    margin-bottom: 25px;
   }
 
   .grid-container-large-widgets {
     display: grid;
     margin: auto;
-    margin-left: 25px;
+    margin-left: auto;
     margin-right: auto;
-    gap: 10px;
+    margin-top: 25px;
+    gap: 30px;
     width: 100%;
     grid-template-columns: auto;
     padding: 10px;
+    margin-bottom: 25px;
   }
 
   .grid-container-chart {
     display: grid;
     margin: auto;
-    gap: 50px;
+    gap: 30px;
     width: 100%;
     grid-template-columns: 50%;
     padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   .grid-container-list {
@@ -380,6 +385,8 @@
     width: auto;
     grid-template-columns: auto;
     padding: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
   }
 
   .small-widget {
@@ -430,19 +437,17 @@
   }
 
   .large-widget {
-    max-height: 280px;
+    max-height: 290px;
     height: auto;
     min-width: 250px;
     width: auto;
     max-width: 320px;
-    margin: 2px;
+    margin: auto;
     padding: 25px;
     color: #ffffff;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-    margin-right: auto;
-    margin-left: -20px;
     background: url("../img/pattern-mobile.png") center repeat;
     background-size: cover;
     -webkit-animation: backgroundScroll 60s linear infinite;
@@ -473,8 +478,9 @@
   }
 
   .chart-box {
-    height: 220px;
-    width: 280px;
+    height: auto;
+    max-width: 290px;
+    width: auto;
     margin: auto;
     margin-left: auto;
     margin-right: auto;

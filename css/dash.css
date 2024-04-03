@@ -1507,6 +1507,13 @@
     transition: all 0.3s ease;
   }
 
+  .dash-label {
+    font-size: 16px;
+    margin: auto;
+    color: #00112b;
+    text-align: center;
+  }
+
   .home-section .text {
     display: flex;
     justify-content: space-between;
@@ -1514,7 +1521,7 @@
     font-size: 20px;
     font-weight: 500;
     margin: 28px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     margin-top: 40px;
     transition: all 0.3s ease;
     width: 90%;
@@ -1689,7 +1696,7 @@
     margin-top: auto;
     margin: 9px;
     color: #000000;
-    font-size: 17px;
+    font-size: 12px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -1714,7 +1721,7 @@
     padding: 15px;
     margin-top: 30px;
     color: #ffffff;
-    font-size: 17px;
+    font-size: 12px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
