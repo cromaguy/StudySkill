@@ -5,12 +5,7 @@ $(document).ready(function(){
     })
     .columns.adjust()
     .responsive.recalc();
-    if (unstableviewmq.matches) { 
-      alert("Hi");
-      window.location.replace("https://cromaguy.github.io/StudySkill/index.html");
-    } else {
-      alert("Hi");
-    }
+    disableaccess(unsupportedmq);
     })
     setTimeout(() => {
       detectInternet();

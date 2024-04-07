@@ -3,7 +3,7 @@ let quicklink = document.querySelector(".quick-links-sidebar");
 let closeBtn = document.querySelector("#btn");
 let searchBtn = document.querySelector(".bx-search");
 var mobileviewmq = window.matchMedia("(max-width: 500px)");
-var unstableviewmq = window.matchMedia("(orientation : landscape)");
+var unsupportedmq = window.matchMedia("screen and (min-width: 320px) and (max-width:480px) and (orientation: landscape)");
 
 closeBtn.addEventListener("click", ()=>{
   sidebar.classList.toggle("open");
@@ -105,11 +105,17 @@ function Internetcheck(){
   //   }
   // }
 
-  function disableaccess(unstableviewmq) {
-    if (unstableviewmq.matches) { 
-      alert("Hi");
+  function disableaccess(unsupportedmq) {
+    if (unsupportedmq.matches) { 
       window.location.replace("https://cromaguy.github.io/StudySkill/index.html");
     } else {
-      alert("Hi");
     }
   }
+
+  // Call listener function at run time
+disableaccess(unsupportedmq);
+
+// Attach listener function on state changes
+unsupportedmq.addEventListener("change", function() {
+  disableaccess(unsupportedmq);
+});
