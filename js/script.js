@@ -107,10 +107,9 @@ function Internetcheck(){
 
   function disableaccess(unstableviewmq) {
     if (unstableviewmq.matches) { 
-      window.location.replace("cromaguy.github.io/StudySkill/");
+      alert("Hi");
+      window.location.replace("https://cromaguy.github.io/StudySkill/index.html");
     } else {
       alert("Hi");
     }
   }
-  
-  disableaccess();

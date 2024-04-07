@@ -126,6 +126,7 @@
   .release-note ul {
     list-style: none;
     padding: 0;
+    display: block;
     font-size: 12px;
   }
 
