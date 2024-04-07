@@ -3,6 +3,7 @@ let quicklink = document.querySelector(".quick-links-sidebar");
 let closeBtn = document.querySelector("#btn");
 let searchBtn = document.querySelector(".bx-search");
 var mobileviewmq = window.matchMedia("(max-width: 500px)");
+var unstableviewmq = window.matchMedia("(orientation : landscape)");
 
 closeBtn.addEventListener("click", ()=>{
   sidebar.classList.toggle("open");
@@ -103,4 +104,13 @@ function Internetcheck(){
   //     enablequicklink();
   //   }
   // }
+
+  function disableaccess(unstableviewmq) {
+    if (unstableviewmq.matches) { 
+      window.location.replace("cromaguy.github.io/StudySkill/");
+    } else {
+      alert("Hi");
+    }
+  }
   
+  disableaccess();

@@ -60,7 +60,7 @@
     font-family: "Poppins", sans-serif;
     scrollbar-color: rgb(0, 0, 0) rgb(245, 250, 255);
     scrollbar-width: auto;
-    scroll-behavior: auto;
+    scroll-behavior :smooth;
   }
 
   ::selection {
@@ -629,7 +629,7 @@
     font-family: "Poppins", sans-serif;
     scrollbar-color: rgb(255, 255, 255) #10161d;
     scrollbar-width: auto;
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
   }
 
   ::selection {
@@ -1196,7 +1196,7 @@
     font-family: "Poppins", sans-serif;
     scrollbar-color: rgb(0, 0, 0) rgb(255, 246, 238);
     scrollbar-width: auto;
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
   }
 
   ::selection {
