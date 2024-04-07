@@ -2,6 +2,7 @@ let sidebar = document.querySelector(".sidebar");
 let quicklink = document.querySelector(".quick-links-sidebar");
 let closeBtn = document.querySelector("#btn");
 let searchBtn = document.querySelector(".bx-search");
+var mobileviewmq = window.matchMedia("(max-width: 500px)");
 
 closeBtn.addEventListener("click", ()=>{
   sidebar.classList.toggle("open");
@@ -20,7 +21,11 @@ function menuBtnChange() {
    disablequicklink();
  }else {
    closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
-   enablequicklink();
+   if (mobileviewmq.matches) { // If media query matches
+    disablequicklink();
+  } else {
+    enablequicklink();
+  }
   }
 }
 
@@ -90,3 +95,12 @@ function Internetcheck(){
       move();
   }, 0);
   }
+
+  // function disableQL(mobileviewmq) {
+  //   if (mobileviewmq.matches) { 
+  //     disablequicklink();
+  //   } else {
+  //     enablequicklink();
+  //   }
+  // }
+  
