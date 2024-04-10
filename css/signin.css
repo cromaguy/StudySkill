@@ -70,7 +70,7 @@
     position: relative;
     font-size: 22px;
     font-weight: 600;
-    color: #0b0024;
+    color: #001024;
   }
 
   .container h2::before {
@@ -111,7 +111,7 @@
     border-bottom-width: 3px;
     border-radius: 10px;
     transition: all 0.3s ease;
-    background: rgb(237, 227, 255);
+    background: rgb(235, 246, 255);
   }
 
   .input-field input:focus {
@@ -227,10 +227,10 @@
     justify-content: center;
     background: url("../img/dark.png");
     background-size: contain;
-    background-repeat: repeat-x;
+    background-repeat: repeat;
     background-position: center;
-    -webkit-animation: backgroundScroll 60s linear infinite;
-    animation: backgroundScroll 60s linear infinite;
+    -webkit-animation: backgroundScroll 80s linear infinite;
+    animation: backgroundScroll 80s linear infinite;
   }
 
   .container {
@@ -302,7 +302,7 @@
     border-bottom-width: 3px;
     border-radius: 10px;
     transition: all 0.3s ease;
-    background: rgb(32, 26, 43);
+    background: #1f2e3f;
   }
 
   .input-field input:focus {
