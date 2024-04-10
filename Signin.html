@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome! | StudySkill</title>
     <link rel="shortcut icon" href="img/favicon.ico">
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
     <!-- CSS -->
     <!-- <link rel="stylesheet" href="CSS/login.css" /> -->
     <!-- Boxicons CSS -->
@@ -85,6 +86,21 @@
     font-size: 18px;
     font-weight: 600;
     color: #006eff;
+  }
+  
+  .logo {
+    margin-top: -20px;
+  }
+
+  .logo .logo_name{
+    display:inline-flex;
+    position: relative;
+    font-size: 31px;
+  }
+
+  .logo i {
+    font-size: 28px;
+    line-height: 300%;
   }
 
   .container h2 {
@@ -275,6 +291,22 @@
     font-size: 28px;
     font-weight: 600;
     color: #8FBFFF;
+  }
+
+  .logo {
+    margin-top: -20px;
+    color: white;
+  }
+  
+  .logo .logo_name{
+    display:inline-flex;
+    position: relative;
+    font-size: 31px;
+  }
+
+  .logo i {
+    font-size: 28px;
+    line-height: 300%;
   }
 
   .container h {
@@ -471,6 +503,21 @@
     color: #006eff;
   }
 
+  .logo .logo_name{
+    align-items: center;
+    display:inline-flex;
+    position: relative;
+    font-size: 31px;
+    margin-top: 28%;
+    color: black;
+  }
+
+  .logo i {
+    font-size: 28px;
+    line-height: 300%;
+    color: black;
+  }
+
   .container h {
     font-size: 16px;
     font-weight: 600;
@@ -633,7 +680,10 @@
   </head>
   <body>
     <div class="container">
-      <header>Excel in everything</header>
+    <div class="logo">
+      <i class="bx bx-book icon"></i>
+      <div class="logo_name">StudySkill</div>
+    </div>
       <h>Let's dive in :)</h>
       <form action="Admin-dash.html">
         <div class="field email-field">
