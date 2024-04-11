@@ -1,22 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coming Soon! | StudySkill</title>
-    <link rel="stylesheet" href="css/preloader.css" />
-    <link rel="shortcut icon" href="img/favicon.ico">
-  </head>
-  <body>
-    <div class="spinner-container" id="spinner">
-      <!-- <div class="spinner"></div> -->
-      <div class="loading_cap">
-          <h1>Coming Soon!</h1>
+    <meta charset="UTF-8">
+
+    <!--Page Title -->
+    <title>Home | Student Management</title>
+
+    <!-- Importing JavaSript, Font and Styles -->
+    <link rel="stylesheet" href="CSS/home.css">
+    <!--link rel="stylesheet" href="CSS/dynabg/circle.css"-->
+    <link rel="stylesheet" href="CSS/dynabg/svg.css"-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="JS/dynamic_text.js" defer></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo"><a href="#">Project StudySkill></a></div>
+      <ul class="selected-menu">
+        <li><a href="index.html">Reload Home</a></li>
+      </ul>
+      <ul class="menu">
+        <li><a href="https://github.com/cromaguy/StudySkill/">About Project</a></li>
+        <li><a href="https://gdp.nic.in/">GDP Web</a></li>
+      </ul>
+
+      <!-- Navbar Buttons -->
+      <div class="buttons">
+        <a href="Signin.html">
+          <input type="button" value="Sign In" />
+        </a>
+        <a href="https://github.com/cromaguy/StudySkill/issues">
+          <input type="button" value="Report Issues" />
+        </a>
       </div>
+    </nav>
+
+    <!-- Home Image -->
+      <section class="hero">
+      <div class="row container">
+        <div class="column">
+          <img src="img/logo.png" alt="heroImghome" class="hero_imghome" />
+        </div>
+      </div>
+    </section>
+    <section class="hero">
+    <div class="text-content">
+
+    <!-- Home Heading Text --> 
+      <h1>Excel in <span></span></h1>
+      <p><h3>Presenting Management System!<br />By Anjishnu ;)</h3></p>
     </div>
 
-    <!-- JavaScript -->
-    <script src="js/preloader.js"></script>
-  </body>
+    <!-- Bottom Button -->
+    <div class="reg-button">
+      <a href="Admin/Admin-Dash.html">
+        <input type="button" value="Demo" />
+       </a>
+    </div>
+  </section>
+</header>
+</body>
 </html>
