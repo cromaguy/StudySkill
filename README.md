@@ -2,7 +2,7 @@
 
 
 
-# 🌐 Website: https://cromaguy.github.io/StudySkill/Admin/Admin-Dash.html # 
+# 🌐 Website: https://cromaguy.github.io/StudySkill/ # 
 **College Web Tech Project Submiited by me with ❤️ to GOMATI DISTRICT POLYTECHNIC!**
 
 
