@@ -463,22 +463,42 @@ header .reg-button input {
   background-size: contain;
   -webkit-animation: backgroundScroll 60s linear infinite;
   animation: backgroundScroll 60s linear infinite;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 ::selection{
   color: #008cff;
   background: #ffffff;
 }
 
+/* Home Image */
+
+.hero {
+  margin-top:30%;
+  position: relative;
+  min-height: auto;
+  width: auto;
+  padding: 0%;
+}
+.hero .hero_img {
+  margin-top: 0px;
+  width: 50%;
+  margin-left: 50%;
+}
+.hero .hero_imghome {
+  width: 40%;
+  margin-left: 15px;
+}
+
 header{
   height: 100vh;
   width: 100%;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   box-shadow: inset 0px 0px 2px #fefefed1;
   -webkit-backdrop-filter: saturate(200%) blur(30px);
-  backdrop-filter: saturate(200%) blur(30px);
-  background-color: rgba(255, 255, 255, 0.8) !important;
+  backdrop-filter: saturate(200%) blur(20px);
+  background-color: rgba(255, 255, 255, 0.164) !important;
   z-index: 12;
   border-radius: 25px;
   margin: auto;
@@ -547,7 +567,7 @@ header .navbar{
 .navbar .buttons input{
   outline: none;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 500;
   border-radius: 12px;
   padding: 6px 15px;
@@ -593,16 +613,17 @@ h1 span::before {
   animation: blink 0.7s infinite;
 }
 
-p {
+.hero h3 {
   color: #000000;
   font-size: 20px;
+  width: 200%;
 }
 
 /* Bottom Button */
 
 header .reg-button input {
   position: relative;
-  left: 50px;
+  left: 10px;
   top: 20px;
   outline: none;
   color: #ffffff;
