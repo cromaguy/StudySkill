@@ -15,10 +15,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("../img/preloader-light.png");
+    background-image: url("../img/preloader-white.png");
     background-size: cover;
     background-position: center;
-    background-color: rgb(245, 250, 255);
+    background-color: rgb(255, 255, 255);
   }
 
   .spinner {
