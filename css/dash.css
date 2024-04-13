@@ -84,7 +84,9 @@
     top: 0;
     height: 100%;
     width: 78px;
-    background: #ffffff;
+    background: rgb(245, 250, 255);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
     padding: 6px 14px;
     z-index: 99;
     transition: all 0.5s ease;
@@ -327,7 +329,7 @@
     border-bottom-left-radius: 25px;
     display: none;
     position: relative;
-    background: rgb(245, 250, 255);
+    background: rgb(255, 255, 255);
     min-height: 100vh;
     top: 0;
     left: 78px;
