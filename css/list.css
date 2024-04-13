@@ -106,12 +106,12 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     margin-right: auto;
-    background: url("../img/pattern-light.png") center repeat;
+    background: url("../img/pattern-list.png") center repeat;
     background-size: contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     color: #006eff;
-    background-color: #ffffff;
+    background-color: rgb(245, 250, 255);
   }
 
   /* .overview :hover {

@@ -512,7 +512,7 @@
   .navibtn :hover {
     transform: scale(1.2);
     border-radius: 12px;
-    background: #ffffff;
+    background: rgb(214, 237, 255);
     color: #000000;
   }
 
