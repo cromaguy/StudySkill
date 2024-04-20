@@ -77,7 +77,11 @@
     width: 450px;
     margin: auto;
     padding: 30px;
-    background-color: #ffffff;
+    background: url("../img/pattern-light.png") center repeat;
+    background-size: contain;
+    -webkit-animation: backgroundScroll 60s linear infinite;
+    animation: backgroundScroll 60s linear infinite;
+    background-color: rgb(245, 250, 255);
     color: #006eff;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
