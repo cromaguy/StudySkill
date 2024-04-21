@@ -251,16 +251,17 @@ a:focus {
 .quote_btn-container .quote_btn {
   display: inline-block;
   padding: 5px 25px;
-  background-color: #f8842b;
+  background-color: #ffffff00;
   color: #ffffff;
-  border-radius: 5px;
+  border-radius: 12px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #f8842b;
+  border: 4px solid #ffffff;
 }
 
 .quote_btn-container .quote_btn:hover {
-  color: #ffffff;
+  color: #000000;
+  background-color: #ffffff;
   -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
 }
@@ -321,17 +322,17 @@ a:focus {
 .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 12px 15px;
-  background-color: #ffffff;
-  color: #000000;
   border-radius: 12px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  background-color: #006eff00;
+  color: #ffffff;
   border: 5px solid #ffffff;
 }
 
 .slider_section .detail-box .btn-box .btn1:hover {
-  background-color: #006eff;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
   -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
 }
