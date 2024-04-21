@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Faculty Users | StudySkill</title>
+
+    <!-- Linking -->
+    <link rel="stylesheet" href="../css/table.css" />
+    <link rel="stylesheet" href="../css/dash.css" />
+    <link rel="stylesheet" href="../css/preloader.css" />
+    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="stylesheet" href="../css/popup.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.datatables.net/2.0.2/css/dataTables.bootstrap5.css" /> -->
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+
+    <!-- Preloader -->
+
+    <div class="spinner-container" id="spinner">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- Sidebar -->
+
+    <div class="sidebar" id="sidebar">
+
+      <!-- Sidebar Logo -->
+
+      <div class="logo-details">
+        <i class="bx bx-book icon"></i>
+        <div class="logo_name">StudySkill</div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+
+      <!-- Sidebar Navlist -->
+
+      <ul class="nav-list">
+        <li>
+          <a href="Admin-Dash.html">
+            <i class="bx bx-category-alt"></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+          <span class="tooltip">Dashboard</span>
+        </li>
+        <li>
+          <a href="Accounts.html">
+            <i class="bx bx-group"></i>
+            <span class="links_name">Accounts</span>
+          </a>
+          <span class="tooltip">Manage Accounts</span>
+        </li>
+        <li>
+          <a href="Analytics.html">
+            <i class="bx bx-chart"></i>
+            <span class="links_name">Analytics</span>
+          </a>
+          <span class="tooltip">Analyse to Strategise</span>
+        </li>
+        <li>
+          <a href="Schedules.html">
+            <i class="bx bx-time"></i>
+            <span class="links_name">Schedules</span>
+          </a>
+          <span class="tooltip">See What's Next</span>
+        </li>
+        <li>
+          <a href="Academics.html">
+            <i class="bx bx-check-double"></i>
+            <span class="links_name">Academics</span>
+          </a>
+          <span class="tooltip">Performance</span>
+        </li>
+        <li>
+          <a href="Departments.html">
+            <i class="bx bx-sitemap"></i>
+            <span class="links_name">Departments</span>
+          </a>
+          <span class="tooltip">Variety of Engineers</span>
+        </li>
+        <li>
+          <a href="Version.html">
+            <i class="bx bx-rocket"></i>
+            <span class="links_name">Release Notes</span>
+          </a>
+          <span class="tooltip">StudySkill Version</span>
+        </li>
+        <li>
+          <a href="Profile.html">
+            <i class="bx bx-user-circle"></i>
+            <span class="links_name">My Profile</span>
+          </a>
+          <span class="tooltip">Me</span>
+        </li>
+
+        <!-- Sidebar Profile -->
+
+        <li class="profile">
+          <div class="profile-details">
+            <img src="../img/profile.png" alt="profileImg" />
+            <div class="name_job">
+              <div class="name">Anjishnu Nandi</div>
+              <div class="job">Admin User</div>
+            </div>
+          </div>
+          <i class="bx bx-log-out" id="log_out"></i>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Top Section -->
+
+    <section class="home-section" id="home-section">
+
+    <!-- Student Info Pop-Up -->
+
+    <div id="ac-wrapper" style="display:none;">
+      <div id="popup">
+        <a href="#" onclick="PopUp('hide');"><img src="../img/close.png" alt="close popup" class="popup-close" /></a>
+        <!-- <img src="#" alt="logo" class="popup-logo" /> -->
+        <h class="popup-header">Account Details</h><br><br>
+        <div class="account-header">
+          <div class="account-avatar">
+            <img src="../img/profile.png" alt="User Avatar">
+          </div>
+          <div class="account-info">
+            <h2>Anjishnu Nandi</h2>
+            <p>Teacher</p>
+            <p>Computer Science - Batch 2023</p>
+          </div>
+        </div>
+        <div class="account-details">
+          <div class="account-section">
+            <h4>Basic Information</h4>
+            <ul>
+              <li><strong>Email:</strong> email@example.com</li>
+              <li><strong>Phone:</strong> +91 6009281088</li>
+              <li><strong>Address:</strong> Address</li>
+              <li><strong>Date of Birth:</strong> 23th Feb, 2005</li>
+              <li><strong>Gender:</strong> Male</li>
+              <li><strong>Parent's Name:</strong> Father/Mother</li>
+            </ul>
+          </div>
+          <div class="account-section">
+            <h4>Academic Information</h4>
+            <ul>
+              <li><strong>Roll Number:</strong> 216305128</li>
+              <li><strong>Admission Date:</strong> September 1, 2020</li>
+              <li><strong>Program:</strong> Diploma in Computer Science</li>
+              <li><strong>Semester:</strong> Sixth</li>
+              <li><strong>Bus Number:</strong> 04</li>
+              <li><strong>Performance:</strong> NIL</li>
+            </ul>
+          </div>
+        </div>
+        <section class="btn"><br>
+          <a href="Edit-Student.html"><button>Edit Account</button></a>
+          <button>Delete Account</button>
+        </section>
+      </div>
+    </div>
+    
+        <!-- Add Student Pop-Up -->
+
+    <div id="ac-wrapper-2" style="display:none;">
+      <div id="popup">
+        <a href="#" onclick="AddPopUp('hide');"><img src="../img/close.png" alt="close popup" class="popup-close" /></a>
+        <!-- <img src="#" alt="logo" class="popup-logo" /> -->
+        <h class="popup-header">Add Account</h><br><br>
+
+        <div class="form-container">
+          <header>Register Teacher Into System</header>
+          <form action="dashboard.html" class="form">
+            <div class="input-box">
+              <label>Full Name</label>
+              <input type="text" placeholder="Enter full name" required />
+            </div>
+      
+            <!-- <div class="input-box">
+              <label>Email ID</label>
+              <input type="text" placeholder="Enter email id" required />
+            </div> -->
+      
+            <div class="column">
+              <div class="input-box">
+                <label>Roll Number</label>
+                <input type="number" placeholder="Enter roll number" required />
+              </div>
+              <div class="input-box">
+                <label>Admission ID</label>
+                <input type="number" placeholder="Enter admission id" required />
+              </div>
+            </div>
+            <!-- <div class="gender-box">
+              <h3>Gender</h3>
+              <div class="gender-option">
+                <div class="gender">
+                  <input type="radio" id="check-male" name="gender" checked />
+                  <label for="check-male">Male</label>
+                </div>
+                <div class="gender">
+                  <input type="radio" id="check-female" name="gender" />
+                  <label for="check-female">Female</label>
+                </div>
+                <div class="gender">
+                  <input type="radio" id="check-other" name="gender" />
+                  <label for="check-other">Prefer not to say</label>
+                </div>
+              </div>
+            </div> -->
+            <div class="input-box address">
+              <!-- <label>Address</label>
+              <input type="text" placeholder="Your Address" required />
+              <div class="column">
+                <input type="number" placeholder="Postal Code" required />
+                <input type="text" placeholder="Your City" required />
+              </div><br> -->
+              <div class="academics">
+              <label>Academics</label>
+              <div class="column">
+                <div class="select-box">
+                  <select required>
+                    <option hidden>Department</option>
+                    <option>Computer Science</option>
+                    <option>Electrical Engineering</option>
+                    <option>Civil Enginnering</option>
+                  </select>
+                </div>
+                <div class="select-box">  
+                  <select required>
+                    <option hidden>Semester</option>
+                    <option>First</option>
+                    <option>Second</option>
+                    <option>Third</option>
+                    <option>Fourth</option>
+                    <option>Fifth</option>
+                    <option>Sixth</option>
+                  </select>
+                  </div>
+               </div><br>
+              <!-- <div class="additional">
+              <label>Additional Info</label>
+              </div>
+              <div class="column">
+                <input type="text" placeholder="Your Parent's Name" required />
+                <div class="select-box">  
+                  <select>
+                    <option hidden>Bus Number</option>
+                    <option>Not taking</option>
+                    <option>01</option>
+                    <option>03</option>
+                    <option>04</option>
+                  </select>
+                  </div>
+              </div> -->
+              </div>   
+            </div>
+            <button>Submit</button><br>
+      
+          </form>
+      </div>
+      </div>
+    </div>
+
+    <div class="text">Accounts
+      <a class="navibtn" onclick="history.back()" href="#">
+        <input type="button" value="Go Back" />
+      </a>
+    </div>
+    <div class="top-section">
+        <h>Teacher Accounts</h>
+    </div>
+    
+      <div class="container">
+        <div class="grid-container-operbtn">
+          <div class="operationbtn">
+            <a href="Accounts.html"><button>Explore Accounts</button></a>
+          </div>
+          <div class="operationbtn">
+            <a href="#" onclick="AddPopUp('Show')"><button>Add Teacher</button></a>
+          </div>
+          <div class="operationbtn">
+            <a href="Profile.html"><button>My Account</button></a>
+          </div>
+        </div>
+      </div>
+
+<div class="dash-section" id="dash-section">
+  <div class="header">
+  <h></h>
+  </div>
+  
+  <!-- Table -->
+
+  <div class="table-container">    
+			<!-- <table id="example" class="stripe hover" style="padding-top: 1em;  padding-bottom: 1em;"> -->
+        <table id="example" class="table table-striped" style="width :100%;">
+
+				<thead>
+          <tr>
+            <th>Name</th>
+						<th>Roll Number</th>
+						<th>Branch</th>
+						<th>Age</th>
+						<th>Batch</th>
+						<th>ID</th>
+						<th>Actions</th>
+					</tr>
+					<!-- <tr>
+						<th data-priority="1">Name</th>
+						<th data-priority="2">Position</th>
+						<th data-priority="3">Office</th>
+						<th data-priority="4">Age</th>
+						<th data-priority="5">Start date</th>
+						<th data-priority="6">Salary</th>
+						<th data-priority="7">Yo</th>
+					</tr> -->
+				</thead>
+				<tbody>
+					<tr>
+						<td>Someone</td>
+						<td>216305001</td>
+						<td>CST</td>
+						<td>18</td>
+						<td>2011/04/25</td>
+						<td>Someone@email.com</td>
+						<td>Buttons</td>
+					</tr>
+
+					<!-- Rest of your data (refer to https://datatables.net/examples/server_side/ for server side processing)-->
+
+					<tr>
+						<td>Someone 2</td>
+						<td>216305001</td>
+						<td>EE</td>
+						<td>19</td>
+						<td>2011/04/25</td>
+						<td>Someone@email.com</td>
+						<td><button class="table-btn" onclick="PopUp('Show')">View</button></td>
+					</tr>
+
+          <tr>
+						<td>Someone 3</td>
+						<td>216305001</td>
+						<td>CE</td>
+						<td>20</td>
+						<td>2011/04/25</td>
+						<td>Someone@email.com</td>
+						<td>Buttons</td>
+					</tr>
+				</tbody>
+
+			</table>
+</div>
+</div>
+    </section>
+
+    <!-- Quick Links -->
+
+    <script src="../js/script.js"></script>
+    <script src="../js/preloader.js"></script>
+    <script src="../js/popup.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.0.2/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/2.0.2/js/dataTables.bootstrap5.js"></script>
+  </body>
+</html>
