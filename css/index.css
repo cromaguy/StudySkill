@@ -322,17 +322,17 @@ a:focus {
 .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 12px 15px;
+  background-color: #ffffff;
+  color: #000000;
   border-radius: 12px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background-color: #006eff00;
-  color: #ffffff;
   border: 5px solid #ffffff;
 }
 
 .slider_section .detail-box .btn-box .btn1:hover {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #006eff00;
+  color: #ffffff;
   -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
 }
