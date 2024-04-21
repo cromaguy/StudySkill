@@ -1,10 +1,60 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
+@-webkit-keyframes backgroundScroll {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 0 -1000px;
+  }
+}
+
+@keyframes backgroundScroll {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 0 -1000px;
+  }
+}
+
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
+  background: url("../img/index.png");
+  background-size: contain;
+  background-repeat: repeat-y;
+  -webkit-animation: backgroundScroll 40s linear infinite;
+  animation: backgroundScroll 40s linear infinite;
   background-color: #ffffff;
   overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 0);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #006eff;
+}
+
+::selection {
+  color: #006eff;
+  background-color: #f7efff;
 }
 
 .layout_padding {
@@ -93,8 +143,20 @@ a:focus {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-color: #006eff;
+  background: #006eff;
   border-radius: 0 0 350px 0;
+}
+
+.hero_area .hero_img {
+  height: 100%;
+  margin: 20px;
+  width: 100%;
+  background-repeat: repeat-x;
+  position: absolute;
+  /* background: url("../img/index.png"); */
+  background-position: center;
+  z-index: 0;
+  background-size:contain;
 }
 
 .sub_page .hero_area {
@@ -382,11 +444,17 @@ a:focus {
   padding: 15px;
   border-radius: 10px;
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.055); */
   position: relative;
   overflow: hidden;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.15);
+  border: 4px solid rgba(255, 255, 255, 0);
+  /* box-shadow: inset 0px 0px 2px #fefefed1; */
+  -webkit-backdrop-filter: saturate(200%) blur(30px);
+  backdrop-filter: saturate(200%) blur(30px);
 }
 
 .service_section .box::before {
