@@ -483,6 +483,7 @@ a:focus {
   background-color: #006eff;
   color: #ffffff;
   border-radius: 250px 0 250px 0;
+  margin-bottom: 40px;
 }
 
 .about_section .row {
