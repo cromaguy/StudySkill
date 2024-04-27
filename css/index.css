@@ -952,7 +952,7 @@ a:focus {
 @media (prefers-color-scheme: dark) {
   body {
     font-family: "Poppins", sans-serif;
-    color: #0c0c0c;
+    color: #ffffff;
     background: url("../img/pattern-dark.png");
     background-size: contain;
     background-repeat: repeat-y;
@@ -973,13 +973,13 @@ a:focus {
   }
   
   ::-webkit-scrollbar-thumb {
-    background: #002350;
+    background: #ffffff;
     border-radius: 12px;
     transition: all 0.3s ease;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: #ffffff;
+    background: #002350;
   }
   
   ::selection {
@@ -1373,14 +1373,13 @@ a:focus {
     margin-top: 25px;
     padding: 15px;
     border-radius: 10px;
-    color: rgb(0, 0, 0);
     -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
     /* box-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.055); */
     position: relative;
     overflow: hidden;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    background-color: rgba(233, 247, 255, 0.8) !important;
+    background-color: rgba(32, 32, 32, 0.137) !important;
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.15);
     border: 4px solid rgba(255, 255, 255, 0);
     /* box-shadow: inset 0px 0px 2px #fefefed1; */
@@ -1389,14 +1388,13 @@ a:focus {
   }
   
   .service_section .box::before {
-    color: rgb(255, 255, 255);
     content: "";
     width: 275px;
     height: 275px;
     position: absolute;
     right: -137.5px;
     bottom: -137.5px;
-    background-color: #89b2ff;
+    background-color: #000535;
     z-index: -1;
     border-radius: 100%;
     -webkit-transition: all 0.3s;
@@ -1423,6 +1421,8 @@ a:focus {
     width: 75px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    -webkit-filter: invert(1);
+    filter: invert(1);
   }
   
   .service_section .box .detail-box {
@@ -1445,7 +1445,7 @@ a:focus {
   .service_section .box:hover::before {
     -webkit-transform: scale(5);
     transform: scale(5);
-    background-color: #6babff;
+    background-color: #002350;
   }
   
   .service_section .box:hover img {
