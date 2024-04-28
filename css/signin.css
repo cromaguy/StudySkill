@@ -45,7 +45,7 @@
     position: fixed;
     max-width: 430px;
     width: 100%;
-    min-height: 580px;
+    min-height: 630px;
     max-height: auto;
     padding: 48px;
     border-radius: 25px;
@@ -193,6 +193,23 @@
     margin-top: 4px;
   }
 
+  .select-box select {
+    height: 55px;
+    margin-bottom: 20px;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #04083a;
+    border: 1.5px solid #e3ecff00;
+    border-bottom-width: 3px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background: rgb(235, 246, 255);
+    backdrop-filter: blur(8px);
+  }
+
   .button {
     margin: 25px 0 6px;
     background-color: #11ffb800;
@@ -259,7 +276,7 @@
     position: fixed;
     max-width: 430px;
     width: 100%;
-    min-height: 580px;
+    min-height: 630px;
     max-height: auto;
     padding: 48px;
     border-radius: 25px;
@@ -406,6 +423,23 @@
     margin-top: 4px;
   }
 
+  .select-box select {
+    height: 55px;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #e9ebff;
+    border: 1.5px solid #e3ecff00;
+    border-bottom-width: 3px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background: #1f2e3f;
+    backdrop-filter: blur(8px);
+  }
+
   .button {
     margin: 25px 0 6px;
     background-color: #11ffb800;
@@ -481,10 +515,11 @@
     box-shadow: inset 0px 0px 2px #fefefe00;
     -webkit-backdrop-filter: saturate(200%) blur(30px);
     backdrop-filter: saturate(200%) blur(30px);
+    z-index: 10;
   }
 
   .container header {
-    margin-top: 45%;
+    margin-top: 30%;
     font-size: 25px;
     font-weight: 600;
     color: #ff9900;
@@ -575,6 +610,22 @@
     border-radius: 15px;
     transition: all 0.3s ease;
     background: rgba(255, 255, 255, 0.1);
+  }
+
+  .select-box select {
+    height: 55px;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #3a2404;
+    border: 1.5px solid #fffbe300;
+    border-bottom-width: 3px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background: #ffedcf;
+    backdrop-filter: blur(8px);
   }
 
   .invalid input {
