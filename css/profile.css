@@ -46,6 +46,7 @@
     animation: backgroundScroll 60s linear infinite;
     color: #f7efff;
     padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-color: #00000000;
     border-radius: 20px;
     width: auto;
@@ -263,16 +264,21 @@
     background-color: #ff9900;
     font-size: 10px;
     height: 300px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 0px;
   }
 
   .account-details h4 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
   }
 
   .account-section {
-    margin-bottom: 0px;
+    width: 100%;
     margin: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   .account-section h3 {

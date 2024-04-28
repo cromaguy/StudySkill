@@ -5,6 +5,7 @@ $(document).ready(function(){
     })
     .columns.adjust()
     .responsive.recalc();
+    disableaccess(unsupportedmq);
     })
     setTimeout(() => {
       detectInternet();
@@ -20,4 +21,4 @@ $(document).ready(function(){
         thirdchart();
         fourthchart();
         fifthchart();
-      },1200);
+      },1800);
