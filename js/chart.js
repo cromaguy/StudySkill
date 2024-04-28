@@ -7,15 +7,15 @@ new Chart("chart-1", {
     labels: xValues,
     datasets: [{ 
       data: [860,1140,1060,1060,1070],
-      borderColor: "red",
+      borderColor: "#ff6361",
       fill: false
     }, { 
       data: [1600,1700,1700,1900,2000],
-      borderColor: "green",
+      borderColor: "#ffa600",
       fill: false
     }, { 
       data: [300,700,2000,5000,6000],
-      borderColor: "blue",
+      borderColor: "#003f5c",
       fill: false
     }]
   },
@@ -29,9 +29,9 @@ function secondchart(){
   var xValues = ["Students", "Teachers", "Admins"];
   var yValues = [65, 30, 5];
   var barColors = [
-    "blue",
-    "green",
-    "red",
+    "#58508d",
+    "#ffa600",
+    "#ff6361",
   ];
   
   new Chart("chart-2", {
@@ -55,7 +55,7 @@ function secondchart(){
 function thirdchart(){
   var xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
 var yValues = [55, 49, 44, 24, 15];
-var barColors = ["red", "green","blue","orange","brown"];
+var barColors = ["#003f5c", "#58508d","#bc5090","#ff6361","#ffa600"];
 
 new Chart("chart-3", {
   type: "bar",
