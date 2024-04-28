@@ -21,4 +21,4 @@ $(document).ready(function(){
         thirdchart();
         fourthchart();
         fifthchart();
-      },1200);
+      },1800);
