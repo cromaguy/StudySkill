@@ -24,7 +24,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
-  background: url("../img/index.png");
+  background: url("../img/pattern-light.png");
   background-size: contain;
   background-repeat: repeat-y;
   -webkit-animation: backgroundScroll 40s linear infinite;
@@ -55,7 +55,7 @@ body {
 
 ::selection {
   color: #006eff;
-  background-color: #f7efff;
+  background-color: #ffffff;
 }
 
 .layout_padding {
