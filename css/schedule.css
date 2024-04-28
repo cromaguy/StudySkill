@@ -530,7 +530,7 @@
             }
 
             .category-list {
-                margin-top: 50px;
+                margin-top: 0px;
 
                 .item {
                     color: var(--secondary-color);
@@ -560,7 +560,6 @@
             }
 
             .right-bar {
-                margin-top: 170px;
                 height: 100%;
                 width: 320px;
                 border-left: 1px solid #e3e7f7;
@@ -575,7 +574,8 @@
             }
 
             .top-part {
-                padding: 30px;
+                padding-top: 160px;
+                padding-left: 20px;
                 display: flex;
                 @extend %flex;
                 align-self: flex-end;
@@ -628,7 +628,7 @@
             }
 
             .task-name {
-                font-size: 14px;
+                font-size: 18px;
                 font-weight: 500;
                 opacity: 0.6;
             }
@@ -683,9 +683,9 @@
                 /* padding: 40px 20px 0 20px; */
 
                 .header {
-                    font-size: 26px;
+                    font-size: 22px;
                     color: var(--main-color);
-                    margin-top: 30px;
+                    margin-top: 40px !important;
                 }
             }
 
