@@ -93,7 +93,7 @@ function Internetcheck(){
     clearInterval(mainLoopId1);
     Internetcheck();
   }
-      move();
+      // move();
   }, 0);
   }
 
