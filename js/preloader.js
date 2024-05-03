@@ -13,7 +13,7 @@ $(document).ready(function(){
         document.getElementById("sidebar").style.display = "block";
         document.getElementById("home-section").style.display = "block";
         document.getElementById("dash-section").style.display = "block";
-      },900);
+      },1000);
 
     setTimeout(() => {
         firstchart();

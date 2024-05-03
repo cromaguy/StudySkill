@@ -23,6 +23,9 @@
 }
 
 @media (prefers-color-scheme: light) {
+  :root{
+    background-color: rgb(245, 250, 255);
+  } 
 
   .grid-container {
     display: grid;
@@ -614,6 +617,10 @@
 
 @media (prefers-color-scheme: dark) {
 
+  :root{
+    background-color: #10161d;
+  } 
+
   .grid-container {
     display: grid;
     margin: auto;
@@ -1196,6 +1203,10 @@
 }
 
 @media (max-width: 500px) {
+
+  :root{
+    background-color: rgb(255, 246, 238);
+  } 
 
   .grid-container {
     display: grid;
