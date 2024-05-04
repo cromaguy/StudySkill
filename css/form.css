@@ -294,12 +294,14 @@
 
 @media (max-width: 500px) {
   .form-container {
-    width: 75%;
+    width: 100%;
     transition: all 0.5s ease;
     position: relative;
     margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-bottom: 30px;
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0) !important;

@@ -1305,11 +1305,11 @@
 			}
 
 			.table-btn {
-				height: 30px;
-				width: 55px;
-				padding: 2px;
+				height: auto;
+				width: auto;
+				padding: 5px;
 				color: #000000;
-				font-size: 14px;
+				font-size: 12px;
 				font-weight: 500;
 				cursor: pointer;
 				transition: all 0.3s ease;
@@ -1729,7 +1729,6 @@
 			}
 
 			table.table.dataTable> :not(caption)>*>* {
-				font-size: smaller;
 				background-color: transparent;
 			}
 
