@@ -26,6 +26,9 @@
 #items{
   display: none;
 }
+#sidebar-items{
+  display: none;
+}
 @media (prefers-color-scheme: light) {
   :root{
     background-color: rgb(245, 250, 255);

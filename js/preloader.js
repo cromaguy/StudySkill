@@ -45,7 +45,7 @@ function preloader_in(){
     setTimeout(() => {
       home_in();
       setTimeout(() => {
-        document.getElementById("sidebar").style.display = "block";
+        document.getElementById("sidebar-items").style.display = "block";
         document.getElementById("items").style.display = "block";
         sidebar_in();
         items();
@@ -64,6 +64,7 @@ function preloader_out(){
   loaderout.style.setProperty('--animate-duration', '0.5s');
   setTimeout(() => {
     document.getElementById("spinner").style.display = "none";
+    document.getElementById("sidebar").style.display = "block";
     document.getElementById("home-section").style.display = "block";
     document.getElementById("dash-section").style.display = "block";
   }, 400);
@@ -94,7 +95,7 @@ function sidebar_in(){
     'animate__animated',
     'animate__fadeInLeft'
   ];
-  const homein = document.getElementById('sidebar');
+  const homein = document.getElementById('sidebar-items');
   homein.classList.add(...animations);
   homein.style.setProperty('--animate-duration', '0.5s');
 }
