@@ -81,9 +81,9 @@ function home_in(){
 function items(){
   const animations = [
     'animate__animated',
-    'animate__slideInRight'
+    'animate__zoomIn'
   ];
   const homein = document.getElementById('items');
   homein.classList.add(...animations);
-  homein.style.setProperty('--animate-duration', '0.6s');
+  homein.style.setProperty('--animate-duration', '0.5s');
 }
