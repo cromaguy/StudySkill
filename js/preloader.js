@@ -38,7 +38,7 @@ function preloader_in(){
   ];
   const loader = document.getElementById('spinner');
   loader.classList.add(...animations);
-  loader.style.setProperty('--animate-duration', '0.9s');
+  loader.style.setProperty('--animate-duration', '0.5s');
 
   setTimeout(() => {
     preloader_out();
@@ -59,7 +59,7 @@ function preloader_out(){
   ];
   const loaderout = document.getElementById('spinner');
   loaderout.classList.add(...animations);
-  loaderout.style.setProperty('--animate-duration', '0.9s');
+  loaderout.style.setProperty('--animate-duration', '0.5s');
   setTimeout(() => {
     document.getElementById("spinner").style.display = "none";
     document.getElementById("sidebar").style.display = "block";
@@ -85,5 +85,5 @@ function items(){
   ];
   const homein = document.getElementById('items');
   homein.classList.add(...animations);
-  homein.style.setProperty('--animate-duration', '0.9s');
+  homein.style.setProperty('--animate-duration', '0.6s');
 }
