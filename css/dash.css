@@ -1476,22 +1476,20 @@
   }
 
   .sidebar li.profile {
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 25px;
     position: fixed;
     height: 60px;
-    width: 100% !important;
-    left: -20%;
-    padding-right: 0px;
-    bottom: 20px;
+    width: 90% !important;
+    left: 0%;
+    bottom: 25px;
     padding: 10px 14px;
-    /* background: url("../img/pattern-mobile.png");
+    background: url("../img/pattern-mobile.png");
     background-size:contain;
     background-position: center;
     background-repeat: repeat;
     -webkit-animation: backgroundScroll 60s linear infinite;
-    animation: backgroundScroll 60s linear infinite; */
-    background: #fff9ef;
+    animation: backgroundScroll 60s linear infinite;
+    /* background: #fff9ef; */
     transition: all 0.5s ease;
     overflow: hidden;
   }
@@ -1499,7 +1497,7 @@
   .sidebar.open li.profile {
     height: 88px;
     width: 100%;
-    margin-left: 50px;
+    left: -9%;
   }
 
   .sidebar li .profile-details {
@@ -1523,7 +1521,7 @@
     margin-top: 5px;
     font-size: 22px;
     font-weight: 500;
-    color: #ff9900;
+    color: #ffffff;
     white-space: nowrap;
   }
 
