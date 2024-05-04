@@ -1476,14 +1476,15 @@
   }
 
   .sidebar li.profile {
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     position: fixed;
     height: 60px;
-    width: 78px;
-    left: 0;
-    bottom: -8px;
-    padding: 10px 14x;
+    width: 100% !important;
+    left: -20%;
+    padding-right: 0px;
+    bottom: 20px;
+    padding: 10px 14px;
     /* background: url("../img/pattern-mobile.png");
     background-size:contain;
     background-position: center;
@@ -1498,6 +1499,7 @@
   .sidebar.open li.profile {
     height: 88px;
     width: 100%;
+    margin-left: 50px;
   }
 
   .sidebar li .profile-details {
