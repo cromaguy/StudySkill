@@ -60,7 +60,7 @@ function preloader_in(){
           document.getElementById("signin_container").style.display = "block";
           container_in();
       }, 1000);
-  },0);
+  },500);
 }
 
 function preloader_out(){
