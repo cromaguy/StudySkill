@@ -93,11 +93,11 @@ function home_in(){
 function items(){
   const animations = [
     'animate__animated',
-    'animate__bounceIn'
+    'animate__fadeInRight'
   ];
   const homein = document.getElementById('items');
   homein.classList.add(...animations);
-  homein.style.setProperty('--animate-duration', '2.0s');
+  homein.style.setProperty('--animate-duration', '0.8s');
 }
 
 function sidebar_in(){
@@ -107,7 +107,7 @@ function sidebar_in(){
   ];
   const homein = document.getElementById('sidebar');
   homein.classList.add(...animations);
-  homein.style.setProperty('--animate-duration', '0.9s');
+  homein.style.setProperty('--animate-duration', '0.8s');
 }
 
 function sidebar_items_in(){
