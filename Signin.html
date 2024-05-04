@@ -9,15 +9,24 @@
   <link rel="shortcut icon" href="img/favicon.ico">
   <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src="js/login.js"></script>
   <!-- CSS -->
   <link rel="stylesheet" href="css/signin.css" />
+  <link rel="stylesheet" href="css/preloader.css" />
   <!-- Boxicons CSS -->
   <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
 
 </head>
 
-<body>
-  <div class="container">
+<div class="spinner-container" id="spinner">
+  <div class="spinner"></div>
+  <div class="loading_cap">
+    <h1>Welcome ;)</h1>
+  </div>
+</div>
+
+<body id="signin_body">
+  <div class="container" id="signin_container">
     <div class="logo">
       <i class="bx bx-book icon"></i>
       <div class="logo_name">StudySkill</div>
@@ -83,6 +92,7 @@
 
   <!-- JavaScript -->
   <script src="js/validate.js"></script>
+  <script src="js/preloader.js"></script>
 </body>
 
 </html>

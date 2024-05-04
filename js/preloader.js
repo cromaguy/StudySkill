@@ -52,6 +52,15 @@ function preloader_in(){
       }, 300);
     }, 300);
   }, 1600);
+
+  setTimeout(() => {
+      document.getElementById("signin_body").style.display = "flex";
+      body_in();
+      setTimeout(() => {
+          document.getElementById("signin_container").style.display = "block";
+          container_in();
+      }, 1000);
+  },0);
 }
 
 function preloader_out(){
@@ -98,4 +107,24 @@ function sidebar_in(){
   const homein = document.getElementById('sidebar-items');
   homein.classList.add(...animations);
   homein.style.setProperty('--animate-duration', '0.5s');
+}
+
+function body_in() {
+  const animations = [
+      'animate__animated',
+      'animate__fadeIn'
+  ];
+  const homein = document.getElementById('signin_container');
+  homein.classList.add(...animations);
+  homein.style.setProperty('--animate-duration', '2.5s');
+}
+
+function container_in() {
+  const animations = [
+      'animate__animated',
+      'animate__bounceIn'
+  ];
+  const homein = document.getElementById('signin_container');
+  homein.classList.add(...animations);
+  homein.style.setProperty('--animate-duration', '2.5s');
 }
