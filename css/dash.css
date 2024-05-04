@@ -1479,7 +1479,7 @@
     border-radius: 25px;
     position: fixed;
     height: 60px;
-    width: 90% !important;
+    width: 100% !important;
     left: 0%;
     bottom: 25px;
     padding: 10px 14px;
@@ -1496,8 +1496,8 @@
 
   .sidebar.open li.profile {
     height: 88px;
-    width: 100%;
-    left: -9%;
+    width: 90% !important;
+    left: -8%;
   }
 
   .sidebar li .profile-details {
@@ -1531,16 +1531,15 @@
 
   .sidebar .profile #log_out {
     position: absolute;
-    border-top-left-radius: 0px;
     top: 50%;
-    right: 0;
+    right: -10%;
     transform: translateY(-50%);
-    background: rgb(255, 255, 255);
-    color: #ff9900;
-    width: 100%;
+    background: #ff9900;
+    color: #ffffff;
+    width: 120%;
     height: auto;
     line-height: 60px;
-    border-radius: 0px;
+    border-radius: 25px;
     transition: all 0.5s ease;
   }
 
