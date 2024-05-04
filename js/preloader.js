@@ -44,10 +44,11 @@ function preloader_in(){
     preloader_out();
     setTimeout(() => {
       home_in();
+      sidebar_in();
       setTimeout(() => {
         document.getElementById("sidebar-items").style.display = "block";
         document.getElementById("items").style.display = "block";
-        sidebar_in();
+        sidebar_items_in();
         items();
       }, 300);
     }, 300);
@@ -92,14 +93,24 @@ function home_in(){
 function items(){
   const animations = [
     'animate__animated',
-    'animate__zoomIn'
+    'animate__bounceIn'
   ];
   const homein = document.getElementById('items');
+  homein.classList.add(...animations);
+  homein.style.setProperty('--animate-duration', '2.0s');
+}
+
+function sidebar_in(){
+  const animations = [
+    'animate__animated',
+    'animate__fadeIn'
+  ];
+  const homein = document.getElementById('sidebar');
   homein.classList.add(...animations);
   homein.style.setProperty('--animate-duration', '0.9s');
 }
 
-function sidebar_in(){
+function sidebar_items_in(){
   const animations = [
     'animate__animated',
     'animate__fadeInLeft'
