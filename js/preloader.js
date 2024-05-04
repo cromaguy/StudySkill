@@ -45,6 +45,7 @@ function preloader_in(){
     setTimeout(() => {
       home_in();
       setTimeout(() => {
+        document.getElementById("items").style.display = "block";
         items();
       }, 300);
     }, 300);
