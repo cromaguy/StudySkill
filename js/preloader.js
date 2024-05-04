@@ -139,3 +139,24 @@ function container_in() {
   homein.classList.add(...animations);
   homein.style.setProperty('--animate-duration', '2.5s');
 }
+
+function popup_in() {
+  const animations = [
+    'animate__animated',
+    'animate__bounceIn'
+  ];
+  const popupin = document.getElementById('popup-item');
+  popupin.classList.add(...animations);
+  popupin.style.setProperty('--animate-duration', '0.5s');
+}
+
+function popup_out() {
+  const animations = [
+    'animate__animated',
+    'animate__bounceOut'
+  ];
+  const popupout = document.getElementById('popup-item');
+  popupout.classList.add(...animations);
+  popupout.style.setProperty('--animate-duration', '0.5s');
+}
+
