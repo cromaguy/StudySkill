@@ -1,4 +1,15 @@
+// function dance(){
+//   const element = document.querySelector('.spinner');
+//   element.classList.add('animate__animated', 'animate__fadeIn');
+  
+//   element.addEventListener('animationend', () => {
+
+//   });
+//   }
+preloader_in();
+
 $(document).ready(function () {
+  
   $(".spinner-container"), setTimeout;
   var table = $('#example').DataTable({
     responsive: true
@@ -6,14 +17,11 @@ $(document).ready(function () {
     .columns.adjust()
     .responsive.recalc();
   disableaccess(unsupportedmq);
+  // dance();
 })
 setTimeout(() => {
   detectInternet();
-  document.getElementById("spinner").style.display = "none";
-  document.getElementById("sidebar").style.display = "block";
-  document.getElementById("home-section").style.display = "block";
-  document.getElementById("dash-section").style.display = "block";
-}, 900);
+}, 0);
 
 setTimeout(() => {
   firstchart();
@@ -22,3 +30,46 @@ setTimeout(() => {
   fourthchart();
   fifthchart();
 }, 1800);
+
+function preloader_in(){
+  const animations = [
+    'animate__animated',
+    'animate__fadeIn'
+  ];
+  const loader = document.getElementById('spinner');
+  loader.classList.add(...animations);
+  loader.style.setProperty('--animate-duration', '0.9s');
+
+  setTimeout(() => {
+    preloader_out();
+    setTimeout(() => {
+      home_in();
+    }, 300);
+  }, 1600);
+}
+
+function preloader_out(){
+  const animations = [
+    'animate__animated',
+    'animate__fadeOut'
+  ];
+  const loaderout = document.getElementById('spinner');
+  loaderout.classList.add(...animations);
+  loaderout.style.setProperty('--animate-duration', '0.9s');
+  setTimeout(() => {
+    document.getElementById("spinner").style.display = "none";
+    document.getElementById("sidebar").style.display = "block";
+    document.getElementById("home-section").style.display = "block";
+    document.getElementById("dash-section").style.display = "block";
+  }, 300);
+}
+
+function home_in(){
+  const animations = [
+    'animate__animated',
+    'animate__fadeIn'
+  ];
+  const homein = document.getElementById('home-section', 'sidebar', 'dash-section');
+  homein.classList.add(...animations);
+  homein.style.setProperty('--animate-duration', '0.9s');
+}
