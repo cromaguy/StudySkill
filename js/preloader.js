@@ -29,7 +29,7 @@ setTimeout(() => {
   thirdchart();
   fourthchart();
   fifthchart();
-}, 1800);
+}, 2900);
 
 function preloader_in(){
   const animations = [
@@ -44,6 +44,9 @@ function preloader_in(){
     preloader_out();
     setTimeout(() => {
       home_in();
+      setTimeout(() => {
+        items();
+      }, 300);
     }, 300);
   }, 1600);
 }
@@ -61,7 +64,7 @@ function preloader_out(){
     document.getElementById("sidebar").style.display = "block";
     document.getElementById("home-section").style.display = "block";
     document.getElementById("dash-section").style.display = "block";
-  }, 300);
+  }, 400);
 }
 
 function home_in(){
@@ -70,6 +73,16 @@ function home_in(){
     'animate__fadeIn'
   ];
   const homein = document.getElementById('home-section', 'sidebar', 'dash-section');
+  homein.classList.add(...animations);
+  homein.style.setProperty('--animate-duration', '0.9s');
+}
+
+function items(){
+  const animations = [
+    'animate__animated',
+    'animate__zoomIn'
+  ];
+  const homein = document.getElementById('items');
   homein.classList.add(...animations);
   homein.style.setProperty('--animate-duration', '0.9s');
 }
