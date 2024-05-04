@@ -81,7 +81,7 @@ function home_in(){
 function items(){
   const animations = [
     'animate__animated',
-    'animate__zoomIn'
+    'animate__slideInRight'
   ];
   const homein = document.getElementById('items');
   homein.classList.add(...animations);
