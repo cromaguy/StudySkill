@@ -96,7 +96,7 @@ function items(){
   ];
   const homein = document.getElementById('items');
   homein.classList.add(...animations);
-  homein.style.setProperty('--animate-duration', '0.5s');
+  homein.style.setProperty('--animate-duration', '0.9s');
 }
 
 function sidebar_in(){
