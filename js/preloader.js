@@ -45,7 +45,9 @@ function preloader_in(){
     setTimeout(() => {
       home_in();
       setTimeout(() => {
+        document.getElementById("sidebar").style.display = "block";
         document.getElementById("items").style.display = "block";
+        sidebar_in();
         items();
       }, 300);
     }, 300);
@@ -62,7 +64,6 @@ function preloader_out(){
   loaderout.style.setProperty('--animate-duration', '0.5s');
   setTimeout(() => {
     document.getElementById("spinner").style.display = "none";
-    document.getElementById("sidebar").style.display = "block";
     document.getElementById("home-section").style.display = "block";
     document.getElementById("dash-section").style.display = "block";
   }, 400);
@@ -84,6 +85,16 @@ function items(){
     'animate__zoomIn'
   ];
   const homein = document.getElementById('items');
+  homein.classList.add(...animations);
+  homein.style.setProperty('--animate-duration', '0.5s');
+}
+
+function sidebar_in(){
+  const animations = [
+    'animate__animated',
+    'animate__fadeInLeft'
+  ];
+  const homein = document.getElementById('sidebar');
   homein.classList.add(...animations);
   homein.style.setProperty('--animate-duration', '0.5s');
 }
