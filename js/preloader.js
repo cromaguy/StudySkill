@@ -1,7 +1,7 @@
 // function dance(){
 //   const element = document.querySelector('.spinner');
 //   element.classList.add('animate__animated', 'animate__fadeIn');
-  
+
 //   element.addEventListener('animationend', () => {
 
 //   });
@@ -9,7 +9,7 @@
 preloader_in();
 
 $(document).ready(function () {
-  
+
   $(".spinner-container"), setTimeout;
   var table = $('#example').DataTable({
     responsive: true
@@ -31,7 +31,7 @@ setTimeout(() => {
   fifthchart();
 }, 2900);
 
-function preloader_in(){
+function preloader_in() {
   const animations = [
     'animate__animated',
     'animate__fadeIn'
@@ -55,16 +55,16 @@ function preloader_in(){
   }, 1600);
 
   setTimeout(() => {
-      document.getElementById("signin_body").style.display = "flex";
-      body_in();
-      setTimeout(() => {
-          document.getElementById("signin_container").style.display = "block";
-          container_in();
-      }, 1000);
-  },500);
+    document.getElementById("signin_body").style.display = "flex";
+    body_in();
+    setTimeout(() => {
+      document.getElementById("signin_container").style.display = "block";
+      container_in();
+    }, 1000);
+  }, 500);
 }
 
-function preloader_out(){
+function preloader_out() {
   const animations = [
     'animate__animated',
     'animate__fadeOut'
@@ -80,7 +80,7 @@ function preloader_out(){
   }, 400);
 }
 
-function home_in(){
+function home_in() {
   const animations = [
     'animate__animated',
     'animate__fadeIn'
@@ -90,7 +90,7 @@ function home_in(){
   homein.style.setProperty('--animate-duration', '0.9s');
 }
 
-function items(){
+function items() {
   const animations = [
     'animate__animated',
     'animate__fadeInRight'
@@ -100,17 +100,17 @@ function items(){
   homein.style.setProperty('--animate-duration', '0.5s');
 }
 
-function sidebar_in(){
+function sidebar_in() {
   const animations = [
     'animate__animated',
     'animate__fadeIn'
   ];
   const homein = document.getElementById('sidebar');
   homein.classList.add(...animations);
-  homein.style.setProperty('--animate-duration', '0.8s');
+  homein.style.setProperty('--animate-duration', '0.9s');
 }
 
-function sidebar_items_in(){
+function sidebar_items_in() {
   const animations = [
     'animate__animated',
     'animate__fadeInLeft'
@@ -122,8 +122,8 @@ function sidebar_items_in(){
 
 function body_in() {
   const animations = [
-      'animate__animated',
-      'animate__fadeIn'
+    'animate__animated',
+    'animate__fadeIn'
   ];
   const homein = document.getElementById('signin_container');
   homein.classList.add(...animations);
@@ -132,8 +132,8 @@ function body_in() {
 
 function container_in() {
   const animations = [
-      'animate__animated',
-      'animate__bounceIn'
+    'animate__animated',
+    'animate__bounceIn'
   ];
   const homein = document.getElementById('signin_container');
   homein.classList.add(...animations);
