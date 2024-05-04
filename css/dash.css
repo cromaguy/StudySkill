@@ -28,6 +28,7 @@
 }
 #sidebar-items{
   display: none;
+  height: 89%;
 }
 @media (prefers-color-scheme: light) {
   :root{
@@ -286,8 +287,9 @@
     position: fixed;
     height: 60px;
     width: 78px;
-    left: 0;
-    bottom: -8px;
+    left: -30%;
+    padding-right: 0px;
+    bottom: -12px;
     padding: 10px 14px;
     background: url("../img/widget-light.png");
     background-size: cover;
@@ -302,6 +304,7 @@
 
   .sidebar.open li.profile {
     width: 250px;
+    margin-left: 50px;
   }
 
   .sidebar li .profile-details {
@@ -878,8 +881,9 @@
     position: fixed;
     height: 60px;
     width: 78px;
-    left: 0;
-    bottom: -8px;
+    left: -30%;
+    padding-right: 0px;
+    bottom: -12px;
     padding: 10px 14px;
     background: url("../img/widget-dark.png");
     background-size: cover;
@@ -894,6 +898,7 @@
 
   .sidebar.open li.profile {
     width: 250px;
+    margin-left: 50px;
   }
 
   .sidebar li .profile-details {
