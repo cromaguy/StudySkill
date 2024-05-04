@@ -388,7 +388,8 @@
 
   #popup {
     height: 100%;
-    min-width: 0% !important;
+    width: auto;
+    min-width: 82% !important;
     background: rgb(255, 246, 238);
     border-radius: 0px;
     -moz-border-radius: 0px;
@@ -402,7 +403,7 @@
     bottom: 50%;
     right: 200px; */
     margin: auto;
-    margin-left: 75px !important;
+    margin-left: 78px !important;
     margin-right: auto;
     padding: 15px;
     padding-top: 40px;
