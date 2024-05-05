@@ -308,10 +308,11 @@
   }
 
   .form-container header {
-    font-size: 20px;
+    margin-top: 20px;
+    font-size: 18px;
     font-weight: 600;
     color: #ff9900;
-    text-align: left;
+    text-align: center;
   }
 
   .form-container .form {
