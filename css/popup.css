@@ -1,29 +1,35 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 @media (prefers-color-scheme: light) {
   #ac-wrapper {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
     width: 100%;
     height: 100%;
+    border-radius: 25px;
     background: rgba(0, 0, 0, .6);
     z-index: 1001;
   }
 
   #ac-wrapper-2 {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
     width: 100%;
     height: 100%;
+    border-radius: 25px;
     background: rgba(0, 0, 0, .6);
     z-index: 1001;
   }
 
   #popup {
-    min-width: 700px;
-    width: auto;
-    max-width: fit-content;
+    /* min-width: 700px; */
+    width: 710px;
+    /* max-width: fit-content; */
     background: #ffffff;
     border-radius: 25px;
     -moz-border-radius: 25px;
@@ -31,16 +37,10 @@
     box-shadow: #64686e 0px 0px 3px 3px;
     -moz-box-shadow: #64686e 0px 0px 3px 3px;
     -webkit-box-shadow: #64686e 0px 0px 3px 3px;
-    position: relative;
-    /* top: 50%;
-    left: 500px;
-    bottom: 50%;
-    right: 200px; */
-    margin: auto;
-    margin-top: 48px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 55px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 25px;
   }
 

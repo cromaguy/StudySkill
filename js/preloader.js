@@ -145,7 +145,7 @@ function popup_in() {
     'animate__animated',
     'animate__bounceIn'
   ];
-  const popupin = document.getElementById('popup-item');
+  const popupin = document.getElementById('ac-wrapper-2');
   popupin.classList.add(...animations);
   popupin.style.setProperty('--animate-duration', '0.5s');
 }
@@ -155,7 +155,7 @@ function popup_out() {
     'animate__animated',
     'animate__bounceOut'
   ];
-  const popupout = document.getElementById('popup-item');
+  const popupout = document.getElementById('ac-wrapper-2');
   popupout.classList.add(...animations);
   popupout.style.setProperty('--animate-duration', '0.5s');
 }
