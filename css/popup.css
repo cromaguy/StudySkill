@@ -480,14 +480,14 @@
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
     color: #fffdef;
-    padding: 0px;
+    padding: 10pxpx;
     padding-top: 20px;
     padding-bottom: 20px;
     border-color: #00000000;
     border-radius: 20px;
     width: auto;
     background-color: #ff9900;
-    font-size: 10px;
+    font-size: 10px !important;
     height: 300px;
     display: grid;
     grid-template-columns: auto;
@@ -501,7 +501,7 @@
 
   .account-section {
     width: 100%;
-    margin: 30px;
+    margin: 20px;
     margin-top: auto;
     margin-bottom: auto;
   }
