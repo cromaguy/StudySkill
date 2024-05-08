@@ -1299,7 +1299,7 @@
 				animation: backgroundScroll 60s linear infinite; */
 				/* border: 4px solid rgb(0, 0, 0); */
 				transform: x left 0%;
-				padding: auto;
+				padding: 0px;
 				margin: auto;
 				margin-left: auto;
 				margin-right: auto;
