@@ -6,7 +6,8 @@
   <title>Upload Section | StudySkill</title>
 
   <!-- Linking -->
-
+  <link rel="stylesheet" href="../css/upload.css" />
+  <link rel="stylesheet" href="../css/table.css" />
   <link rel="stylesheet" href="../css/form.css" />
   <link rel="stylesheet" href="../css/dash.css" />
   <link rel="stylesheet" href="../css/preloader.css" />
@@ -126,18 +127,17 @@
     </div>
     <div id="items">
       <div class="container">
-
         <div class="form-container">
-          <header>Upload Files</header>
+          <header>Upload Notes</header>
           <form action="#" class="form">
             <div class="column">
               <div class="row">
                 <div class="input-box">
                   <label>File Heading</label>
-                  <input type="text" placeholder="Enter file display name" required />
+                  <input type="text" placeholder="Enter subject & topic" required />
                 </div>
                 <p></p>
-                <label>Your Class</label>
+                <label>Select Your Class</label>
                 <div class="column">
                   <div class="select-box">
                     <select required>
@@ -182,6 +182,58 @@
       <div class="container">
         <div class="form-container"><br>
           <header>Recent Uploads</header>
+          <div class="uploadtable">
+            <!-- <table id="example" class="stripe hover" style="padding-top: 1em;  padding-bottom: 1em;"> -->
+            <table id="example" class="table table-striped" style="width :100%;">
+
+              <thead>
+                <tr>
+                  <th>File Name</th>
+                  <th>Teacher</th>
+                  <th>Class</th>
+                  <th>Upload Date</th>
+                  <th>Actions</th>
+                </tr>
+                <!-- <tr>
+              <th data-priority="1">Name</th>
+              <th data-priority="2">Position</th>
+              <th data-priority="3">Office</th>
+              <th data-priority="4">Age</th>
+              <th data-priority="5">Start date</th>
+              <th data-priority="6">Salary</th>
+              <th data-priority="7">Yo</th>
+            </tr> -->
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Someone</td>
+                  <td>216305001</td>
+                  <td>CST</td>
+                  <td>2011/04/25</td>
+                  <td>Buttons</td>
+                </tr>
+
+                <!-- Rest of your data (refer to https://datatables.net/examples/server_side/ for server side processing)-->
+
+                <tr>
+                  <td>Someone 2</td>
+                  <td>216305001</td>
+                  <td>EE</td>
+                  <td>2011/04/25</td>
+                  <td><button class="table-btn">View</button></td>
+                </tr>
+
+                <tr>
+                  <td>Someone 3</td>
+                  <td>216305001</td>
+                  <td>CE</td>
+                  <td>2011/04/25</td>
+                  <td>Someone@email.com</td>
+                </tr>
+              </tbody>
+
+            </table>
+          </div>
           <!-- <form action="#" class="form">
             <div class="input-box">
               <label>File Heading</label>
@@ -232,5 +284,10 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
 </body>
+<script src="../js/popup.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.datatables.net/2.0.2/js/dataTables.js"></script>
+<script src="https://cdn.datatables.net/2.0.2/js/dataTables.bootstrap5.js"></script>
 
 </html>
