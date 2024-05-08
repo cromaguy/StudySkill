@@ -1306,7 +1306,7 @@
 				transition: all 0.3s ease;
 				border-radius: 25px;
 				max-width: 90%;
-				background: white;
+				background: rgba(255, 255, 255, 0);
 			}
 
 			.table-btn {
