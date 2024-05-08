@@ -10,6 +10,7 @@
 **Currently Frontend is being developed and tested using Test branch. Users are free to test using the above link and report issues.**
 
 # V-4.5 BETA Changelog (5th May, 2024): #
+
 # New Features #
 We are now on Github!
 Added MIT License
@@ -41,4 +42,3 @@ Fixed many more css
 Fixed Academics css and optimised features
 Fixed lag in dashboard charts
 Fixed landing page dark mode
-Previous Changelogs
