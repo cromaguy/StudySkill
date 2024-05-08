@@ -1301,7 +1301,6 @@
 				border-radius: 25px;
 				max-width: 90%;
 				background: white;
-				overflow-x: scroll;
 			}
 
 			.table-btn {
@@ -1868,6 +1867,7 @@
 
 				div.dt-container .row {
 					--bs-gutter-y: 0.5rem;
+					overflow-x: scroll;
 				}
 
 				div.dt-container div.dt-paging ul.pagination {
