@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 
 * {
   margin: 0;
@@ -8,13 +7,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-#signin_body{
-  display: none;
-}
-
-#signin_container{
-  display: none;
-}
 @-webkit-keyframes backgroundScroll {
   from {
     background-position: 0 0;
@@ -53,8 +45,8 @@
     position: fixed;
     max-width: 430px;
     width: 100%;
-    min-height: 630px;
-    max-height: auto;
+    min-height: auto;
+    max-height: 630px;
     padding: 48px;
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.8) !important;
@@ -284,8 +276,8 @@
     position: fixed;
     max-width: 430px;
     width: 100%;
-    min-height: 630px;
-    max-height: auto;
+    min-height: auto;
+    max-height: 630px;
     padding: 48px;
     border-radius: 25px;
     background-color: rgba(0, 0, 0, 0.404) !important;
@@ -519,7 +511,7 @@
     margin: auto;
     box-shadow: none;
     border: #e9ebff00;
-    background-color: rgba(255, 255, 255, 0.651) !important;
+    background-color: rgba(255, 255, 255, 0.199) !important;
     box-shadow: inset 0px 0px 2px #fefefe00;
     -webkit-backdrop-filter: saturate(200%) blur(30px);
     backdrop-filter: saturate(200%) blur(30px);
@@ -533,19 +525,22 @@
     color: #ff9900;
   }
 
+  .logo{
+    margin-top: 58%;
+  }
+
   .logo .logo_name {
     align-items: center;
     display: inline-flex;
     position: relative;
     font-size: 31px;
-    margin-top: 28%;
+    padding-top: 0% !important;
     color: black;
   }
 
   .logo i {
-    font-size: 28px;
-    line-height: 300%;
-    color: black;
+    font-size: 26px;
+    color: black !important;
   }
 
   .container h {

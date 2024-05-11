@@ -1,28 +1,35 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 @media (prefers-color-scheme: light) {
   #ac-wrapper {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
     width: 100%;
     height: 100%;
+    border-radius: 25px;
     background: rgba(0, 0, 0, .6);
     z-index: 1001;
   }
 
   #ac-wrapper-2 {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
     width: 100%;
     height: 100%;
+    border-radius: 25px;
     background: rgba(0, 0, 0, .6);
     z-index: 1001;
   }
 
   #popup {
-    min-width: 700px;
-    width: auto;
-    max-width: fit-content;
+    /* min-width: 700px; */
+    width: 710px;
+    /* max-width: fit-content; */
     background: #ffffff;
     border-radius: 25px;
     -moz-border-radius: 25px;
@@ -30,16 +37,10 @@
     box-shadow: #64686e 0px 0px 3px 3px;
     -moz-box-shadow: #64686e 0px 0px 3px 3px;
     -webkit-box-shadow: #64686e 0px 0px 3px 3px;
-    position: relative;
-    /* top: 50%;
-    left: 500px;
-    bottom: 50%;
-    right: 200px; */
-    margin: auto;
-    margin-top: 48px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 55px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 25px;
   }
 
@@ -125,18 +126,22 @@
     border-radius: 20px;
     width: auto;
     height: auto;
-    font-size: 14px;
     background-color: #006eff;
   }
 
   .account-section {
     margin-bottom: 20px;
-    margin: 40px;
+    margin: 30px;
     font-size: 14px;
   }
 
-  .account-section h3 {
+  .account-section h4 {
     margin-top: 0;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: underline 3px;
+    text-underline-offset: 6px;
+    margin-bottom: 12px;
   }
 
   .account-section ul {
@@ -151,6 +156,7 @@
   .account-section ul li strong {
     font-weight: bold;
     margin-right: auto;
+    font-size: 15px;
   }
 
   .btn button {
@@ -202,9 +208,9 @@
   }
 
   #popup {
-    min-width: 700px;
-    width: auto;
-    max-width: fit-content;
+    /* min-width: 700px; */
+    width: 710px;
+    /* max-width: fit-content; */
     background: #10161d;
     border-radius: 25px;
     -moz-border-radius: 25px;
@@ -212,17 +218,11 @@
     box-shadow: #64686e 0px 0px 3px 3px;
     -moz-box-shadow: #64686e 0px 0px 3px 3px;
     -webkit-box-shadow: #64686e 0px 0px 3px 3px;
-    position: relative;
-    /* top: 50%;
-    left: 500px;
-    bottom: 50%;
-    right: 200px; */
-    margin: auto;
-    margin-top: 48px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 55px;
-    padding: 28px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
   }
 
   .popup-header {
@@ -305,22 +305,28 @@
     background-size: contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
-    color: #23004b;
+    color: #000000;
     padding: 10px;
+    border-color: #00000000;
     border-radius: 20px;
     width: auto;
-    border-color: #00000000;
-    font-size: 14px;
+    height: auto;
     background-color: #8FBFFF;
   }
 
   .account-section {
     margin-bottom: 20px;
-    margin: 40px;
+    margin: 30px;
+    font-size: 14px;
   }
 
-  .account-section h3 {
+  .account-section h4 {
     margin-top: 0;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: underline 3px;
+    text-underline-offset: 6px;
+    margin-bottom: 12px;
   }
 
   .account-section ul {
@@ -335,7 +341,8 @@
   .account-section ul li strong {
     font-weight: bold;
     margin-right: auto;
-  }
+    font-size: 15px;
+  }  
 
   .btn button {
     height: auto;
@@ -386,39 +393,37 @@
   }
 
   #popup {
-    min-width: 200px;
-    width: auto;
-    max-width: fit-content;
-    background: #fffff;
-    border-radius: 25px;
-    -moz-border-radius: 25px;
-    -webkit-border-radius: 25px;
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
     box-shadow: #64686e 0px 0px 3px 3px;
     -moz-box-shadow: #64686e 0px 0px 3px 3px;
     -webkit-box-shadow: #64686e 0px 0px 3px 3px;
-    position: relative;
-    /* top: 50%;
-    left: 500px;
-    bottom: 50%;
-    right: 200px; */
-    margin: auto;
-    margin-top: 48px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 55px;
-    padding: 25px;
+    position: fixed;
+    top: 50%;
+    left: 54%;
+    right: 0%;
+    /* border-radius: 25px; */
+    transform: translate(-50%, -50%);
+    margin-left: 25px;
+    padding: 60px;
+    padding-top: 38px;
   }
 
   .popup-header {
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 600;
-    color: #000000;
+    color: #ff9900;
     text-align: left;
   }
 
   .popup-close {
     width: 20px;
     float: right;
+    padding-top: 5px;
   }
 
   .popup-logo {
@@ -451,10 +456,10 @@
   }
 
   .account-header {
-    padding: 15px;
-    color: #ff9900;
+    color: #000000;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 20px;
   }
 
@@ -464,41 +469,54 @@
   }
 
   .account-avatar img {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     border-radius: 12px;
   }
 
   .account-info h2 {
     margin: 0;
-    font-size: 23px;
+    font-size: 16px !important;
+    font-weight: 800;
 
   }
 
   .account-info p {
     margin: 5px 0;
+    font-size: 10px;
+    font-weight: 600;
   }
 
   .account-details {
-    display: flex;
     background: url("../img/pattern-mobile.png") center repeat;
     background-size: contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
-    color: #fff9ef;
-    padding: 10px;
+    color: #fffdef;
+    padding: 10pxpx;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-color: #00000000;
     border-radius: 20px;
     width: auto;
-    height: auto;
-    font-size: 14px;
     background-color: #ff9900;
+    font-size: 12px !important;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 0px;
+  }
+
+  .account-details h4 {
+    font-size: 18px !important;
+    font-weight: 600;
   }
 
   .account-section {
-    margin-bottom: 20px;
-    margin: 40px;
-    font-size: 14px;
+    width: 100%;
+    margin: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   .account-section h3 {
@@ -512,21 +530,28 @@
 
   .account-section ul li {
     margin-bottom: auto;
+    font-size: 11px !important;
   }
 
   .account-section ul li strong {
     font-weight: bold;
     margin-right: auto;
+    font-size: 12px !important;
   }
 
   .btn button {
+    align-items: center !important;
+    justify-content: center !important;
+    left: 0;
+    right: 0;
+    text-align: center;
     height: auto;
     width: auto;
-    padding: 15px;
+    padding: 10px;
     margin-top: 30px;
     margin: 5px;
     color: #000000;
-    font-size: 17px;
+    font-size: 11px !important;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -539,7 +564,7 @@
   .btn button:hover {
     transform: scale(0.9);
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     background-color: #000000;
     cursor: pointer;

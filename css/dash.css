@@ -1,5 +1,6 @@
 /* Google Font Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 /* Dynamic Wall */
 
 @-webkit-keyframes backgroundScroll {
@@ -22,7 +23,17 @@
   }
 }
 
+#items{
+  display: none;
+}
+#sidebar-items{
+  display: none;
+  height: 89%;
+}
 @media (prefers-color-scheme: light) {
+  :root{
+    background-color: rgb(245, 250, 255);
+  } 
 
   .grid-container {
     display: grid;
@@ -276,8 +287,9 @@
     position: fixed;
     height: 60px;
     width: 78px;
-    left: 0;
-    bottom: -8px;
+    left: -30%;
+    padding-right: 0px;
+    bottom: -12px;
     padding: 10px 14px;
     background: url("../img/widget-light.png");
     background-size: cover;
@@ -292,6 +304,7 @@
 
   .sidebar.open li.profile {
     width: 250px;
+    margin-left: 50px;
   }
 
   .sidebar li .profile-details {
@@ -614,6 +627,10 @@
 
 @media (prefers-color-scheme: dark) {
 
+  :root{
+    background-color: #10161d;
+  } 
+
   .grid-container {
     display: grid;
     margin: auto;
@@ -864,8 +881,9 @@
     position: fixed;
     height: 60px;
     width: 78px;
-    left: 0;
-    bottom: -8px;
+    left: -30%;
+    padding-right: 0px;
+    bottom: -12px;
     padding: 10px 14px;
     background: url("../img/widget-dark.png");
     background-size: cover;
@@ -880,6 +898,7 @@
 
   .sidebar.open li.profile {
     width: 250px;
+    margin-left: 50px;
   }
 
   .sidebar li .profile-details {
@@ -1197,6 +1216,10 @@
 
 @media (max-width: 500px) {
 
+  :root{
+    background-color: rgb(255, 246, 238);
+  } 
+
   .grid-container {
     display: grid;
     margin: auto;
@@ -1242,15 +1265,15 @@
   }
 
   ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
   }
   
   ::-webkit-scrollbar-track {
-    background: rgb(255, 246, 238);
+    background: rgba(255, 246, 238, 0);
   }
   
   ::-webkit-scrollbar-thumb {
-    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0);
     border-radius: 12px;
     transition: all 0.3s ease;
   }
@@ -1453,28 +1476,28 @@
   }
 
   .sidebar li.profile {
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    border-radius: 25px;
     position: fixed;
     height: 60px;
-    width: 78px;
-    left: 0;
-    bottom: -8px;
-    padding: 10px 14x;
-    /* background: url("../img/pattern-mobile.png");
+    width: 100% !important;
+    left: 0%;
+    bottom: 25px;
+    padding: 10px 14px;
+    background: url("../img/pattern-mobile.png");
     background-size:contain;
     background-position: center;
     background-repeat: repeat;
     -webkit-animation: backgroundScroll 60s linear infinite;
-    animation: backgroundScroll 60s linear infinite; */
-    background: #fff9ef;
+    animation: backgroundScroll 60s linear infinite;
+    /* background: #fff9ef; */
     transition: all 0.5s ease;
     overflow: hidden;
   }
 
   .sidebar.open li.profile {
     height: 88px;
-    width: 100%;
+    width: 90% !important;
+    left: -8%;
   }
 
   .sidebar li .profile-details {
@@ -1498,7 +1521,7 @@
     margin-top: 5px;
     font-size: 22px;
     font-weight: 500;
-    color: #ff9900;
+    color: #ffffff;
     white-space: nowrap;
   }
 
@@ -1508,16 +1531,15 @@
 
   .sidebar .profile #log_out {
     position: absolute;
-    border-top-left-radius: 0px;
     top: 50%;
-    right: 0;
+    right: -10%;
     transform: translateY(-50%);
-    background: rgb(255, 255, 255);
-    color: #ff9900;
-    width: 100%;
+    background: #ff9900;
+    color: #ffffff;
+    width: 120%;
     height: auto;
     line-height: 60px;
-    border-radius: 0px;
+    border-radius: 25px;
     transition: all 0.5s ease;
   }
 
@@ -1749,9 +1771,9 @@
   .operationbtn button {
     height: auto;
     width: auto;
-    padding: 15px;
+    padding: 10px;
     margin-top: auto;
-    margin: 9px;
+    margin: 2px;
     color: #000000;
     font-size: 12px;
     font-weight: 500;

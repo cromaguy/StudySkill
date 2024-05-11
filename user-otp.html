@@ -1,0 +1,108 @@
+<!-- 
+<?php require_once "controllerUserData.php"; ?>
+<?php 
+$email = $_SESSION['email'];
+if($email == false){
+  header('Location: Signin.php');
+}
+?> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome! | StudySkill</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/signin-small.css" />
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+  </head>
+  <style>
+        .captcha-code{
+            width: 40%;
+            /* background-color: #C0C0C0; */
+            background: #b49afe;
+            text-align: center;     
+            font-size: 22px;  
+            font-weight: 600; 
+            border-radius: 10px;
+            
+        }
+       
+    </style>
+
+
+  <body>
+    <div class="container">
+      <!-- <header>Excel in everything</header> -->
+      <h>Verify OTP</h>
+      <form action="user-otp.php" method="POST" autocomplete="off">
+      <!-- <?php 
+                    if(isset($_SESSION['info'])){
+                        ?>
+                        <div class="alert alert-success text-center">
+                            <?php echo $_SESSION['info']; ?>
+                        </div>
+                        <?php
+                    }
+                    ?>
+                    <?php
+                    if(count($errors) > 0){
+                        ?>
+                        <div class="alert alert-danger text-center">
+                            <?php
+                            foreach($errors as $showerror){
+                                echo $showerror;
+                            }
+                            ?>
+                        </div>
+                        <?php
+                    }
+                    ?> -->
+        <div class="field email-field">
+          <div class="input-field">
+            <input type="number" name="otp" id="otp" placeholder="Enter OTP" class="email" required/>
+          </div>
+     
+        </div>
+       
+     
+        <div class="input-field button">
+          <input type="submit" id="otp_submit" name="otp_submit" value="Verify OTP" />
+        </div>
+     
+      </form>
+    </div>
+
+    <!-- JavaScript -->
+    <!-- <script src="js/validate.js"></script> -->
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

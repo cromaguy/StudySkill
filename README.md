@@ -1,14 +1,12 @@
 # 🗨️ Introduction to StudySkill: College Management System #
 
 
-
 # 🌐 Website: https://cromaguy.github.io/StudySkill/ # 
-**College Web Tech Project Submiited by me with ❤️ to GOMATI DISTRICT POLYTECHNIC!**
 
+**College Web Tech Project Developed by me with ❤️ to GOMATI DISTRICT POLYTECHNIC!**
 
 # 🧑‍💻 Development Status: #
 **Currently Frontend is being developed and tested using Test branch. Users are free to test using the above link and report issues.**
-
 
 
 **The College Management System (CMS) is a comprehensive web based solution designed to streamline and enhance the administrative and academic functions within a college or educational institution. In the rapidly evolving landscape of education, effective management systems are crucial to ensure the smooth functioning of various departments, improve communication, and enhance overall efficiency.**
