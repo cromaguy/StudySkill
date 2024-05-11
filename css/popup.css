@@ -126,18 +126,22 @@
     border-radius: 20px;
     width: auto;
     height: auto;
-    font-size: 14px;
     background-color: #006eff;
   }
 
   .account-section {
     margin-bottom: 20px;
-    margin: 40px;
+    margin: 30px;
     font-size: 14px;
   }
 
-  .account-section h3 {
+  .account-section h4 {
     margin-top: 0;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: underline 3px;
+    text-underline-offset: 6px;
+    margin-bottom: 12px;
   }
 
   .account-section ul {
@@ -152,6 +156,7 @@
   .account-section ul li strong {
     font-weight: bold;
     margin-right: auto;
+    font-size: 15px;
   }
 
   .btn button {
@@ -300,22 +305,28 @@
     background-size: contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
     animation: backgroundScroll 60s linear infinite;
-    color: #23004b;
+    color: #000000;
     padding: 10px;
+    border-color: #00000000;
     border-radius: 20px;
     width: auto;
-    border-color: #00000000;
-    font-size: 14px;
+    height: auto;
     background-color: #8FBFFF;
   }
 
   .account-section {
     margin-bottom: 20px;
-    margin: 40px;
+    margin: 30px;
+    font-size: 14px;
   }
 
-  .account-section h3 {
+  .account-section h4 {
     margin-top: 0;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: underline 3px;
+    text-underline-offset: 6px;
+    margin-bottom: 12px;
   }
 
   .account-section ul {
@@ -330,7 +341,8 @@
   .account-section ul li strong {
     font-weight: bold;
     margin-right: auto;
-  }
+    font-size: 15px;
+  }  
 
   .btn button {
     height: auto;
@@ -398,19 +410,20 @@
     transform: translate(-50%, -50%);
     margin-left: 25px;
     padding: 60px;
-    padding-top: 40px;
+    padding-top: 38px;
   }
 
   .popup-header {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
-    color: #000000;
+    color: #ff9900;
     text-align: left;
   }
 
   .popup-close {
     width: 20px;
     float: right;
+    padding-top: 5px;
   }
 
   .popup-logo {
@@ -463,7 +476,7 @@
 
   .account-info h2 {
     margin: 0;
-    font-size: 16px;
+    font-size: 16px !important;
     font-weight: 800;
 
   }
@@ -495,7 +508,7 @@
   }
 
   .account-details h4 {
-    font-size: 18px;
+    font-size: 18px !important;
     font-weight: 600;
   }
 
@@ -517,11 +530,13 @@
 
   .account-section ul li {
     margin-bottom: auto;
+    font-size: 11px !important;
   }
 
   .account-section ul li strong {
     font-weight: bold;
     margin-right: auto;
+    font-size: 12px !important;
   }
 
   .btn button {
