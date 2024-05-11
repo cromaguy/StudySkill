@@ -1,3 +1,4 @@
+
 @media (prefers-color-scheme: light) {
   .list {
     height: 110px;
@@ -281,10 +282,25 @@
 }
 
 @media (max-width: 500px) {
+
+  .grid-container-list {
+    display: grid;
+    margin: auto;
+    gap: 5px;
+    min-width: 200px;
+    grid-template-columns: auto;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
   .list {
     height: auto;
     display: inline-block;
-    width: 280px;
+    min-width: 280px;
+    width: auto;
+    max-width: 300px;
     margin: auto;
     margin-left: auto;
     margin-top: 20px;

@@ -5,6 +5,15 @@
   height: 30px;
 }
 
+.grid-container-list {
+  display: grid;
+  margin: auto;
+  gap: 20px;
+  width: auto;
+  grid-template-columns: auto;
+  padding: 10px;
+}
+
 @media (prefers-color-scheme: light) {
   .form-container {
     width: 80%;
