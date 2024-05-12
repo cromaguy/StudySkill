@@ -126,50 +126,49 @@
       <h>Upload Section</h>
     </div>
     <div id="items">
-      <div class="container">
-        <div class="form-container">
-          <header>Upload Notes</header>
-          <form action="#" class="form">
-            <div class="column">
-              <div class="row">
-                <div class="input-box">
-                  <label>File Heading</label>
-                  <input type="text" placeholder="Enter subject & topic" required />
-                </div>
-                <p></p>
-                <label>Select Your Class</label>
-                <div class="column">
-                  <div class="select-box">
-                    <select required>
-                      <option hidden>Semester</option>
-                      <option>First</option>
-                      <option>Second</option>
-                      <option>Third</option>
-                      <option>Fourth</option>
-                      <option>Fifth</option>
-                      <option>Sixth</option>
-                    </select>
-                  </div>
-                  <div class="select-box">
-                    <select required>
-                      <option hidden>Department</option>
-                      <option>Computer Science</option>
-                      <option>Electrical Engineering</option>
-                      <option>Civil Enginnering</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <div class="upload-btn-wrapper">
-                <button class="button">+</button>
-                <input type="file" name="myfile" class="upload" />
-              </div>
+      <div class="form-container">
+        <header>Upload Notes</header>
+        <form action="#" class="form">
+          <div class="grid-container-upload">
+            <div class="upload-btn-wrapper">
+              <button class="button">+</button>
+              <input type="file" name="myfile" class="upload" />
             </div>
-            <button>Upload</button>
-          </form>
-        </div>
-        <!-- Quick Links -->
-        <!-- <div class="quick-links-sidebar" id="quick-link-sidebar">
+            <div>
+              <div class="input-box">
+                <label>File Heading</label>
+                <input type="text" placeholder="Enter subject & topic" required />
+              </div>
+              <p></p>
+              <label>Select Your Class</label>
+              <div class="column">
+                <div class="select-box">
+                  <select required>
+                    <option hidden>Semester</option>
+                    <option>First</option>
+                    <option>Second</option>
+                    <option>Third</option>
+                    <option>Fourth</option>
+                    <option>Fifth</option>
+                    <option>Sixth</option>
+                  </select>
+                </div>
+                <div class="select-box">
+                  <select required>
+                    <option hidden>Department</option>
+                    <option>Computer Science</option>
+                    <option>Electrical Engineering</option>
+                    <option>Civil Enginnering</option>
+                  </select>
+                </div>
+              </div>
+              <button>Upload</button>
+            </div>
+
+        </form>
+      </div>
+      <!-- Quick Links -->
+      <!-- <div class="quick-links-sidebar" id="quick-link-sidebar">
           <h3>Quick Links</h3><br>
           <ul class="quick-links" id="links">
             <li><a href="#">About Us</a></li>
@@ -178,23 +177,22 @@
             <li><a href="#">Students & Teachers</a></li>
           </ul>
         </div> -->
-      </div>
-      <div class="container">
-        <div class="form-container"><br>
-          <header>Recent Uploads</header>
-          <div class="uploadtable">
-            <!-- <table id="example" class="stripe hover" style="padding-top: 1em;  padding-bottom: 1em;"> -->
-            <table id="example" class="table table-striped" style="width :100%;">
+    </div>
+    <div class="form-container"><br>
+      <header>Recent Uploads</header>
+      <div class="uploadtable">
+        <!-- <table id="example" class="stripe hover" style="padding-top: 1em;  padding-bottom: 1em;"> -->
+        <table id="example" class="table table-striped" style="width :100%;">
 
-              <thead>
-                <tr>
-                  <th>File Name</th>
-                  <th>Teacher</th>
-                  <th>Class</th>
-                  <th>Upload Date</th>
-                  <th>Actions</th>
-                </tr>
-                <!-- <tr>
+          <thead>
+            <tr>
+              <th>File Name</th>
+              <th>Teacher</th>
+              <th>Class</th>
+              <th>Upload Date</th>
+              <th>Actions</th>
+            </tr>
+            <!-- <tr>
               <th data-priority="1">Name</th>
               <th data-priority="2">Position</th>
               <th data-priority="3">Office</th>
@@ -203,38 +201,37 @@
               <th data-priority="6">Salary</th>
               <th data-priority="7">Yo</th>
             </tr> -->
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Wireless & Mobile Networks - M3</td>
-                  <td>Subir Saha</td>
-                  <td>CST 6th Sem</td>
-                  <td>05/06/2024</td>
-                  <td><button class="table-btn">View</button></td>
-                </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Wireless & Mobile Networks - M3</td>
+              <td>Subir Saha</td>
+              <td>CST 6th Sem</td>
+              <td>05/06/2024</td>
+              <td><button class="table-btn">View</button></td>
+            </tr>
 
-                <!-- Rest of your data (refer to https://datatables.net/examples/server_side/ for server side processing)-->
+            <!-- Rest of your data (refer to https://datatables.net/examples/server_side/ for server side processing)-->
 
-                <tr>
-                  <td>Object Oriented Programming - M4</td>
-                  <td>Arkaprabha Bhattacharya</td>
-                  <td>CST 3rd Sem</td>
-                  <td>02/06/2024</td>
-                  <td><button class="table-btn">View</button></td>
-                </tr>
+            <tr>
+              <td>Object Oriented Programming - M4</td>
+              <td>Arkaprabha Bhattacharya</td>
+              <td>CST 3rd Sem</td>
+              <td>02/06/2024</td>
+              <td><button class="table-btn">View</button></td>
+            </tr>
 
-                <tr>
-                  <td>Basic Electrical - M5</td>
-                  <td>Balaram Das</td>
-                  <td>CE, CST & EE 1st Sem</td>
-                  <td>05/06/2024</td>
-                  <td><button class="table-btn">View</button></td>
-                </tr>
-              </tbody>
-
-            </table>
-          </div>
-          <!-- <form action="#" class="form">
+            <tr>
+              <td>Basic Electrical - M5</td>
+              <td>Balaram Das</td>
+              <td>CE, CST & EE 1st Sem</td>
+              <td>05/06/2024</td>
+              <td><button class="table-btn">View</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- <form action="#" class="form">
             <div class="input-box">
               <label>File Heading</label>
               <input type="text" placeholder="Enter file display name" required />
@@ -263,9 +260,9 @@
             <button>Submit</button><br>
 
           </form> -->
-        </div>
-        <!-- Quick Links -->
-        <!-- <div class="quick-links-sidebar" id="quick-link-sidebar">
+    </div>
+    <!-- Quick Links -->
+    <!-- <div class="quick-links-sidebar" id="quick-link-sidebar">
           <h3>Quick Links</h3><br>
           <ul class="quick-links" id="links">
             <li><a href="#">About Us</a></li>
@@ -274,7 +271,7 @@
             <li><a href="#">Students & Teachers</a></li>
           </ul>
         </div> -->
-      </div>
+    </div>
     </div>
     </div>
   </section>
