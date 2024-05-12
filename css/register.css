@@ -341,7 +341,10 @@
   }
 
   .home-section {
-    padding: 25px;
+    padding-top: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     position: relative;
@@ -351,7 +354,7 @@
     width: 100%;
     transition: all 0.5s ease;
     z-index: 2;
-    overflow-y: hidden;
+    overflow-x: hidden;
   }
 
   .sidebar.open~.home-section {
@@ -933,8 +936,11 @@
     min-height: 100vh;
     top: 0;
     width: 100%;
-    padding: 25px;
-    overflow-y: hidden;
+    padding-top: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    overflow-x: hidden;
     transition: all 0.5s ease;
     z-index: 2;
 
@@ -1536,10 +1542,10 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 0;
+    padding: 10px;
     transition: all 0.5s ease;
     z-index: 2;
-    overflow: hidden;
+    overflow-x: hidden;
   }
 
   .sidebar.open~.home-section {
