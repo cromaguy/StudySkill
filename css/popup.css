@@ -26,6 +26,19 @@
     z-index: 1001;
   }
 
+  #ss-alert {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, .6);
+    z-index: 1001;
+  }
+
   #popup {
     /* min-width: 700px; */
     width: 710px;
@@ -70,6 +83,14 @@
   }
 
   #ac-wrapper-2:not([style])~* {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+  }
+
+  #ss-alert:not([style])~* {
     -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
     -o-filter: blur(2px);

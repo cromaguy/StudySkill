@@ -7,6 +7,7 @@
 
   <!-- Linking -->
   <link rel="stylesheet" href="../css/upload.css" />
+  <link rel="stylesheet" href="../css/popup.css " />
   <link rel="stylesheet" href="../css/table.css" />
   <link rel="stylesheet" href="../css/form.css" />
   <link rel="stylesheet" href="../css/dash.css" />
@@ -117,17 +118,38 @@
   <!-- Top Section -->
 
   <section class="home-section" id="home-section">
+
+    <!-- Add Student Pop-Up -->
+
+    <div id="ss-alert" style="display:none;">
+      <div id="popup">
+        <a href="#" onclick="SSAlert('hide');"><img src="../img/close.png" alt="close popup" class="popup-close" /></a>
+        <!-- <img src="#" alt="logo" class="popup-logo" /> -->
+        <h class="popup-header">Alert</h><br><br>
+
+        <div class="form-container">
+          <header>Message</header>
+        </div>
+        <section class="btn"><br>
+          <a href="#"><button>Button</button></a>
+          <a href="#"><button>Button</button></a>
+        </section>
+      </div>
+    </div>
+
     <div class="text">Class Notes
       <a class="navibtn" onclick="history.back()" href="#">
         <input type="button" value="Go Back" />
       </a>
     </div>
+
     <div class="top-section">
       <h>Upload Section</h>
     </div>
     <div id="items">
       <div class="form-container">
         <header>Upload Notes</header>
+        <!-- <button onclick="SSAlert('show')">Upload</button> -->
         <form action="#" class="form" style="padding: 10px;">
           <div class="grid-container-upload">
             <div class="upload-btn-wrapper">
@@ -162,7 +184,7 @@
                   </select>
                 </div>
               </div>
-              <button>Upload</button>
+              <button onclick="SSAlert(Show)">Upload</button>
             </div>
 
         </form>

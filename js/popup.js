@@ -31,6 +31,23 @@ function AddPopUp(hideOrshow) {
     
 }
 
+function SSAlert(hideOrshow) {
+    if ( hideOrshow == 'hide' ) {
+        document . getElementById( 'ss-alert' ) . style . display = "none"; 
+    }
+    else {
+        document . getElementById( 'ss-alert' ) . removeAttribute( 'style' );
+    }
+    
+    if ( hideOrshow == 'show' ) {
+        $("#wrapper").addClass('blur');
+    } 
+    else {
+        $("#wrapper").removeClass('blur');
+    }
+    
+}
+
 
 
 // window . onload = function () {
