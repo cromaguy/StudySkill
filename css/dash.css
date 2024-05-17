@@ -1793,8 +1793,9 @@
 
   .navi-icon{
     text-align: center;
+    height: auto;
     width: 25%;
-    padding: 5px;
+    padding: auto;
     border-radius: 25px;
     background-color: #ff9900;
     margin: auto;
@@ -1807,7 +1808,7 @@
     width: auto;
     margin: auto;
     padding: auto;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .clickbtn button {
