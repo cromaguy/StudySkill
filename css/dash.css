@@ -22,7 +22,9 @@
     background-position: -400px 0;
   }
 }
-
+.navi-icon a{
+  color: #00000000 !important;
+}
 #items{
   display: none;
 }
