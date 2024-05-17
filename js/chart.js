@@ -53,7 +53,7 @@ function secondchart(){
   }
 
 function thirdchart(){
-  var xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
+  var xValues = ["Monday","Tuesday","Wednesday","Thursday","Friday"];
 var yValues = [55, 49, 44, 24, 15];
 var barColors = ["#003f5c", "#58508d","#bc5090","#ff6361","#ffa600"];
 
@@ -177,4 +177,30 @@ var chartData = {
                 }
             }
         });
-}  
+}
+
+function firstcharthod(){
+  var xValues = ["Present Students", "Abscent Students"];
+  var yValues = [31, 8];
+  var barColors = [
+    "#ffa600",
+    "#ff6361",
+  ];
+  
+  new Chart("chart-1-hod", {
+    type: "doughnut",
+    data: {
+      labels: xValues,
+      datasets: [{
+        backgroundColor: barColors,
+        data: yValues
+      }]
+    },
+    options: {
+      // title: {
+      //   display: true,
+      //   text: "World Wide Wine Production 2018"
+      // }
+    }
+  });
+  }

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title> HOD Dashboard | StudySkill</title>
+
+  <!-- Linking -->
+  <!-- <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /> -->
+  <link rel="stylesheet" href="../css/dash.css" />
+  <link rel="stylesheet" href="../css/dash-widgets.css" />
+  <link rel="stylesheet" href="../css/chart.css" />
+  <link rel="stylesheet" href="../css/preloader.css" />
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+  <!-- Preloader -->
+
+  <div class="spinner-container" id="spinner">
+    <div class="spinner"></div>
+    <div class="loading_cap">
+      <h1>Preparing Dashboard</h1>
+    </div>
+  </div>
+
+  <!-- Sidebar -->
+
+  <div class="sidebar" id="sidebar">
+
+    <!-- Sidebar Logo -->
+
+    <div class="logo-details">
+      <i class="bx bx-book icon"></i>
+      <div class="logo_name">StudySkill</div>
+      <i class="bx bx-menu" id="btn"></i>
+    </div>
+
+    <!-- Sidebar Navlist -->
+
+    <ul class="nav-list" id="sidebar-items">
+      <li>
+        <a href="Hod-Dash.html">
+          <i class="bx bx-category-alt"></i>
+          <span class="links_name">Dashboard</span>
+        </a>
+        <span class="tooltip">My Dashboard</span>
+      </li>
+      <li>
+        <a href="Academics.html">
+          <i class="bx bx-check-double"></i>
+          <span class="links_name">Academics</span>
+        </a>
+        <span class="tooltip">Upload Center</span>
+      </li>
+      <li>
+        <a href="Academics.html">
+          <i class="bx bx-chalkboard"></i>
+          <span class="links_name">Classes</span>
+        </a>
+        <span class="tooltip">Manage Classes</span>
+      </li>
+      <li>
+        <a href="Approvals.html">
+          <i class="bx bx-paper-plane"></i>
+          <span class="links_name">Approvals</span>
+        </a>
+        <span class="tooltip">Approval Requests</span>
+      </li>
+      <li>
+        <a href="Accounts.html">
+          <i class="bx bx-group"></i>
+          <span class="links_name">Accounts</span>
+        </a>
+        <span class="tooltip">GDPIANS</span>
+      </li>
+      <li>
+        <a href="Analytics.html">
+          <i class="bx bx-chart"></i>
+          <span class="links_name">Analytics</span>
+        </a>
+        <span class="tooltip">Analyse to Strategise</span>
+      </li>
+      <li>
+        <a href="Schedules.html">
+          <i class="bx bx-time"></i>
+          <span class="links_name">Schedules</span>
+        </a>
+        <span class="tooltip">See What's Next</span>
+      </li>
+      <li>
+        <a href="Profile.html">
+          <i class="bx bx-user-circle"></i>
+          <span class="links_name">My Profile</span>
+        </a>
+        <span class="tooltip">Me</span>
+      </li>
+
+      <!-- Sidebar Profile -->
+
+      <li class="profile">
+        <div class="profile-details">
+          <img src="../img/profile.png" alt="profileImg" />
+          <div class="name_job">
+            <div class="name">Subir Saha</div>
+            <div class="job">CST HOD</div>
+          </div>
+        </div>
+        <i class="bx bx-log-out" id="log_out"></i>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Top Section -->
+
+  <section class="home-section" id="home-section">
+    <div class="text">Dashboard
+      <a class="navibtn" href="https://github.com/cromaguy/StudySkill/">
+        <input type="button" value="BETA" />
+      </a>
+    </div>
+    <div class="top-section">
+      <h>Welcome HOD!</h>
+    </div>
+    <div id="items">
+    <h1 class="dash-label">QUICK WIDGETS</h1>
+    <div class="container">
+      <div class="grid-container-small-widgets">
+        <div class="small-widget">
+          <div class="bx bxs-graduation" id="widget-icon">
+            <p>Users: <span id="total-users">500</span></p>
+            <h2><span id="user-type">Students</span></h2>
+          </div>
+        </div>
+
+        <div class="small-widget">
+          <div class="bx bx-chalkboard" id="widget-icon">
+            <p>Users: <span id="total-users">36</span></p>
+            <h2><span id="user-type">Teachers</span></h2>
+          </div>
+        </div>
+
+        <div class="small-widget">
+          <div class="bx bx-envelope" id="widget-icon">
+            <p>Unread: <span id="total-users">12</span></p>
+            <h2><span id="user-type">Notices</span></h2>
+          </div>
+        </div>
+        <div class="small-widget">
+          <div class="bx bx-paper-plane" id="widget-icon">
+            <p>Count: <span id="total-users">0</span></p>
+            <h2><span id="user-type">Approval Requests</span></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 class="dash-label">QUICK ANALYSIS</h1>
+    <div class="container">
+      <div class="grid-container-chart">
+        <div class="chart-box">
+          <div class="icon">
+            <!-- <i class="bx bx-clipboard"></i> -->
+            <h>Attendance Count</h>
+          </div>
+          <canvas id="chart-1-hod"></canvas>
+        </div>
+        <div class="chart-box">
+          <div class="icon">
+            <!-- <i class="bx bx-user"></i> -->
+            <h>Attendance History</h>
+          </div>
+          <canvas id="chart-3"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="dash-section" id="dash-section">
+      <!-- <div class="header">
+  <h>Session 23-24</h>
+  </div> -->
+  <h1 class="dash-label">HIGHLIGHTS</h1>
+      <div class="container">
+        <div class="grid-container-large-widgets">
+          <div class="large-widget">
+            <h2><span id="user-type">Manage Session</span></h2>
+            <p>Start and End Session based on situation and requirements. Once you end a session, no one can modify or upload anything.</p>
+            <a class="widgetbtn" href="Academics.html"><button>Let's Go!</button></a>
+          </div>
+
+          <div class="large-widget">
+            <h2><span id="user-type">Detailed Overview</span></h2>
+            <p>Study more about everthing on this system using carts which are usedto provide a visual and graphical representation of overall analysis.</p>
+            <a class="widgetbtn" href="Analytics.html"><button>Analyse!</button></a>
+          </div>
+
+          <div class="large-widget">
+            <h2><span id="user-type">Latest Updates</span></h2>
+            <p>Learn about new features, bug fixes and enhancements made to this management system to discover new paths for making tasks easier!</p>
+            <a class="widgetbtn" href="Version.html"><button>Release Info!</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Links -->
+
+  <script src="../js/script.js"></script>
+  <script src="../js/preloader.js"></script>
+  <script src="../js/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

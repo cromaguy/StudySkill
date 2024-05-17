@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Analyse to Strategise | StudySkill</title>
+
+    <!-- Linking -->
+
+    <link rel="stylesheet" href="../css/dash.css" />
+    <link rel="stylesheet" href="../css/chart.css" />
+    <link rel="stylesheet" href="../css/preloader.css" />
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+
+    <!-- Preloader -->
+
+    <div class="spinner-container" id="spinner">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- Sidebar -->
+
+    <div class="sidebar" id="sidebar">
+
+      <!-- Sidebar Logo -->
+
+      <div class="logo-details">
+        <i class="bx bx-book icon"></i>
+        <div class="logo_name">StudySkill</div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+
+      <!-- Sidebar Navlist -->
+
+      <ul class="nav-list" id="sidebar-items">
+        <li>
+          <a href="Admin-Dash.html">
+            <i class="bx bx-category-alt"></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+          <span class="tooltip">Dashboard</span>
+        </li>
+        <li>
+          <a href="Accounts.html">
+            <i class="bx bx-group"></i>
+            <span class="links_name">Accounts</span>
+          </a>
+          <span class="tooltip">Manage Accounts</span>
+        </li>
+        <li>
+          <a href="Analytics.html">
+            <i class="bx bx-chart"></i>
+            <span class="links_name">Analytics</span>
+          </a>
+          <span class="tooltip">Analyse to Strategise</span>
+        </li>
+        <li>
+          <a href="Schedules.html">
+            <i class="bx bx-time"></i>
+            <span class="links_name">Schedules</span>
+          </a>
+          <span class="tooltip">See What's Next</span>
+        </li>
+        <li>
+          <a href="Academics.html">
+            <i class="bx bx-check-double"></i>
+            <span class="links_name">Academics</span>
+          </a>
+          <span class="tooltip">Performance</span>
+        </li>
+        <li>
+          <a href="Departments.html">
+            <i class="bx bxs-school"></i>
+            <span class="links_name">Departments</span>
+          </a>
+          <span class="tooltip">Variety of Engineers</span>
+        </li>
+        <li>
+          <a href="Version.html">
+            <i class="bx bx-rocket"></i>
+            <span class="links_name">Release Notes</span>
+          </a>
+          <span class="tooltip">StudySkill Version</span>
+        </li>
+        <li>
+          <a href="Profile.html">
+            <i class="bx bx-user-circle"></i>
+            <span class="links_name">My Profile</span>
+          </a>
+          <span class="tooltip">Me</span>
+        </li>
+
+        <!-- Sidebar Profile -->
+
+        <li class="profile">
+          <div class="profile-details">
+            <img src="../img/profile.png" alt="profileImg" />
+            <div class="name_job">
+              <div class="name">Anjishnu Nandi</div>
+              <div class="job">Admin User</div>
+            </div>
+          </div>
+          <i class="bx bx-log-out" id="log_out"></i>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Top Section -->
+
+    <section class="home-section" id="home-section">
+      <div class="text">Analytics
+        <a class="navibtn" onclick="history.back()" href="#">
+          <input type="button" value="Go Back" />
+        </a>
+      </div>
+      <div class="top-section">
+          <h>Analyse to Strategise</h>
+      </div>
+      <div id="items">
+      <h1 class="dash-label">CHARTS</h1>
+      <div class="container">
+    <!-- Chart -->
+    <div class="grid-container">
+      <div class="grid-item">
+        <h class="heading">Chart 1</h>  
+        <canvas id="chart-1"></canvas>
+      </div>
+      <div class="grid-item">
+        <h class="heading">Chart 2</h>  
+        <canvas id="chart-2"></canvas>
+      </div>
+      <div class="grid-item">
+        <h class="heading">Chart 3</h>
+        <canvas id="chart-3"></canvas>  
+      </div>  
+      <div class="grid-item">
+        <h class="heading">Chart 4</h>
+        <canvas id="chart-4"></canvas>  
+      </div>
+      <div class="grid-item">
+        <h class="heading">Chart 5</h>
+        <canvas id="chart-5"></canvas>  
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- Quick Links -->
+
+  <!-- <div class="quick-links-sidebar" id="quick-link-sidebar">
+    <h3>Quick Links</h3><br>
+    <ul class="quick-links" id="links">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Departments</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Students & Teachers</a></li>
+    </ul>
+  </div> -->
+</div>
+</div>
+    </section>
+
+    <!-- Quick Links -->
+
+    <script src="../js/script.js"></script>
+    <script src="../js/preloader.js"></script>
+    <script src="../js/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

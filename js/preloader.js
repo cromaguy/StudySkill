@@ -25,6 +25,7 @@ setTimeout(() => {
 
 setTimeout(() => {
   firstchart();
+  firstcharthod();
   secondchart();
   thirdchart();
   fourthchart();
