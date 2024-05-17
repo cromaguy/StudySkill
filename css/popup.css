@@ -454,6 +454,7 @@
     margin-left: 25px;
     padding: 60px;
     padding-top: 38px;
+    overflow-y: scroll;
   }
 
   .popup-header {
