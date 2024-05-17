@@ -565,9 +565,10 @@
     padding: 5px;
     border-radius: 25px;
     background-color: #006eff;
-    margin: 0%;
+    margin: auto;
     margin-right: 0.4%;
     right: 100%;
+    margin-top: -2px;
   }
   .navi-icon i{
     color: white;
@@ -1196,11 +1197,12 @@
     text-align: center;
     width: 6%;
     padding: 5px;
+    margin: auto;
     border-radius: 25px;
     background-color: #8FBFFF;
-    margin: 0%;
     margin-right: 0.4%;
     right: 100%;
+    margin-top: -2px;
   }
   .navi-icon i{
     color: rgb(0, 0, 0);
