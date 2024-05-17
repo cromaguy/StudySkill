@@ -482,11 +482,12 @@
   .chart-box {
     max-height: 290px;
     height: auto;
-    min-width: 250px;
+    min-width: 200px;
     width: auto;
-    max-width: 320px;
-    margin: auto;
+    max-width: 300px;
+    margin: 2px;
     padding: 25px;
+    color: #ffffff;
     /* background: url("../img/table.png") center repeat;
     background-size:contain;
     -webkit-animation: backgroundScroll 60s linear infinite;
