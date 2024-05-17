@@ -557,6 +557,23 @@
     color: #000000;
   }
 
+  .navi-icon{
+    text-align: center;
+    width: 6%;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #006eff;
+    margin: 0%;
+    margin-right: 0.4%;
+    right: 100%;
+  }
+  .navi-icon i{
+    color: white;
+    width: auto;
+    margin: auto;
+    font-size: 22px;
+  }
+
   .clickbtn button {
     height: auto;
     width: auto;
@@ -1173,6 +1190,23 @@
     cursor: pointer;
   }
 
+  .navi-icon{
+    text-align: center;
+    width: 6%;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #8FBFFF;
+    margin: 0%;
+    margin-right: 0.4%;
+    right: 100%;
+  }
+  .navi-icon i{
+    color: rgb(0, 0, 0);
+    width: auto;
+    margin: auto;
+    font-size: 22px;
+  }
+
   .operationbtn button {
     display: inline-block;
     height: auto;
@@ -1751,6 +1785,25 @@
     border-radius: 12px;
     background: #ffffff;
     color: #000000;
+  }
+
+  .navi-icon{
+    text-align: center;
+    width: 25%;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #ff9900;
+    margin: auto;
+    margin-right: 5%;
+    right: 100%;
+    margin-top: -2%;
+  }
+  .navi-icon i{
+    color: white;
+    width: auto;
+    margin: auto;
+    padding: auto;
+    font-size: 18px;
   }
 
   .clickbtn button {
