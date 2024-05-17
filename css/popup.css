@@ -1,4 +1,46 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+#ac-wrapper:not([style])~* {
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+#ac-wrapper-2:not([style])~* {
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+#ss-alert:not([style])~* {
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+#notify:not([style])~* {
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+#wrapper.blur {
+  -webkit-filter: blur(100px);
+  -moz-filter: blur(100px);
+  -o-filter: blur(100px);
+  -ms-filter: blur(100px);
+  filter: blur(100px);
+  height: 100%;
+}
+
 @media (prefers-color-scheme: light) {
   #ac-wrapper {
     position: absolute;
@@ -14,6 +56,19 @@
   }
 
   #ac-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, .6);
+    z-index: 1001;
+  }
+
+  #notify {
     position: absolute;
     top: 0;
     left: 0;
@@ -72,38 +127,6 @@
   .popup-logo {
     width: 180px;
     margin-top: 25px;
-  }
-
-  #ac-wrapper:not([style])~* {
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
-    filter: blur(2px);
-  }
-
-  #ac-wrapper-2:not([style])~* {
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
-    filter: blur(2px);
-  }
-
-  #ss-alert:not([style])~* {
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
-    filter: blur(2px);
-  }
-
-  #wrapper.blur {
-    -webkit-filter: blur(10px);
-    -moz-filter: blur(10px);
-    -o-filter: blur(10px);
-    -ms-filter: blur(10px);
-    filter: blur(10px);
   }
 
   .account-header {
@@ -228,6 +251,19 @@
     z-index: 1001;
   }
 
+  #notify {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    max-height: 90%;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, .6);
+    z-index: 1001;
+  }
+
   #popup {
     /* min-width: 700px; */
     width: 710px;
@@ -265,30 +301,6 @@
   .popup-logo {
     width: 180px;
     margin-top: 25px;
-  }
-
-  #ac-wrapper:not([style])~* {
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
-    filter: blur(2px);
-  }
-
-  #ac-wrapper-2:not([style])~* {
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
-    filter: blur(2px);
-  }
-
-  #wrapper.blur {
-    -webkit-filter: blur(10px);
-    -moz-filter: blur(10px);
-    -o-filter: blur(10px);
-    -ms-filter: blur(10px);
-    filter: blur(10px);
   }
 
   .account-header {
@@ -413,6 +425,16 @@
     z-index: 1001;
   }
 
+  #notify {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    z-index: 1001;
+  }
+
   #popup {
     height: 100%;
     width: 100%;
@@ -450,30 +472,6 @@
   .popup-logo {
     width: 180px;
     margin-top: 25px;
-  }
-
-  #ac-wrapper:not([style])~* {
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
-    filter: blur(2px);
-  }
-
-  #ac-wrapper-2:not([style])~* {
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
-    filter: blur(2px);
-  }
-
-  #wrapper.blur {
-    -webkit-filter: blur(10px);
-    -moz-filter: blur(10px);
-    -o-filter: blur(10px);
-    -ms-filter: blur(10px);
-    filter: blur(10px);
   }
 
   .account-header {

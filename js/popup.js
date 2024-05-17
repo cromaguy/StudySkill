@@ -48,6 +48,23 @@ function SSAlert(hideOrshow) {
     
 }
 
+function Notifications(hideOrshow) {
+    if ( hideOrshow == 'hide' ) {
+        document . getElementById( 'notify' ) . style . display = "none"; 
+    }
+    else {
+        document . getElementById( 'notify' ) . removeAttribute( 'style' );
+    }
+    
+    if ( hideOrshow == 'show' ) {
+        $("#wrapper").addClass('blur');
+    } 
+    else {
+        $("#wrapper").removeClass('blur');
+    }
+    
+}
+
 
 
 // window . onload = function () {

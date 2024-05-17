@@ -11,6 +11,8 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   /> -->
   <link rel="stylesheet" href="../css/dash.css" />
+  <link rel="stylesheet" href="../css/collapse.css" />
+  <link rel="stylesheet" href="../css/popup.css" />
   <link rel="stylesheet" href="../css/dash-widgets.css" />
   <link rel="stylesheet" href="../css/chart.css" />
   <link rel="stylesheet" href="../css/preloader.css" />
@@ -126,9 +128,50 @@
   <!-- Top Section -->
 
   <section class="home-section" id="home-section">
+    <div id="notify" style="display:none;">
+      <div id="popup">
+        <a href="#" onclick="Notifications('hide');"><img src="../img/close.png" alt="close popup"
+            class="popup-close" /></a>
+        <!-- <img src="#" alt="logo" class="popup-logo" /> -->
+        <h class="popup-header">Notifications</h><br><br>
+        <button class="collapsible">25/03/2024</button>
+        <div class="content">
+          <h1>V-4.0 🅰🅻🅿🅷🅰</h1>
+          <div class="release-note">
+            <h2>New Features</h2>
+            <ul>
+              <li>We are now on Github!</li>
+              <li>Added logo to Preloader</li>
+              <li>Added icons to Dashboard widgets</li>
+            </ul>
+          </div>
+          <div class="release-note">
+            <h2>Enhancements</h2>
+            <ul>
+              <li>Improved user interface for better usability</li>
+              <li>Optimised Preloader and fixed Charts animation</li>
+            </ul>
+          </div>
+          <div class="release-note">
+            <h2>Bug Fixes</h2>
+            <ul>
+              <li>Fixed Dashboard for smaller screens</li>
+              <li>Code cleanup and organised</li>
+              <li>Fixed clicking on charts reloaded them</li>
+              <li>Fixed many more css </li>
+            </ul>
+          </div>
+        </div>
+        </button>
+        <section class="btn"><br>
+          <a href="#"><button>Mark as unread</button></a>
+          <button>Refresh</button>
+        </section>
+      </div>
+    </div>
     <div class="text">Dashboard
       <div class="navi-icon">
-        <a class="navi-icon-i" href="#">
+        <a class="navi-icon-i" href="#" onclick="Notifications('show');">
           <i class="bx bx-bell bx-tada-hover"></i>
         </a>
         <a class="navi-icon-i" href="https://github.com/cromaguy/StudySkill/">
@@ -140,84 +183,87 @@
       <h>Welcome HOD!</h>
     </div>
     <div id="items">
-    <h1 class="dash-label">QUICK WIDGETS</h1>
-    <div class="container">
-      <div class="grid-container-small-widgets">
-        <div class="small-widget">
-          <div class="bx bxs-graduation" id="widget-icon">
-            <p>Users: <span id="total-users">500</span></p>
-            <h2><span id="user-type">Students</span></h2>
+      <h1 class="dash-label">QUICK WIDGETS</h1>
+      <div class="container">
+        <div class="grid-container-small-widgets">
+          <div class="small-widget">
+            <div class="bx bxs-graduation" id="widget-icon">
+              <p>Users: <span id="total-users">500</span></p>
+              <h2><span id="user-type">Students</span></h2>
+            </div>
           </div>
-        </div>
 
-        <div class="small-widget">
-          <div class="bx bx-chalkboard" id="widget-icon">
-            <p>Users: <span id="total-users">36</span></p>
-            <h2><span id="user-type">Teachers</span></h2>
+          <div class="small-widget">
+            <div class="bx bx-chalkboard" id="widget-icon">
+              <p>Users: <span id="total-users">36</span></p>
+              <h2><span id="user-type">Teachers</span></h2>
+            </div>
           </div>
-        </div>
 
-        <div class="small-widget">
-          <div class="bx bx-envelope" id="widget-icon">
-            <p>Unread: <span id="total-users">12</span></p>
-            <h2><span id="user-type">Notices</span></h2>
+          <div class="small-widget">
+            <div class="bx bx-envelope" id="widget-icon">
+              <p>Unread: <span id="total-users">12</span></p>
+              <h2><span id="user-type">Notices</span></h2>
+            </div>
           </div>
-        </div>
-        <div class="small-widget">
-          <div class="bx bx-paper-plane" id="widget-icon">
-            <p>Count: <span id="total-users">0</span></p>
-            <h2><span id="user-type">Approval Requests</span></h2>
+          <div class="small-widget">
+            <div class="bx bx-paper-plane" id="widget-icon">
+              <p>Count: <span id="total-users">0</span></p>
+              <h2><span id="user-type">Approval Requests</span></h2>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <h1 class="dash-label">QUICK ANALYSIS</h1>
-    <div class="container">
-      <div class="grid-container-chart">
-        <div class="chart-box">
-          <div class="icon">
-            <!-- <i class="bx bx-clipboard"></i> -->
-            <h>Attendance Count</h>
+      <h1 class="dash-label">QUICK ANALYSIS</h1>
+      <div class="container">
+        <div class="grid-container-chart">
+          <div class="chart-box">
+            <div class="icon">
+              <!-- <i class="bx bx-clipboard"></i> -->
+              <h>Attendance Count</h>
+            </div>
+            <canvas id="chart-1-hod"></canvas>
           </div>
-          <canvas id="chart-1-hod"></canvas>
-        </div>
-        <div class="chart-box">
-          <div class="icon">
-            <!-- <i class="bx bx-user"></i> -->
-            <h>Attendance History</h>
+          <div class="chart-box">
+            <div class="icon">
+              <!-- <i class="bx bx-user"></i> -->
+              <h>Attendance History</h>
+            </div>
+            <canvas id="chart-3"></canvas>
           </div>
-          <canvas id="chart-3"></canvas>
         </div>
       </div>
-    </div>
 
-    <div class="dash-section" id="dash-section">
-      <!-- <div class="header">
+      <div class="dash-section" id="dash-section">
+        <!-- <div class="header">
   <h>Session 23-24</h>
   </div> -->
-  <h1 class="dash-label">HIGHLIGHTS</h1>
-      <div class="container">
-        <div class="grid-container-large-widgets">
-          <div class="large-widget">
-            <h2><span id="user-type">Manage Session</span></h2>
-            <p>Start and End Session based on situation and requirements. Once you end a session, no one can modify or upload anything.</p>
-            <a class="widgetbtn" href="Academics.html"><button>Let's Go!</button></a>
-          </div>
+        <h1 class="dash-label">HIGHLIGHTS</h1>
+        <div class="container">
+          <div class="grid-container-large-widgets">
+            <div class="large-widget">
+              <h2><span id="user-type">Manage Session</span></h2>
+              <p>Start and End Session based on situation and requirements. Once you end a session, no one can modify or
+                upload anything.</p>
+              <a class="widgetbtn" href="Academics.html"><button>Let's Go!</button></a>
+            </div>
 
-          <div class="large-widget">
-            <h2><span id="user-type">Detailed Overview</span></h2>
-            <p>Study more about everthing on this system using carts which are usedto provide a visual and graphical representation of overall analysis.</p>
-            <a class="widgetbtn" href="Analytics.html"><button>Analyse!</button></a>
-          </div>
+            <div class="large-widget">
+              <h2><span id="user-type">Detailed Overview</span></h2>
+              <p>Study more about everthing on this system using carts which are usedto provide a visual and graphical
+                representation of overall analysis.</p>
+              <a class="widgetbtn" href="Analytics.html"><button>Analyse!</button></a>
+            </div>
 
-          <div class="large-widget">
-            <h2><span id="user-type">Latest Updates</span></h2>
-            <p>Learn about new features, bug fixes and enhancements made to this management system to discover new paths for making tasks easier!</p>
-            <a class="widgetbtn" href="Version.html"><button>Release Info!</button></a>
+            <div class="large-widget">
+              <h2><span id="user-type">Latest Updates</span></h2>
+              <p>Learn about new features, bug fixes and enhancements made to this management system to discover new
+                paths for making tasks easier!</p>
+              <a class="widgetbtn" href="Version.html"><button>Release Info!</button></a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
   </section>
 
   <!-- Quick Links -->
@@ -225,6 +271,8 @@
   <script src="../js/script.js"></script>
   <script src="../js/preloader.js"></script>
   <script src="../js/chart.js"></script>
+  <script src="../js/popup.js"></script>
+  <script src="../js/collapse.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
