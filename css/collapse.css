@@ -13,36 +13,6 @@
     font-size: 20px !important;
 }
 
- #popup::-webkit-scrollbar {
-    width: 0px;
-    background: rgba(0, 0, 0, 0);
-}
-
-::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0);
-}
-
-::-webkit-scrollbar-thumb {
-    background: rgb(0, 0, 0);
-    border-radius: 12px;
-    transition: all 0.3s ease;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #006eff;
-}
-
-
-.notificationarea {
-    max-height: 20%;
-
-}
-
-#popup {
-    max-height: 95% !important;
-    overflow: scroll !important;
-}
-
 @media (prefers-color-scheme: light) {
     .collapsible {
         background-color: #006eff;
@@ -86,6 +56,37 @@
         margin-bottom: 5px;
         overflow-y: scroll;
     }
+
+    #popup::-webkit-scrollbar {
+        width: 0px;
+        background: rgba(0, 0, 0, 0);
+    }
+
+    ::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgb(0, 0, 0);
+        border-radius: 12px;
+        transition: all 0.3s ease;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #006eff;
+    }
+
+
+    .notificationarea {
+        max-height: 20%;
+
+    }
+
+    #popup {
+        max-height: 95% !important;
+        overflow: scroll !important;
+    }
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -132,6 +133,36 @@
         margin-bottom: 5px;
         overflow-y: scroll;
     }
+
+    #popup::-webkit-scrollbar {
+        width: 0px;
+        background: rgba(0, 0, 0, 0);
+    }
+
+    ::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgb(0, 0, 0);
+        border-radius: 12px;
+        transition: all 0.3s ease;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #006eff;
+    }
+
+
+    .notificationarea {
+        max-height: 20%;
+
+    }
+
+    #popup {
+        max-height: 95% !important;
+        overflow: scroll !important;
+    }
 }
 
 @media (max-width: 500px) {
@@ -171,11 +202,23 @@
         padding: 0px 5px;
         max-height: 0;
         transition: 0.2s ease-out;
-        background-color: #ffffff;
+        background-color: #ffffff00;
+        color: black;
         border-radius: 25px;
         width: 100%;
         margin-bottom: 5px;
         overflow-y: scroll;
         font-size: small;
     }
+    
+    .notificationarea {
+        overflow: scroll !important;
+        height: 80%;
+        max-height: 80%;
+    }
+    
+    #popup {
+        max-height: 100% !important;
+    }
+    
 }
