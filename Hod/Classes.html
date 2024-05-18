@@ -7,6 +7,7 @@
 
   <!-- Linking -->
   <link rel="stylesheet" href="../css/upload.css" />
+  <link rel="stylesheet" href="../css/list.css" />
   <link rel="stylesheet" href="../css/popup.css " />
   <link rel="stylesheet" href="../css/table.css" />
   <link rel="stylesheet" href="../css/form.css" />
@@ -143,15 +144,24 @@
       </a>
     </div>
 
-    <div class="top-section">
+    <!-- <div class="top-section">
       <h>Manage Classes</h>
+    </div> -->
+    <div class="container">
+      <div class="overview">
+        <h2><span id="Examinations">Your Class</span></h2>
+        <h3>Activity: <span id="status">Wireless & Mobile Network</span></h3>
+        <h3>Class: <span id="status">6th Sem CST</span></h3>
+        <h3>Status: <span id="status">Ongoing</span></h3>
+        <a class="overviewbtn" href="#"><button>Start Class</button></a>
+      </div>
     </div>
     <div id="items">
       <div class="form-container">
-        <header>Start an online session</header>
+        <header>Online Session</header>
         <!-- <button onclick="SSAlert('show')">Upload</button> -->
         <form action="#" class="form" style="padding: 10px;">
-          <div class="grid-container-upload">
+          <div class="grid-container-widget">
 
           </div>
           <div>
@@ -198,10 +208,61 @@
             <li><a href="#">Students & Teachers</a></li>
           </ul>
         </div> -->
-        <div class="form-container"><br>
-          <header>Start an offline session</header>
-    
+      <div class="form-container"><br>
+        <header>Today's Attendance</header>
+        <div class="uploadtable">
+          <!-- <table id="example" class="stripe hover" style="padding-top: 1em;  padding-bottom: 1em;"> -->
+          <table id="example" class="table table-striped" style="width :100%;">
+
+            <thead>
+              <tr>
+                <th>File Name</th>
+                <th>Teacher</th>
+                <th>Class</th>
+                <th>Upload Date</th>
+                <th>Actions</th>
+              </tr>
+              <!-- <tr>
+                  <th data-priority="1">Name</th>
+                  <th data-priority="2">Position</th>
+                  <th data-priority="3">Office</th>
+                  <th data-priority="4">Age</th>
+                  <th data-priority="5">Start date</th>
+                  <th data-priority="6">Salary</th>
+                  <th data-priority="7">Yo</th>
+                </tr> -->
+            </thead>
+            <tbody>
+              <tr>
+                <td>Wireless & Mobile Networks - M3</td>
+                <td>Subir Saha</td>
+                <td>CST 6th Sem</td>
+                <td>05/06/2024</td>
+                <td><button class="table-btn">View</button></td>
+              </tr>
+
+              <!-- Rest of your data (refer to https://datatables.net/examples/server_side/ for server side processing)-->
+
+              <tr>
+                <td>Object Oriented Programming - M4</td>
+                <td>Arkaprabha Bhattacharya</td>
+                <td>CST 3rd Sem</td>
+                <td>02/06/2024</td>
+                <td><button class="table-btn">View</button></td>
+              </tr>
+
+              <tr>
+                <td>Basic Electrical - M5</td>
+                <td>Balaram Das</td>
+                <td>CE, CST & EE 1st Sem</td>
+                <td>05/06/2024</td>
+                <td><button class="table-btn">View</button></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
+
+      </div>
     </div>
     </div>
     </div>
