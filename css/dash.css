@@ -1794,7 +1794,7 @@
   .navi-icon{
     text-align: center;
     height: auto;
-    width: 25%;
+    width: auto;
     padding: auto;
     border-radius: 25px;
     background-color: #ff9900;
@@ -1806,8 +1806,9 @@
   .navi-icon i{
     color: white;
     width: auto;
+    height: auto;
     margin: auto;
-    padding: auto;
+    padding: 5px;
     font-size: 20px;
   }
 
