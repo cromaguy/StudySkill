@@ -30,7 +30,7 @@
 
     .active,
     .collapsible:hover {
-        background-color: #ffffff;
+        background-color: rgb(245, 250, 255);
         color: #006eff;
     }
 
@@ -120,7 +120,7 @@
 
     .active,
     .collapsible:hover {
-        background-color: #ffffff;
+        background-color: rgb(255, 246, 238);
         color: #ff9900;
     }
 
