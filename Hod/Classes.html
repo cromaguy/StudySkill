@@ -2,17 +2,16 @@
 <html lang="en" dir="ltr">
 
 <head>
+  <meta charset="UTF-8" />
+  <title>Manage Classes | StudySkill</title>
 
   <!-- Linking -->
-
-  <meta charset="UTF-8" />
-  <title>Academics | StudySkill</title>
-
-  <!-- Style Sheets -->
-
+  <link rel="stylesheet" href="../css/upload.css" />
+  <link rel="stylesheet" href="../css/popup.css " />
+  <link rel="stylesheet" href="../css/table.css" />
+  <link rel="stylesheet" href="../css/form.css" />
   <link rel="stylesheet" href="../css/dash.css" />
   <link rel="stylesheet" href="../css/preloader.css" />
-  <link rel="stylesheet" href="../css/list.css" />
   <link rel="shortcut icon" href="../img/favicon.ico">
   <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -119,95 +118,104 @@
   <!-- Top Section -->
 
   <section class="home-section" id="home-section">
-    <div class="text">Academics
+
+    <!-- Pop-Up -->
+
+    <div id="ac-wrapper2" style="display:none;">
+      <div id="popup">
+        <a href="#" onclick="SSAlert('hide');"><img src="../img/close.png" alt="close popup" class="popup-close" /></a>
+        <!-- <img src="#" alt="logo" class="popup-logo" /> -->
+        <h class="popup-header">Alert</h><br><br>
+
+        <div class="form-container">
+          <header>Message</header>
+        </div>
+        <section class="btn"><br>
+          <a href="#"><button>Button</button></a>
+          <a href="#"><button>Button</button></a>
+        </section>
+      </div>
+    </div>
+
+    <div class="text">Classes
       <a class="navibtn" onclick="history.back()" href="#">
         <input type="button" value="Go Back" />
       </a>
     </div>
-    <!-- <div class="top-section">
-      <h>Performance</h>
-    </div> -->
-    <!-- <h1 class="dash-label">SESSION MANAGER</h1> -->
-    <!-- Top Container -->
-    <div class="container">
-      <div class="overview">
-        <h2><span id="Examinations">Today's Session</span></h2>
-        <h3>Start: <span id="status">10 AM</span></h3>
-        <h3>End: <span id="status">5 PM</span></h3>
-        <h3>Status: <span id="status">Ongoing</span></h3>
-        <a class="overviewbtn" href="Schedules.html"><button>View Schedules</button></a>
-      </div>
+
+    <div class="top-section">
+      <h>Manage Classes</h>
     </div>
     <div id="items">
-    <h1 class="dash-label">FEATURES</h1>
-    <div class="container">
-      <div class="grid-container-list">
-        <div class="list">
-          <a class="listbtn" href="Classes.html"><button>Open</button></a>
-          <h2><span id="Notes">Classes</span></h2>
-          <h3>Activity: <span id="status">First Period</span></h3>
-          <!-- <h3><span id="status"></span></h3> -->
-        </div>
+      <div class="form-container">
+        <header>Start an online session</header>
+        <!-- <button onclick="SSAlert('show')">Upload</button> -->
+        <form action="#" class="form" style="padding: 10px;">
+          <div class="grid-container-upload">
 
-        <div class="list">
-          <a class="listbtn" href="Class-Notes.html"><button>Upload</button></a>
-          <h2><span id="Notes">Class Notes</span></h2>
-          <h3>Activity: <span id="status">Not Uploaded</span></h3>
-          <!-- <h3><span id="status"></span></h3> -->
-        </div>
+          </div>
+          <div>
+            <div class="input-box">
+              <label>Subject & Topic</label>
+              <input type="text" placeholder="Enter subject & topic" required />
+            </div>
+            <p></p>
+            <label>Select Your Class</label>
+            <div class="column">
+              <div class="select-box">
+                <select required>
+                  <option hidden>Semester</option>
+                  <option>First</option>
+                  <option>Second</option>
+                  <option>Third</option>
+                  <option>Fourth</option>
+                  <option>Fifth</option>
+                  <option>Sixth</option>
+                </select>
+              </div>
+              <div class="select-box">
+                <select required>
+                  <option hidden>Department</option>
+                  <option>Computer Science</option>
+                  <option>Electrical Engineering</option>
+                  <option>Civil Enginnering</option>
+                </select>
+              </div>
+            </div>
+            <button onclick="">Start Class</button>
+            <h>Class ID: test ingi d245</h>
+          </div>
 
-        <div class="list">
-          <a class="listbtn" href="#"><button>Upload</button></a>
-          <h2><span id="Notes">Syllabus</span></h2>
-          <h3>Activity: <span id="status">Not Uploaded</span></h3>
-          <!-- <h3><span id="status"></span></h3> -->
-        </div>
-
-        <div class="list">
-          <a class="listbtn" href="#"><button>Upload</button></a>
-          <h2><span id="Grades">Grades</span></h2>
-          <h3>Status: <span id="status">Midterm 2</span></h3>
-          <!-- <h3><span id="status"></span></h3> -->
-        </div>
-
-        <div class="list">
-          <a class="listbtn" href="#"><button>Upload</button></a>
-          <h2><span id="Attendance">Attendance</span></h2>
-          <h3>Status: <span id="status">Taken</span></h3>
-          <!-- <h3><span id="status"></span></h3> -->
-        </div>
-
-        <div class="list">
-          <a class="listbtn" href="Notices"><button>Open</button></a>
-          <h2><span id="Notice">Notices</span></h2>
-          <h3>Last Received: <span id="status">20th April</span></h3>
-          <!-- <h3><span id="status"></span></h3> -->
-        </div>
+        </form>
       </div>
       <!-- Quick Links -->
-
-      <div class="quick-links-sidebar" id="quick-link-sidebar">
-        <h3>Quick Links</h3><br>
-        <ul class="quick-links" id="links">
-          <li><a href="Version.html">Release Notes</a></li>
-          <li><a href="Departments.html">Departments</a></li>
-          <li><a href="Schedules.html">Schedules</a></li>
-          <li><a href="Accounts.html">User Accounts</a></li>
-        </ul>
-      </div>
+      <!-- <div class="quick-links-sidebar" id="quick-link-sidebar">
+          <h3>Quick Links</h3><br>
+          <ul class="quick-links" id="links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Departments</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Students & Teachers</a></li>
+          </ul>
+        </div> -->
+        <div class="form-container"><br>
+          <header>Start an offline session</header>
+    
+        </div>
     </div>
-  </div>
     </div>
     </div>
   </section>
-
-  <!-- Quick Links -->
-
   <script src="../js/script.js"></script>
   <script src="../js/preloader.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
 </body>
+<script src="../js/popup.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.datatables.net/2.0.2/js/dataTables.js"></script>
+<script src="https://cdn.datatables.net/2.0.2/js/dataTables.bootstrap5.js"></script>
 
 </html>
