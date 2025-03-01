@@ -36,20 +36,20 @@
 📦 StudySkill
 ├── 📁 src               # Source files
 ├── 📁 admin             # Source files
-├── 📁 css               #Source files
-├── 📁 fonts             # Source files
+├── 📁 css               # Stylefiles
+├── 📁 fonts             # Style files
 ├── 📁 images            # Source files
-├── 📁 js                # Source files
-│   ├── 📁 scripts       #Reusable components
-│   ├── 📜 preloader.js  # Main app file
-│   ├── 📜 table.js      # Main app file
-│   ├── 📜 chart.js      # Main app file
-│   ├── 📜 loginjs       # Main app file
+├── 📁 js                # Dependencies & scripts
+│   ├── 📁 scripts       # Reusable components
+│   ├── 📜 preloader.js  # Preloader Code
+│   ├── 📜 table.js      # Table Functioning
+│   ├── 📜 chart.js      # Chart Functioning
+│   ├── 📜 loginjs       # Login Verfification
 ├── 📜 .gitignore        # Git ignore file
 ├── 📜 LICENSE           # MIT License
 ├── 📜 README.md         # Project documentation
-└── 📜 Register.html     # Dependencies & scripts
-└── 📜 Signin.html     # Dependencies & scripts
+└── 📜 Register.html     # Fallback Registration
+└── 📜 Signin.html       # DLogin form
 ```
 
 
