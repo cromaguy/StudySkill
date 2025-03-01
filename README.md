@@ -6,6 +6,11 @@
 
 ---
 
+## 🚀 Give it a shot!
+https://cromaguy.github.io/StudySkill/index.html
+
+---
+
 ## 📌 Features
 
 - 🎓 **Student & Faculty Management** – Keep track of academic records efficiently.
