@@ -36,7 +36,7 @@
 📦 StudySkill
 ├── 📁 src               # Source files
 ├── 📁 admin             # Source files
-├── 📁 css               # Stylefiles
+├── 📁 css               # Style files
 ├── 📁 fonts             # Style files
 ├── 📁 images            # Source files
 ├── 📁 js                # Dependencies & scripts
