@@ -2,7 +2,7 @@
 
 🌐 **Website:** [StudySkill](https://cromaguy.github.io/StudySkill/)
 
-🚀 Developed with ❤️ for **GOMATI DISTRICT POLYTECHNIC** as part of my Web Tech Project. Licensed under the MIT License.
+Developed with ❤️ for **GOMATI DISTRICT POLYTECHNIC** as part of my Web Tech Project. Licensed under the MIT License.
 
 ---
 
