@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Features
+📌 Features
 
 - 🎓 **Student & Faculty Management** – Keep track of academic records efficiently.
 - 📅 **Course & Timetable Management** – Organize schedules with ease.
