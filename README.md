@@ -9,7 +9,7 @@
 ## 🚀 Give it a shot!
 https://cromaguy.github.io/StudySkill/index.html
 
----
+
 
 ## 📌 Features
 
