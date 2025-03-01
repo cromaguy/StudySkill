@@ -29,16 +29,22 @@
 
 ```bash
 📦 StudySkill
-├── 📁 public            # Static assets
 ├── 📁 src               # Source files
-│   ├── 📁 components    # Reusable components
-│   ├── 📁 pages         # Page structure
-│   ├── 📁 styles        # Global and module styles
-│   ├── 📜 app.js        # Main app file
+├── 📁 admin             # Source files
+├── 📁 css               #Source files
+├── 📁 fonts             # Source files
+├── 📁 images            # Source files
+├── 📁 js                # Source files
+│   ├── 📁 scripts       #Reusable components
+│   ├── 📜 preloader.js  # Main app file
+│   ├── 📜 table.js      # Main app file
+│   ├── 📜 chart.js      # Main app file
+│   ├── 📜 loginjs       # Main app file
 ├── 📜 .gitignore        # Git ignore file
 ├── 📜 LICENSE           # MIT License
 ├── 📜 README.md         # Project documentation
-└── 📜 package.json      # Dependencies & scripts
+└── 📜 Register.html     # Dependencies & scripts
+└── 📜 Signin.html     # Dependencies & scripts
 ```
 
 ---
