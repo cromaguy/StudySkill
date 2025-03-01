@@ -49,7 +49,7 @@
 ├── 📜 LICENSE           # MIT License
 ├── 📜 README.md         # Project documentation
 └── 📜 Register.html     # Fallback Registration
-└── 📜 Signin.html       # DLogin form
+└── 📜 Signin.html       # Login form
 ```
 
 
