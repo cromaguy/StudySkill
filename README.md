@@ -20,7 +20,7 @@ https://cromaguy.github.io/StudySkill/index.html
 - 🔍 **User-Friendly Interface** – Clean and responsive design.
 - 🛠 **Customizable & Scalable** – Easy to modify and expand as needed.
 
----
+
 
 ## 🛠 Tech Stack
 
@@ -28,7 +28,7 @@ https://cromaguy.github.io/StudySkill/index.html
 - **Backend:** PHP
 - **Database:** PHP
 - **Deployment:** GitHub Pages 
----
+
 
 ## 📂 Project Structure
 
@@ -52,20 +52,20 @@ https://cromaguy.github.io/StudySkill/index.html
 └── 📜 Signin.html     # Dependencies & scripts
 ```
 
----
+
 
 
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
 
----
+
 
 ## 💡 Contribution
 
 Feel free to open issues and create pull requests! Contributions are always welcome.
 
----
+
 
 ## 📞 Contact
 
