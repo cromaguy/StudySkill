@@ -7,7 +7,7 @@
 ---
 
 ## 🚀 Give it a shot!
-https://cromaguy.github.io/StudySkill/index.html
+[Dashboard (BETA)](https://cromaguy.github.io/StudySkill/Hod/Hod-Dash.html)
 
 
 
