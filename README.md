@@ -7,7 +7,9 @@ Developed with ❤️ for **GOMATI DISTRICT POLYTECHNIC** as part of my Web Tech
 ---
 
 ## 🚀 Give it a shot!
-[Dashboard (BETA)](https://cromaguy.github.io/StudySkill/Hod/Hod-Dash.html)
+[Dashboard BETA](https://cromaguy.github.io/StudySkill/Hod/Hod-Dash.html)
+[StudySkill Revamped DEV](https://studyskill.vercel.app)
+
 
 
 
